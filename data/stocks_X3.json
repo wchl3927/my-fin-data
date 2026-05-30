@@ -16,18 +16,18 @@
       "exchange": "ASE",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 78344424,
+      "market_cap": 78577096,
       "52w_high": 0.98,
       "52w_low": 0.54,
-      "avg_volume": 296512,
+      "avg_volume": 295184,
       "pe_trailing": null,
-      "pe_forward": -9.3533325,
+      "pe_forward": -9.38111,
       "dividend_yield": null,
       "beta": 0.421
     },
     "current_price": 0.84,
     "intrinsic_value": 0.67,
-    "margin_of_safety_pct": -25.6,
+    "margin_of_safety_pct": -26.0,
     "mos_label": "Moderate Premium",
     "data_availability": {
       "status": "ok",
@@ -120,7 +120,7 @@
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-29 11:41"
+      "last_calculated": "2026-05-30 02:20"
     },
     "quality_narrative": {
       "moat_score": null,
@@ -132,7 +132,7 @@
       "risk_profile": "Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth.",
       "investment_summary": "The stock trades at a 26% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-29 11:41"
+      "generated_at": "2026-05-30 02:20"
     },
     "fundamentals": {
       "roe": -0.1599,
@@ -499,12 +499,12 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-29 11:41"
+      "generated_at": "2026-05-30 02:20"
     },
     "price_alert": {
       "triggered": false,
       "signal": null,
-      "drop_from_ath_pct": 14.1,
+      "drop_from_ath_pct": 13.8,
       "ath": 0.98,
       "current_price": 0.84,
       "message": null
@@ -518,7 +518,7 @@
         "val_adj": -20,
         "alert_adj": 0,
         "classification": "Dangerous",
-        "mos_pct": -25.6
+        "mos_pct": -26.0
       }
     },
     "10_Year_History": {
@@ -541,7 +541,7 @@
       "2030": 0.73,
       "2031": 0.74
     },
-    "Last_Updated": "2026-05-29 11:41"
+    "Last_Updated": "2026-05-30 02:20"
   },
   "XTNT": {
     "company_profile": {
@@ -560,18 +560,18 @@
       "exchange": "ASE",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 65923592,
+      "market_cap": 64801488,
       "52w_high": 0.95,
       "52w_low": 0.44,
-      "avg_volume": 161050,
-      "pe_trailing": 47.0,
-      "pe_forward": -94.0,
+      "avg_volume": 160234,
+      "pe_trailing": 46.2,
+      "pe_forward": -92.4,
       "dividend_yield": null,
       "beta": -0.117
     },
-    "current_price": 0.47,
+    "current_price": 0.46,
     "intrinsic_value": 0.85,
-    "margin_of_safety_pct": 44.7,
+    "margin_of_safety_pct": 45.6,
     "mos_label": "Strong Discount (Margin of Safety)",
     "data_availability": {
       "status": "ok",
@@ -678,19 +678,19 @@
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-29 11:41"
+      "last_calculated": "2026-05-30 02:20"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Xtant Medical Holdings, Inc. carries a Dangerous rating because it shows significant weaknesses in growth. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "Xtant Medical Holdings, Inc. demonstrates weak fundamental quality and is constrained by growth. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades at a 45% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_narrative": "Xtant Medical Holdings, Inc. demonstrates weak fundamental quality and is constrained by growth. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades at a 46% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "quality_conclusion": "Xtant Medical Holdings, Inc. demonstrates weak fundamental quality and is constrained by growth.",
       "risk_profile": "Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.).",
-      "investment_summary": "The stock trades at a 45% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_summary": "The stock trades at a 46% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-29 11:41"
+      "generated_at": "2026-05-30 02:20"
     },
     "fundamentals": {
       "roe": 0.0395,
@@ -1017,7 +1017,7 @@
         "bear_case": 0.81
       },
       "2026": {
-        "market_price": 0.47,
+        "market_price": 0.46,
         "intrinsic_value": 0.85,
         "bull_case": 0.86,
         "bear_case": 0.84
@@ -1067,7 +1067,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 44.7% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $0.85",
+          "Trading at a 45.6% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $0.85",
           "Current market positioning in the Healthcare sector may attract tactical buyers",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -1090,15 +1090,15 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-29 11:41"
+      "generated_at": "2026-05-30 02:20"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 50.5,
+      "drop_from_ath_pct": 51.4,
       "ath": 0.95,
-      "current_price": 0.47,
-      "message": "Down 50% from 52-week high of $0.95"
+      "current_price": 0.46,
+      "message": "Down 51% from 52-week high of $0.95"
     },
     "watchlist_signal": {
       "signal": "Avoid",
@@ -1109,7 +1109,7 @@
         "val_adj": 20,
         "alert_adj": -10,
         "classification": "Dangerous",
-        "mos_pct": 44.7
+        "mos_pct": 45.6
       }
     },
     "10_Year_History": {
@@ -1123,7 +1123,7 @@
       "2023": 1.13,
       "2024": 0.44,
       "2025": 0.78,
-      "2026": 0.47
+      "2026": 0.46
     },
     "5_Year_Forecast": {
       "2027": 0.87,
@@ -1132,6 +1132,6 @@
       "2030": 0.92,
       "2031": 0.94
     },
-    "Last_Updated": "2026-05-29 11:41"
+    "Last_Updated": "2026-05-30 02:20"
   }
 }
