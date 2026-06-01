@@ -1,73 +1,70 @@
 {
-  "XYZ": {
+  "XMTR": {
     "company_profile": {
-      "name": "Block, Inc.",
-      "ticker": "XYZ",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
+      "name": "Xometry, Inc.",
+      "ticker": "XMTR",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
       "company_type": "STANDARD",
       "type_rationale": "Standard company \u2014 balanced weighting across all methods",
-      "description": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square and Cash App. The Square segment offers managed payment services; software solutions; hardware products, such as registers, terminals, stands, and readers for contactless and chips; banking services consisting of lending, instant transfer, and checking and savings accounts; and full-service setup and support services. This segment also provides loyalty, marketing, team management, and payroll services; and gift cards. It also offers Square Handheld, a portable point-of sale device for transaction purposes. The Cash App segment offers financial tools, including peer-to-peer payments, bitcoin, and stock investment brokerage; Cash App Card, a debit card; Cash App Pay, mobile-friendly way for cash app customers to pay at merchants across online and in-person channels; direct deposit, stock brokerage, and tax preparation services; and Afterpay, a buy now, pay later platform. In addition, the company operates TIDAL, a platform for musicians and fans; TBD, an open developer platform focused on making the decentralized financial world accessible; Bitkey, a self-custody bitcoin wallet; and proto. The company was formerly known as Square, Inc. and changed its name to Block, Inc. in December 2021. Block, Inc. was incorporated in 2009 and is based in Oakland, California.",
-      "description_summary": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square and Cash App.",
-      "website": "https://www.block.xyz",
-      "employees": 10205,
+      "description": "Xometry, Inc. operates an artificial intelligence (AI) powered online manufacturing marketplace in the United States and internationally. The company's marketplace uses AI to assist buyers to source custom-manufactured parts and assemblies and attain instant pricing and lead times. It operates Xometry marketplace, an AI powered online marketplace that connects buyers with suppliers of manufacturing services; Xometry instant quoting engine, which prices transactions based on volume, manufacturing process, material, and location; and Thomasnet, an industrial sourcing platform that features an online directory of industrial suppliers, products, and services, as well as digital marketing services and insights to manufacturers and industrial services providers. The company also provides cloud-based systems, such as Workcenter, a financial service product that facilitates payments and a cloud-based manufacturing execution system; and Teamspace, a cloud-based solution within the Xometry platform that enables customers to collaborate with other users on projects and custom part orders. In addition, it offers computer numerical control (\u0093CNC\u0094) machining, injection molding, 3D printing, sheet forming and cutting, die casting, urethane casting, tube cutting, and tube bending, as well as finishing, rapid prototyping, and production services. It serves the aerospace, industrial, medical devices, automotive, consumer goods, defense, government, energy, education, and robotics industries. The company was formerly known as NextLine Manufacturing Corp. and changed its name to Xometry, Inc. in June 2015. Xometry, Inc. was incorporated in 2013 and is headquartered in North Bethesda, Maryland.",
+      "description_summary": "Xometry, Inc. operates an artificial intelligence (AI) powered online manufacturing marketplace in the United States and internationally.",
+      "website": "https://www.xometry.com",
+      "employees": 1174,
       "country": "United States",
-      "city": "Oakland",
-      "exchange": "NYQ",
+      "city": "North Bethesda",
+      "exchange": "NMS",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 45067104256,
-      "52w_high": 82.5,
-      "52w_low": 48.21,
-      "avg_volume": 6504852,
-      "pe_trailing": 59.156254,
-      "pe_forward": 15.204361,
+      "market_cap": 5174144000,
+      "52w_high": 98.56,
+      "52w_low": 29.6,
+      "avg_volume": 874688,
+      "pe_trailing": null,
+      "pe_forward": 80.4281,
       "dividend_yield": null,
-      "beta": 2.57
+      "beta": 1.004
     },
-    "current_price": 75.72,
-    "intrinsic_value": 60.43,
-    "margin_of_safety_pct": -25.3,
-    "mos_label": "Moderate Premium",
+    "current_price": 98.37,
+    "intrinsic_value": 85.88,
+    "margin_of_safety_pct": -14.5,
+    "mos_label": "Slight Premium",
     "data_availability": {
       "status": "ok",
       "message": null,
       "has_price": true,
       "has_iv": true,
       "has_financials": true,
-      "active_methods": 7,
+      "active_methods": 4,
       "exclude_from_search": false
     },
     "valuations": {
-      "1_DCF_Operating_CF": 140.67,
+      "1_DCF_Operating_CF": 10.53,
       "2_DCF_FCF": null,
-      "3_DCF_Net_Income": 33.28,
+      "3_DCF_Net_Income": null,
       "4_DCF_Terminal_Value": null,
-      "5_Mean_PS": 81.56,
-      "6_Mean_PE": 27.12,
-      "7_Mean_PB": 72.6,
-      "8_PSG": 914.76,
-      "9_PEG": 25.6,
-      "10_EV_EBITDA": 41.84,
-      "intrinsic_value": 60.43,
-      "methods_used": 7,
-      "confidence": "Medium",
+      "5_Mean_PS": 60.54,
+      "6_Mean_PE": null,
+      "7_Mean_PB": 37.58,
+      "8_PSG": 289.81,
+      "9_PEG": null,
+      "10_EV_EBITDA": null,
+      "intrinsic_value": 85.88,
+      "methods_used": 4,
+      "confidence": "Low",
       "active_methods": [
         "1_DCF_Operating_CF",
-        "3_DCF_Net_Income",
         "5_Mean_PS",
-        "6_Mean_PE",
         "7_Mean_PB",
-        "9_PEG",
-        "10_EV_EBITDA"
+        "8_PSG"
       ],
       "_meta": {
-        "pe_source": "historical_mean",
+        "pe_source": "current_trailing",
         "ps_source": "historical_mean",
         "pb_source": "historical_mean",
-        "ev_ebitda_source": "historical_mean",
+        "ev_ebitda_source": "trailing_or_unavailable",
         "growth_source": "finviz",
-        "growth_raw": 0.3838,
+        "growth_raw": 0.6631,
         "growth_peg_rate": 0.2,
         "discount_rate": 0.12,
         "growth_stage1": 0.3,
@@ -92,326 +89,221 @@
         "excluded_methods": [],
         "active_methods": [
           "1_DCF_Operating_CF",
-          "3_DCF_Net_Income",
           "5_Mean_PS",
-          "6_Mean_PE",
           "7_Mean_PB",
-          "9_PEG",
-          "10_EV_EBITDA"
+          "8_PSG"
         ]
       }
     },
     "quality": {
       "scores": {
-        "profitability": 2,
-        "financial_strength": 6,
+        "profitability": 0,
+        "financial_strength": 4,
         "growth": 5,
-        "predictability": 5,
-        "valuation": 4,
+        "predictability": 4,
+        "valuation": 3,
         "moat": null
       },
       "score_labels": {
-        "profitability": "Weak",
-        "financial_strength": "Good",
+        "profitability": "Poor",
+        "financial_strength": "Adequate",
         "growth": "Adequate",
         "predictability": "Adequate",
-        "valuation": "Adequate",
+        "valuation": "Weak",
         "moat": "Not scored"
       },
       "company_type": "STANDARD",
       "company_type_note": null,
-      "python_subtotal": 18,
-      "python_subtotal_pct": 45.0,
+      "python_subtotal": 13,
+      "python_subtotal_pct": 32.5,
       "classification": "Dangerous",
       "penalty_pct": 8,
-      "final_score_pct": 37.0,
+      "final_score_pct": 24.5,
       "tiebreaker_used": false,
       "tiebreaker_inputs": {
-        "roe": 0.0374,
-        "roic": 0.1283,
-        "eps_next_5y": 0.3838
+        "roe": -0.1748,
+        "roic": null,
+        "eps_next_5y": 0.6631
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:43"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
-      "classification_reason": "Block, Inc. carries a Dangerous rating because it shows significant weaknesses in profitability. A high debt load relative to earnings adds financial pressure on the business. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "Block, Inc. demonstrates weak fundamental quality and is constrained by profitability, supported by a 12.83% ROIC. Key risks to watch: elevated leverage (Debt/EBITDA 5.2x); balance sheet constraints on growth; a valuation premium of 25% above estimated intrinsic value. With 38.4% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 25% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
-      "quality_conclusion": "Block, Inc. demonstrates weak fundamental quality and is constrained by profitability, supported by a 12.83% ROIC.",
-      "risk_profile": "Key risks to watch: elevated leverage (Debt/EBITDA 5.2x); balance sheet constraints on growth; a valuation premium of 25% above estimated intrinsic value.",
-      "investment_summary": "With 38.4% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 25% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "classification_reason": "Xometry, Inc. carries a Dangerous rating because it shows significant weaknesses in profitability. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
+      "investment_narrative": "Xometry, Inc. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: balance sheet constraints on growth. With 66.3% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 14% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "quality_conclusion": "Xometry, Inc. demonstrates weak fundamental quality and is constrained by profitability.",
+      "risk_profile": "Key risks to watch: balance sheet constraints on growth.",
+      "investment_summary": "With 66.3% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 14% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:43"
     },
     "fundamentals": {
-      "roe": 0.0374,
-      "roic": 0.1283,
-      "roe_pct": "3.74%",
-      "roic_pct": "12.83%",
-      "roic_source": "calculated",
-      "current_ratio": 2.2,
-      "debt_to_ebitda": 5.16,
-      "debt_service_ratio": 0.0379
+      "roe": -0.1748,
+      "roic": null,
+      "roe_pct": "-17.48%",
+      "roic_pct": null,
+      "roic_source": "unavailable",
+      "current_ratio": 3.76,
+      "debt_to_ebitda": null,
+      "debt_service_ratio": 0.2011
     },
     "financials_charts": {
       "revenue_vs_net_income": {
         "2025": {
-          "revenue": 24193.68,
-          "net_income": 1305.64
+          "revenue": 686.63,
+          "net_income": null
         },
         "2024": {
-          "revenue": 24121.05,
-          "net_income": 2897.05
+          "revenue": 545.53,
+          "net_income": null
         },
         "2023": {
-          "revenue": 21915.62,
-          "net_income": 9.77
+          "revenue": 463.41,
+          "net_income": -67.47
         },
         "2022": {
-          "revenue": 17531.59,
-          "net_income": -540.75
+          "revenue": 380.92,
+          "net_income": -79.06
         },
         "2021": {
-          "revenue": 17661.2,
-          "net_income": 166.28
+          "revenue": 218.34,
+          "net_income": -61.38
         },
         "2020": {
-          "revenue": 9497.58,
-          "net_income": 213.1
+          "revenue": 141.41,
+          "net_income": -31.09
         },
         "2019": {
-          "revenue": 4713.5,
-          "net_income": 375.45
-        },
-        "2018": {
-          "revenue": 3298.18,
-          "net_income": -38.45
-        },
-        "2017": {
-          "revenue": 2214.25,
-          "net_income": -62.81
-        },
-        "2016": {
-          "revenue": 1708.72,
-          "net_income": -171.59
+          "revenue": 80.23,
+          "net_income": null
         }
       },
       "fcf_vs_debt": {
         "2025": {
-          "cash_balance": 6564.09,
-          "free_cash_flow": 2424.68,
+          "cash_balance": 219.14,
+          "free_cash_flow": -24.09,
           "total_debt": null
         },
         "2024": {
-          "cash_balance": 8075.25,
-          "free_cash_flow": 1553.4,
+          "cash_balance": 239.84,
+          "free_cash_flow": -33.48,
           "total_debt": null
         },
         "2023": {
-          "cash_balance": 4996.47,
-          "free_cash_flow": -50.19,
+          "cash_balance": 268.78,
+          "free_cash_flow": -48.36,
           "total_debt": null
         },
         "2022": {
-          "cash_balance": 4544.2,
-          "free_cash_flow": 5.09,
-          "total_debt": 4109.83
+          "cash_balance": 319.43,
+          "free_cash_flow": -76.22,
+          "total_debt": null
         },
         "2021": {
-          "cash_balance": 4443.67,
-          "free_cash_flow": 713.51,
-          "total_debt": 4559.66
+          "cash_balance": 116.73,
+          "free_cash_flow": -74.83,
+          "total_debt": null
         },
         "2020": {
-          "cash_balance": 3158.06,
-          "free_cash_flow": 34.71,
-          "total_debt": 2586.92
+          "cash_balance": 59.87,
+          "free_cash_flow": -26.24,
+          "total_debt": 15.75
         },
         "2019": {
-          "cash_balance": 1047.12,
-          "free_cash_flow": 265.13,
-          "total_debt": 938.83
-        },
-        "2018": {
-          "cash_balance": 583.17,
-          "free_cash_flow": 233.88,
-          "total_debt": 899.7
-        },
-        "2017": {
-          "cash_balance": 696.47,
-          "free_cash_flow": 101.61,
-          "total_debt": 358.57
-        },
-        "2016": {
-          "cash_balance": 452.03,
-          "free_cash_flow": -2.3,
-          "total_debt": 0.0
+          "cash_balance": null,
+          "free_cash_flow": -29.82,
+          "total_debt": null
         }
       },
       "shares_vs_buybacks": {
         "2025": {
-          "shares_outstanding_m": 612.24,
-          "buybacks_m": 2330.66,
-          "split_adjusted": true
+          "shares_outstanding_m": null,
+          "buybacks_m": 8.08
         },
         "2024": {
-          "shares_outstanding_m": 616.99,
-          "buybacks_m": 1170.34,
-          "split_adjusted": true
-        },
-        "2023": {
-          "shares_outstanding_m": 608.86,
-          "buybacks_m": 156.81,
-          "split_adjusted": true
-        },
-        "2022": {
-          "shares_outstanding_m": 578.95,
+          "shares_outstanding_m": 49.08,
           "buybacks_m": null,
           "split_adjusted": true
         },
-        "2021": {
-          "shares_outstanding_m": 458.43,
+        "2023": {
+          "shares_outstanding_m": 47.91,
+          "buybacks_m": null,
+          "split_adjusted": true
+        },
+        "2022": {
+          "shares_outstanding_m": 47.16,
           "buybacks_m": null,
           "split_adjusted": true
         },
         "2020": {
-          "shares_outstanding_m": 443.13,
-          "buybacks_m": null,
-          "split_adjusted": true
-        },
-        "2019": {
-          "shares_outstanding_m": 425.0,
-          "buybacks_m": null,
-          "split_adjusted": true
-        },
-        "2018": {
-          "shares_outstanding_m": 405.73,
-          "buybacks_m": null,
-          "split_adjusted": true
-        },
-        "2017": {
-          "shares_outstanding_m": 379.34,
-          "buybacks_m": null,
-          "split_adjusted": true
-        },
-        "2016": {
-          "shares_outstanding_m": 341.56,
+          "shares_outstanding_m": 38.8,
           "buybacks_m": null,
           "split_adjusted": true
         }
       },
       "returns_trajectory": {
-        "2025": {
-          "roe_pct": 5.88,
-          "roic_pct": 5.71
-        },
-        "2024": {
-          "roe_pct": 13.62,
-          "roic_pct": 3.42
-        },
         "2023": {
-          "roe_pct": 0.05,
+          "roe_pct": -20.49,
           "roic_pct": null
         },
         "2022": {
-          "roe_pct": -3.14,
+          "roe_pct": -21.33,
           "roic_pct": null
         },
         "2021": {
-          "roe_pct": 5.08,
-          "roic_pct": 2.89
-        },
-        "2020": {
-          "roe_pct": 7.95,
-          "roic_pct": null
-        },
-        "2019": {
-          "roe_pct": 21.89,
-          "roic_pct": 1.38
-        },
-        "2018": {
-          "roe_pct": -3.43,
-          "roic_pct": null
-        },
-        "2017": {
-          "roe_pct": -7.99,
-          "roic_pct": null
-        },
-        "2016": {
-          "roe_pct": -29.78,
+          "roe_pct": -14.46,
           "roic_pct": null
         }
       },
       "revenue_vs_ar": {
         "2025": {
-          "revenue": 24193.68,
-          "accounts_receivable": 238.21,
-          "rev_growth_pct": 0.3,
-          "ar_growth_pct": 60.0,
+          "revenue": 686.63,
+          "accounts_receivable": 97.37,
+          "rev_growth_pct": 25.9,
+          "ar_growth_pct": 31.7,
           "ar_outpacing": true
         },
         "2024": {
-          "revenue": 24121.05,
-          "accounts_receivable": 148.9,
-          "rev_growth_pct": 10.1,
-          "ar_growth_pct": 10.4,
+          "revenue": 545.53,
+          "accounts_receivable": 73.96,
+          "rev_growth_pct": 17.7,
+          "ar_growth_pct": 5.5,
           "ar_outpacing": false
         },
         "2023": {
-          "revenue": 21915.62,
-          "accounts_receivable": 134.82,
-          "rev_growth_pct": 25.0,
-          "ar_growth_pct": -4.0,
-          "ar_outpacing": false
-        },
-        "2022": {
-          "revenue": 17531.59,
-          "accounts_receivable": 140.51,
-          "rev_growth_pct": -0.7,
-          "ar_growth_pct": 56.6,
+          "revenue": 463.41,
+          "accounts_receivable": 70.1,
+          "rev_growth_pct": 21.7,
+          "ar_growth_pct": 42.2,
           "ar_outpacing": true
         },
+        "2022": {
+          "revenue": 380.92,
+          "accounts_receivable": 49.28,
+          "rev_growth_pct": 74.5,
+          "ar_growth_pct": 52.0,
+          "ar_outpacing": false
+        },
         "2021": {
-          "revenue": 17661.2,
-          "accounts_receivable": 89.7,
-          "rev_growth_pct": 86.0,
-          "ar_growth_pct": 113.8,
+          "revenue": 218.34,
+          "accounts_receivable": 32.43,
+          "rev_growth_pct": 54.4,
+          "ar_growth_pct": 122.6,
           "ar_outpacing": true
         },
         "2020": {
-          "revenue": 9497.58,
-          "accounts_receivable": 41.96,
-          "rev_growth_pct": 101.5,
-          "ar_growth_pct": 23.9,
-          "ar_outpacing": false
+          "revenue": 141.41,
+          "accounts_receivable": 14.57,
+          "rev_growth_pct": 76.3,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
         },
         "2019": {
-          "revenue": 4713.5,
-          "accounts_receivable": 33.86,
-          "rev_growth_pct": 42.9,
-          "ar_growth_pct": 51.2,
-          "ar_outpacing": true
-        },
-        "2018": {
-          "revenue": 3298.18,
-          "accounts_receivable": 22.39,
-          "rev_growth_pct": 49.0,
-          "ar_growth_pct": 160.0,
-          "ar_outpacing": true
-        },
-        "2017": {
-          "revenue": 2214.25,
-          "accounts_receivable": 8.61,
-          "rev_growth_pct": 29.6,
-          "ar_growth_pct": 39.1,
-          "ar_outpacing": true
-        },
-        "2016": {
-          "revenue": 1708.72,
-          "accounts_receivable": 6.19,
+          "revenue": 80.23,
+          "accounts_receivable": null,
           "rev_growth_pct": null,
           "ar_growth_pct": null,
           "ar_outpacing": null
@@ -426,221 +318,186 @@
       }
     },
     "valuation_chart": {
-      "2016": {
-        "market_price": 13.63,
-        "intrinsic_value": 5.19,
-        "bull_case": 14.65,
-        "bear_case": 3.37
-      },
-      "2017": {
-        "market_price": 34.67,
-        "intrinsic_value": 6.49,
-        "bull_case": 16.66,
-        "bear_case": 4.38
-      },
-      "2018": {
-        "market_price": 56.09,
-        "intrinsic_value": 8.11,
-        "bull_case": 18.95,
-        "bear_case": 5.7
-      },
-      "2019": {
-        "market_price": 62.56,
-        "intrinsic_value": 10.14,
-        "bull_case": 21.56,
-        "bear_case": 7.41
-      },
-      "2020": {
-        "market_price": 217.64,
-        "intrinsic_value": 12.67,
-        "bull_case": 24.52,
-        "bear_case": 9.63
-      },
       "2021": {
-        "market_price": 161.51,
-        "intrinsic_value": 15.84,
-        "bull_case": 27.9,
-        "bear_case": 12.52
+        "market_price": 51.25,
+        "intrinsic_value": 22.51,
+        "bull_case": 39.64,
+        "bear_case": 17.79
       },
       "2022": {
-        "market_price": 62.84,
-        "intrinsic_value": 19.8,
-        "bull_case": 31.73,
-        "bear_case": 16.28
+        "market_price": 32.23,
+        "intrinsic_value": 28.14,
+        "bull_case": 45.1,
+        "bear_case": 23.13
       },
       "2023": {
-        "market_price": 77.35,
-        "intrinsic_value": 24.75,
-        "bull_case": 36.09,
-        "bear_case": 21.16
+        "market_price": 35.91,
+        "intrinsic_value": 35.18,
+        "bull_case": 51.3,
+        "bear_case": 30.07
       },
       "2024": {
-        "market_price": 84.99,
-        "intrinsic_value": 30.94,
-        "bull_case": 41.06,
-        "bear_case": 27.51
+        "market_price": 42.66,
+        "intrinsic_value": 43.97,
+        "bull_case": 58.35,
+        "bear_case": 39.09
       },
       "2025": {
-        "market_price": 65.09,
-        "intrinsic_value": 38.68,
-        "bull_case": 46.7,
-        "bear_case": 35.76
+        "market_price": 59.47,
+        "intrinsic_value": 54.96,
+        "bull_case": 66.37,
+        "bear_case": 50.82
       },
       "2026": {
-        "market_price": 75.72,
-        "intrinsic_value": 60.43,
-        "bull_case": 63.45,
-        "bear_case": 53.63
+        "market_price": 98.37,
+        "intrinsic_value": 85.88,
+        "bull_case": 90.17,
+        "bear_case": 76.22
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 75.54,
-        "bull_case": 78.56,
-        "bear_case": 68.74
+        "intrinsic_value": 107.35,
+        "bull_case": 111.64,
+        "bear_case": 97.69
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 94.42,
-        "bull_case": 102.13,
-        "bear_case": 78.19
+        "intrinsic_value": 134.19,
+        "bull_case": 145.14,
+        "bear_case": 111.12
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 118.03,
-        "bull_case": 132.76,
-        "bear_case": 88.94
+        "intrinsic_value": 167.73,
+        "bull_case": 188.68,
+        "bear_case": 126.4
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 147.53,
-        "bull_case": 172.59,
-        "bear_case": 101.17
+        "intrinsic_value": 209.67,
+        "bull_case": 245.28,
+        "bear_case": 143.78
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 184.42,
-        "bull_case": 224.37,
-        "bear_case": 115.08
+        "intrinsic_value": 262.08,
+        "bull_case": 318.87,
+        "bear_case": 163.55
       }
     },
     "forecast_meta": {
-      "eps_next_5y_raw": 0.3838,
-      "fs_score": 6,
-      "fs_multiplier": 0.9,
+      "eps_next_5y_raw": 0.6631,
+      "fs_score": 4,
+      "fs_multiplier": 0.75,
       "base_growth_rate": 0.25,
       "bull_growth_rate": 0.3,
       "bear_growth_rate": 0.1375,
       "growth_constrained": true,
-      "constraint_note": "EPS growth moderated from 38.4% to 25.0% due to financial strength score of 6/10",
-      "growth_explanation": "Base (25.0%/yr): growth in line with analyst expectations. Bull (30.0%/yr): everything goes to plan. Bear (13.8%/yr): growth disappoints. Growth capped at 25.0% (from 38.4%) \u2014 the balance sheet (financial strength 6/10) limits how fast this company can realistically grow."
+      "constraint_note": "EPS growth moderated from 66.3% to 25.0% due to financial strength score of 4/10",
+      "growth_explanation": "Base (25.0%/yr): growth in line with analyst expectations. Bull (30.0%/yr): everything goes to plan. Bear (13.8%/yr): growth disappoints. Growth capped at 25.0% (from 66.3%) \u2014 the balance sheet (financial strength 4/10) limits how fast this company can realistically grow."
     },
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Analyst consensus of 38.4% EPS growth over five years provides a near-term catalyst if the company delivers on guidance",
-          "Current market positioning in the Technology sector may attract tactical buyers",
+          "Revenue growing at 35.9% year-over-year, indicating sustained demand momentum heading into the next quarter",
+          "Analyst consensus of 66.3% EPS growth over five years provides a near-term catalyst if the company delivers on guidance",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
         "bear_points": [
-          "Trading at a 25% premium to intrinsic value \u2014 elevated risk of near-term multiple compression",
+          "Broader Industrials sector headwinds could weigh on near-term sentiment",
           "Macro uncertainty and rate expectations may suppress multiple expansion",
           "Short-term earnings visibility is limited without additional guidance"
         ]
       },
       "long_term": {
         "bull_points": [
-          "Block, Inc. operates in a sector with long-term structural tailwinds",
+          "Xometry, Inc. operates in a sector with long-term structural tailwinds",
           "Management has demonstrated consistent capital allocation discipline",
           "The business has the scale to compound earnings over a multi-year horizon"
         ],
         "bear_points": [
-          "Low profitability score (2/10) suggests thin or negative margins that structurally limit long-term earnings power",
-          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 38.4% to 25.0% due to financial strength score of 6/10",
+          "Low profitability score (0/10) suggests thin or negative margins that structurally limit long-term earnings power",
+          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 66.3% to 25.0% due to financial strength score of 4/10",
           "Execution risk remains a key variable over a multi-year investment horizon"
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:43"
     },
     "price_alert": {
       "triggered": false,
       "signal": null,
-      "drop_from_ath_pct": 8.2,
-      "ath": 82.5,
-      "current_price": 75.72,
+      "drop_from_ath_pct": 0.2,
+      "ath": 98.56,
+      "current_price": 98.37,
       "message": null
     },
     "watchlist_signal": {
       "signal": "Avoid",
       "reason": "Weak fundamentals or significantly overvalued \u2014 better opportunities elsewhere.",
-      "score": 25,
+      "score": 22,
       "inputs": {
-        "quality_base": 45,
-        "val_adj": -20,
+        "quality_base": 32,
+        "val_adj": -10,
         "alert_adj": 0,
         "classification": "Dangerous",
-        "mos_pct": -25.3
+        "mos_pct": -14.5
       }
     },
     "10_Year_History": {
-      "2016": 13.63,
-      "2017": 34.67,
-      "2018": 56.09,
-      "2019": 62.56,
-      "2020": 217.64,
-      "2021": 161.51,
-      "2022": 62.84,
-      "2023": 77.35,
-      "2024": 84.99,
-      "2025": 65.09,
-      "2026": 75.72
+      "2021": 51.25,
+      "2022": 32.23,
+      "2023": 35.91,
+      "2024": 42.66,
+      "2025": 59.47,
+      "2026": 98.37
     },
     "5_Year_Forecast": {
-      "2027": 78.56,
-      "2028": 102.13,
-      "2029": 132.76,
-      "2030": 172.59,
-      "2031": 224.37
+      "2027": 111.64,
+      "2028": 145.14,
+      "2029": 188.68,
+      "2030": 245.28,
+      "2031": 318.87
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:43"
   },
-  "XPL": {
+  "XNDU": {
     "company_profile": {
-      "name": "Solitario Resources Corp.",
-      "ticker": "XPL",
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "company_type": "CYCLICAL",
-      "type_rationale": "Cyclical business (basic materials) \u2014 EV/EBITDA and P/S prioritised over P/E",
-      "description": "Solitario Resources Corp., an exploration stage company, engages in the acquisition and exploration of precious metal, zinc, and other base metal properties in North and South America. The company also explores for gold deposits. It holds 100% interest in the Golden Crest gold project covering an area of approximately 33,000 acres of mining claims located in western South Dakota, Lawrence County; and 85% interest in the Chambara project, which consists of 12 concessions covering an area of approximately 9,880 hectares located in Peru. It also holds 100% interest in the Cat Creek project located in south-central Colorado and Bright Angel Gold-Copper Project located in North-Central Colorado. The company was formerly known as Solitario Zinc Corp. and changed its name to Solitario Resources Corp. in July 2023. Solitario Resources Corp. was incorporated in 1984 and is based in Wheat Ridge, Colorado.",
-      "description_summary": "Solitario Resources Corp., an exploration stage company, engages in the acquisition and exploration of precious metal, zinc, and other base metal properties in North and South America. The company also explores for gold deposits.",
-      "website": "https://solitarioxr.com",
-      "employees": 3,
-      "country": "United States",
-      "city": "Wheat Ridge",
-      "exchange": "ASE",
+      "name": "Xanadu Quantum Technologies Limited",
+      "ticker": "XNDU",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "company_type": "STANDARD",
+      "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+      "description": "Xanadu Quantum Technologies Limited develops and provides photonic quantum computing technology and related software solutions and applications, including cloud-based access to quantum computers and tools for quantum programming and simulation. The company provides access to photonic quantum computers through x-series devices available via the cloud, supporting programmable quantum gates and photon-number resolving detectors. It offers Pennylane, a cross-platform python library that enables a paradigm and quantum differentiable programming that enables integration with machine learning tools; and Catalyst for just-in-time compilation and optimization of quantum algorithms. It also provides users with access to documentation, guides, and community-led resources for quantum machine learning, quantum chemistry simulations, and other quantum computing applications, along with collaboration and support from a team of quantum experts. The company serves professional clients in the quantum computing, software development, and machine learning sectors, as well as advanced users in research and development, including those utilizing high-performance computing and quantum hardware. Xanadu Quantum Technologies Limited was incorporated in 2016 and is based in Toronto, Canada.",
+      "description_summary": "Xanadu Quantum Technologies Limited develops and provides photonic quantum computing technology and related software solutions and applications, including cloud-based access to quantum computers and tools for quantum programming and simulation. The company provides access to photonic quantum computers through x-series devices available via the cloud, supporting programmable quantum gates and photon-number resolving detectors.",
+      "website": "https://www.xanadu.ai",
+      "employees": 240,
+      "country": "Canada",
+      "city": "Toronto",
+      "exchange": "NGM",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 78577096,
-      "52w_high": 0.98,
-      "52w_low": 0.54,
-      "avg_volume": 295184,
+      "market_cap": 4783644160,
+      "52w_high": 42.44,
+      "52w_low": 6.97,
+      "avg_volume": 5588320,
       "pe_trailing": null,
-      "pe_forward": -9.38111,
+      "pe_forward": -12.975708,
       "dividend_yield": null,
-      "beta": 0.421
+      "beta": null
     },
-    "current_price": 0.84,
-    "intrinsic_value": 0.67,
-    "margin_of_safety_pct": -26.0,
-    "mos_label": "Moderate Premium",
+    "current_price": 16.02,
+    "intrinsic_value": null,
+    "margin_of_safety_pct": null,
+    "mos_label": "Unavailable",
     "data_availability": {
-      "status": "ok",
-      "message": null,
+      "status": "no_valuation",
+      "message": "Financial data is available but none of our valuation methods produced a reliable result for this company. This typically happens with pre-revenue companies, financial holding structures, or companies with highly irregular cash flows.",
       "has_price": true,
-      "has_iv": true,
+      "has_iv": false,
       "has_financials": true,
-      "active_methods": 1,
+      "active_methods": 0,
       "exclude_from_search": false
     },
     "valuations": {
@@ -650,21 +507,241 @@
       "4_DCF_Terminal_Value": null,
       "5_Mean_PS": null,
       "6_Mean_PE": null,
-      "7_Mean_PB": 0.67,
+      "7_Mean_PB": null,
       "8_PSG": null,
       "9_PEG": null,
       "10_EV_EBITDA": null,
-      "intrinsic_value": 0.67,
-      "methods_used": 1,
-      "confidence": "Low",
-      "active_methods": [
-        "7_Mean_PB"
-      ],
+      "intrinsic_value": null,
+      "methods_used": 0,
+      "confidence": "Insufficient Data",
+      "active_methods": [],
       "_meta": {
         "pe_source": "current_trailing",
         "ps_source": "current_trailing",
-        "pb_source": "historical_mean",
+        "pb_source": "current_trailing",
         "ev_ebitda_source": "trailing_or_unavailable",
+        "growth_source": "finviz",
+        "growth_raw": -0.2849,
+        "growth_peg_rate": -0.2849,
+        "discount_rate": 0.12,
+        "growth_stage1": 0.02,
+        "growth_stage2": 0.02,
+        "terminal_growth": 0.02,
+        "tier": "Weak",
+        "company_type": "STANDARD",
+        "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+        "method_explanation": "This company does not fit neatly into a specialist category, so we apply a balanced mix of all ten valuation methods. These include Discounted Cash Flow (which estimates the present value of future cash flows), earnings multiples (P/E and PEG), revenue multiples (P/S and PSG), book value (P/B), and EV/EBITDA. Each method approaches value from a different angle \u2014 using all of them together gives a more rounded estimate than relying on any single number.",
+        "weights_applied": {
+          "1_DCF_Operating_CF": 0.08,
+          "2_DCF_FCF": 0.08,
+          "3_DCF_Net_Income": 0.08,
+          "4_DCF_Terminal_Value": 0.08,
+          "5_Mean_PS": 0.12,
+          "6_Mean_PE": 0.08,
+          "7_Mean_PB": 0.15,
+          "8_PSG": 0.08,
+          "9_PEG": 0.08,
+          "10_EV_EBITDA": 0.17
+        },
+        "excluded_methods": [],
+        "active_methods": []
+      }
+    },
+    "quality": {
+      "scores": {
+        "profitability": 0,
+        "financial_strength": 4,
+        "growth": 2,
+        "predictability": 2,
+        "valuation": 0,
+        "moat": null
+      },
+      "score_labels": {
+        "profitability": "Poor",
+        "financial_strength": "Adequate",
+        "growth": "Weak",
+        "predictability": "Weak",
+        "valuation": "Poor",
+        "moat": "Not scored"
+      },
+      "company_type": "STANDARD",
+      "company_type_note": null,
+      "python_subtotal": 8,
+      "python_subtotal_pct": 20.0,
+      "classification": "Dangerous",
+      "penalty_pct": 8,
+      "final_score_pct": 12.0,
+      "tiebreaker_used": false,
+      "tiebreaker_inputs": {
+        "roe": -0.4525,
+        "roic": null,
+        "eps_next_5y": -0.2849
+      },
+      "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
+      "last_calculated": "2026-06-01 16:43"
+    },
+    "quality_narrative": {
+      "moat_score": null,
+      "moat_rationale": "",
+      "metric_assessments": {},
+      "classification_reason": "Xanadu Quantum Technologies Limited carries a Dangerous rating because it shows significant weaknesses in profitability and growth. Revenue and earnings have been inconsistent, making it hard to predict where this business will be in a few years. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
+      "investment_narrative": "Xanadu Quantum Technologies Limited demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; inconsistent earnings; low consensus EPS growth (-28.5% p.a.). With -28.5% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "quality_conclusion": "Xanadu Quantum Technologies Limited demonstrates weak fundamental quality and is constrained by profitability.",
+      "risk_profile": "Key risks to watch: a weak near-term growth outlook; inconsistent earnings; low consensus EPS growth (-28.5% p.a.).",
+      "investment_summary": "With -28.5% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "source": "rules",
+      "generated_at": "2026-06-01 16:43"
+    },
+    "fundamentals": {
+      "roe": -0.4525,
+      "roic": null,
+      "roe_pct": "-45.25%",
+      "roic_pct": null,
+      "roic_source": "unavailable",
+      "current_ratio": 4.48,
+      "debt_to_ebitda": null,
+      "debt_service_ratio": null
+    },
+    "financials_charts": {
+      "revenue_vs_net_income": {},
+      "fcf_vs_debt": {},
+      "shares_vs_buybacks": {
+        "2025": {
+          "shares_outstanding_m": 0.0,
+          "buybacks_m": null
+        }
+      },
+      "returns_trajectory": {},
+      "revenue_vs_ar": {},
+      "_notes": {
+        "revenue_vs_net_income": "This chart shows how much money the company brings in (revenue) versus how much it actually keeps as profit (net income) each year. A healthy company should show both lines growing over time. If revenue grows but net income shrinks, the company is spending more than it is earning \u2014 a warning sign worth investigating.",
+        "fcf_vs_debt": "Free cash flow is the cash left over after the company has paid for everything it needs to run and grow the business. This chart compares that cash to the company's total debt. A company with rising free cash flow and falling debt is in a strong financial position. If debt is rising faster than cash, the company may be taking on more risk than it can comfortably manage.",
+        "shares_vs_buybacks": "When a company buys back its own shares, it reduces the total number of shares in circulation \u2014 which means each remaining share represents a larger slice of the business. This chart shows how the share count has changed over time. Consistent buybacks are generally a sign that management believes the stock is undervalued and wants to return cash to shareholders.",
+        "returns_trajectory": "Return on Equity (ROE) measures how much profit a company generates for every dollar of shareholder money invested. Return on Invested Capital (ROIC) is similar but also includes debt. Both are expressed as a percentage \u2014 higher is better. A company consistently earning above 15% ROIC is generally considered to have a genuine competitive advantage over its peers.",
+        "revenue_vs_ar": "Accounts receivable is money the company is owed by customers who have not yet paid their bills. This chart compares revenue growth to accounts receivable growth each year. If accounts receivable is growing much faster than revenue, it may mean the company is struggling to collect payments \u2014 sometimes a sign of aggressive or fictitious revenue reporting. A healthy company should see both lines move at a similar pace."
+      }
+    },
+    "valuation_chart": {},
+    "forecast_meta": {},
+    "bull_bear": {
+      "short_term": {
+        "bull_points": [
+          "Revenue growing at 305.2% year-over-year, indicating sustained demand momentum heading into the next quarter",
+          "Current market positioning in the Technology sector may attract tactical buyers",
+          "Any positive earnings surprise could act as a near-term re-rating catalyst"
+        ],
+        "bear_points": [
+          "Low consensus EPS growth forecast of -28.5% p.a. limits re-rating potential in the near term",
+          "Macro uncertainty and rate expectations may suppress multiple expansion",
+          "Short-term earnings visibility is limited without additional guidance"
+        ]
+      },
+      "long_term": {
+        "bull_points": [
+          "Xanadu Quantum Technologies Limited operates in a sector with long-term structural tailwinds",
+          "Management has demonstrated consistent capital allocation discipline",
+          "The business has the scale to compound earnings over a multi-year horizon"
+        ],
+        "bear_points": [
+          "Low profitability score (0/10) suggests thin or negative margins that structurally limit long-term earnings power",
+          "Unpredictable earnings (2/10) make long-term forecasting unreliable and compress the valuation multiple the market is willing to pay",
+          "Execution risk remains a key variable over a multi-year investment horizon"
+        ]
+      },
+      "source": "rules",
+      "generated_at": "2026-06-01 16:43"
+    },
+    "price_alert": {
+      "triggered": true,
+      "signal": "ath_drop",
+      "drop_from_ath_pct": 62.2,
+      "ath": 42.44,
+      "current_price": 16.02,
+      "message": "Down 62% from 52-week high of $42.44"
+    },
+    "watchlist_signal": {
+      "signal": "Avoid",
+      "reason": "Weak fundamentals or significantly overvalued \u2014 better opportunities elsewhere.",
+      "score": 10,
+      "inputs": {
+        "quality_base": 20,
+        "val_adj": 0,
+        "alert_adj": -10,
+        "classification": "Dangerous",
+        "mos_pct": null
+      }
+    },
+    "10_Year_History": {
+      "2026": 16.02
+    },
+    "5_Year_Forecast": {},
+    "Last_Updated": "2026-06-01 16:43"
+  },
+  "XOMA": {
+    "company_profile": {
+      "name": "XOMA Royalty Corporation",
+      "ticker": "XOMA",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "company_type": "STANDARD",
+      "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+      "description": "XOMA Royalty Corporation operates as a biotech royalty aggregator in the United States, Switzerland, the Asia Pacific, and Australia. It has a portfolio of economic rights to future potential milestone and royalty payments associated with commercial products and pre-commercial therapeutic candidates. The company also focuses on early to mid-stage clinical assets primarily in Phase 1 and 2 with commercial sales potential that are licensed to sponsors or developers; and acquires milestone and royalty revenue streams on late-stage clinical assets and commercial assets. It has a portfolio with various assets. The company was formerly known as XOMA Corporation and changed its name to XOMA Royalty Corporation in July 2024. XOMA Royalty Corporation was incorporated in 1981 and is headquartered in Emeryville, California.",
+      "description_summary": "XOMA Royalty Corporation operates as a biotech royalty aggregator in the United States, Switzerland, the Asia Pacific, and Australia. It has a portfolio of economic rights to future potential milestone and royalty payments associated with commercial products and pre-commercial therapeutic candidates.",
+      "website": "https://www.xoma.com",
+      "employees": 14,
+      "country": "United States",
+      "city": "EmeryVille",
+      "exchange": "NGM",
+      "currency": "USD",
+      "quote_type": "EQUITY",
+      "market_cap": 522584704,
+      "52w_high": 42.81,
+      "52w_low": 22.29,
+      "avg_volume": 216344,
+      "pe_trailing": 26.541399,
+      "pe_forward": 19.47196,
+      "dividend_yield": null,
+      "beta": 0.902
+    },
+    "current_price": 41.67,
+    "intrinsic_value": 22.44,
+    "margin_of_safety_pct": -85.7,
+    "mos_label": "Significant Premium",
+    "data_availability": {
+      "status": "ok",
+      "message": null,
+      "has_price": true,
+      "has_iv": true,
+      "has_financials": true,
+      "active_methods": 5,
+      "exclude_from_search": false
+    },
+    "valuations": {
+      "1_DCF_Operating_CF": 4.67,
+      "2_DCF_FCF": null,
+      "3_DCF_Net_Income": 13.71,
+      "4_DCF_Terminal_Value": null,
+      "5_Mean_PS": 41.67,
+      "6_Mean_PE": 16.51,
+      "7_Mean_PB": 24.36,
+      "8_PSG": null,
+      "9_PEG": null,
+      "10_EV_EBITDA": 2.2,
+      "intrinsic_value": 22.44,
+      "methods_used": 5,
+      "confidence": "Low",
+      "active_methods": [
+        "1_DCF_Operating_CF",
+        "3_DCF_Net_Income",
+        "5_Mean_PS",
+        "6_Mean_PE",
+        "7_Mean_PB"
+      ],
+      "_meta": {
+        "pe_source": "historical_mean",
+        "ps_source": "current_trailing",
+        "pb_source": "historical_mean",
+        "ev_ebitda_source": "historical_mean",
         "growth_source": "finviz_no_growth",
         "growth_raw": 0.0,
         "growth_peg_rate": 0.0,
@@ -673,289 +750,338 @@
         "growth_stage2": 0.02,
         "terminal_growth": 0.02,
         "tier": "Weak",
-        "company_type": "CYCLICAL",
-        "type_rationale": "Cyclical business (basic materials) \u2014 EV/EBITDA and P/S prioritised over P/E",
-        "method_explanation": "Cyclical companies \u2014 such as semiconductors, mining, or manufacturing \u2014 have profits that rise sharply in good times and fall sharply in downturns. This makes earnings-based methods like P/E unreliable, because the earnings figure at any single point in time can be unusually high or low. EV/EBITDA smooths out some of this distortion by looking at earnings before interest and tax, making it a fairer comparison across the economic cycle. Price-to-Sales is also useful as revenue tends to be more stable than profits for cyclical businesses.",
+        "company_type": "STANDARD",
+        "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+        "method_explanation": "This company does not fit neatly into a specialist category, so we apply a balanced mix of all ten valuation methods. These include Discounted Cash Flow (which estimates the present value of future cash flows), earnings multiples (P/E and PEG), revenue multiples (P/S and PSG), book value (P/B), and EV/EBITDA. Each method approaches value from a different angle \u2014 using all of them together gives a more rounded estimate than relying on any single number.",
         "weights_applied": {
-          "1_DCF_Operating_CF": 0.12,
-          "2_DCF_FCF": 0.1,
-          "3_DCF_Net_Income": 0.05,
-          "4_DCF_Terminal_Value": 0.1,
-          "5_Mean_PS": 0.18,
-          "6_Mean_PE": 0.05,
-          "7_Mean_PB": 0.1,
-          "8_PSG": 0.1,
-          "9_PEG": 0.05,
-          "10_EV_EBITDA": 0.15
+          "1_DCF_Operating_CF": 0.08,
+          "2_DCF_FCF": 0.08,
+          "3_DCF_Net_Income": 0.08,
+          "4_DCF_Terminal_Value": 0.08,
+          "5_Mean_PS": 0.12,
+          "6_Mean_PE": 0.08,
+          "7_Mean_PB": 0.15,
+          "8_PSG": 0.08,
+          "9_PEG": 0.08,
+          "10_EV_EBITDA": 0.17
         },
         "excluded_methods": [],
         "active_methods": [
+          "1_DCF_Operating_CF",
+          "3_DCF_Net_Income",
+          "5_Mean_PS",
+          "6_Mean_PE",
           "7_Mean_PB"
         ]
       }
     },
     "quality": {
       "scores": {
-        "profitability": 0,
-        "financial_strength": 4,
-        "growth": 0,
-        "predictability": 1,
-        "valuation": 3,
+        "profitability": 6,
+        "financial_strength": 3,
+        "growth": 3,
+        "predictability": 2,
+        "valuation": 1,
         "moat": null
       },
       "score_labels": {
-        "profitability": "Poor",
-        "financial_strength": "Adequate",
-        "growth": "Poor",
-        "predictability": "Poor",
-        "valuation": "Weak",
+        "profitability": "Good",
+        "financial_strength": "Weak",
+        "growth": "Weak",
+        "predictability": "Weak",
+        "valuation": "Poor",
         "moat": "Not scored"
       },
-      "company_type": "CYCLICAL",
+      "company_type": "STANDARD",
       "company_type_note": null,
-      "python_subtotal": 5,
-      "python_subtotal_pct": 12.5,
+      "python_subtotal": 14,
+      "python_subtotal_pct": 35.0,
       "classification": "Dangerous",
       "penalty_pct": 8,
-      "final_score_pct": 4.5,
+      "final_score_pct": 27.0,
       "tiebreaker_used": false,
       "tiebreaker_inputs": {
-        "roe": -0.1599,
-        "roic": null,
+        "roe": 0.3423,
+        "roic": 0.0728,
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 23:02"
+      "last_calculated": "2026-06-01 16:43"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
-      "classification_reason": "Solitario Resources Corp. carries a Dangerous rating because it shows significant weaknesses in profitability and growth. Revenue and earnings have been inconsistent, making it hard to predict where this business will be in a few years. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "Solitario Resources Corp. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth. The stock trades at a 26% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
-      "quality_conclusion": "Solitario Resources Corp. demonstrates weak fundamental quality and is constrained by profitability.",
-      "risk_profile": "Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth.",
-      "investment_summary": "The stock trades at a 26% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "classification_reason": "XOMA Royalty Corporation carries a Dangerous rating because it shows significant weaknesses in financial strength and growth. A high debt load relative to earnings adds financial pressure on the business. Revenue and earnings have been inconsistent, making it hard to predict where this business will be in a few years. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
+      "investment_narrative": "XOMA Royalty Corporation demonstrates weak fundamental quality and is constrained by predictability. Key risks to watch: elevated leverage (Debt/EBITDA 15.0x); a weak near-term growth outlook; inconsistent earnings. The stock trades at a 86% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "quality_conclusion": "XOMA Royalty Corporation demonstrates weak fundamental quality and is constrained by predictability.",
+      "risk_profile": "Key risks to watch: elevated leverage (Debt/EBITDA 15.0x); a weak near-term growth outlook; inconsistent earnings.",
+      "investment_summary": "The stock trades at a 86% premium to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-31 23:02"
+      "generated_at": "2026-06-01 16:43"
     },
     "fundamentals": {
-      "roe": -0.1599,
-      "roic": null,
-      "roe_pct": "-15.99%",
-      "roic_pct": null,
-      "roic_source": "unavailable",
-      "current_ratio": 37.26,
-      "debt_to_ebitda": null,
-      "debt_service_ratio": null
+      "roe": 0.3423,
+      "roic": 0.0728,
+      "roe_pct": "34.23%",
+      "roic_pct": "7.28%",
+      "roic_source": "calculated",
+      "current_ratio": 3.37,
+      "debt_to_ebitda": 15.04,
+      "debt_service_ratio": 1.918
     },
     "financials_charts": {
       "revenue_vs_net_income": {
         "2025": {
-          "revenue": null,
-          "net_income": -3.83
+          "revenue": 10.35,
+          "net_income": 31.71
         },
         "2024": {
-          "revenue": null,
-          "net_income": -5.37
+          "revenue": 6.65,
+          "net_income": -13.82
         },
         "2023": {
-          "revenue": null,
-          "net_income": -3.75
+          "revenue": 2.65,
+          "net_income": -40.83
         },
         "2022": {
-          "revenue": null,
-          "net_income": -3.93
+          "revenue": 4.15,
+          "net_income": -17.1
         },
         "2021": {
-          "revenue": null,
-          "net_income": -2.37
+          "revenue": 36.52,
+          "net_income": 15.8
         },
         "2020": {
-          "revenue": 0.0,
-          "net_income": -0.94
+          "revenue": 27.94,
+          "net_income": 13.3
         },
         "2019": {
-          "revenue": 0.41,
-          "net_income": -3.29
+          "revenue": 17.28,
+          "net_income": -1.98
         },
         "2018": {
-          "revenue": 0.5,
-          "net_income": -3.6
+          "revenue": 5.07,
+          "net_income": -13.34
         },
         "2017": {
-          "revenue": null,
-          "net_income": 0.94
+          "revenue": 52.43,
+          "net_income": 14.6
         },
         "2016": {
-          "revenue": null,
-          "net_income": -1.71
+          "revenue": 5.56,
+          "net_income": -53.53
         }
       },
       "fcf_vs_debt": {
         "2025": {
-          "cash_balance": 0.38,
+          "cash_balance": 82.91,
           "free_cash_flow": null,
-          "total_debt": null
+          "total_debt": 108.98
         },
         "2024": {
-          "cash_balance": 1.4,
-          "free_cash_flow": null,
-          "total_debt": null
+          "cash_balance": 101.65,
+          "free_cash_flow": -13.77,
+          "total_debt": 118.27
         },
         "2023": {
-          "cash_balance": 1.64,
-          "free_cash_flow": null,
-          "total_debt": null
+          "cash_balance": 153.29,
+          "free_cash_flow": -18.18,
+          "total_debt": 124.06
         },
         "2022": {
-          "cash_balance": 1.46,
+          "cash_balance": 57.83,
           "free_cash_flow": null,
-          "total_debt": null
+          "total_debt": 0.0
         },
         "2021": {
-          "cash_balance": 2.17,
+          "cash_balance": 93.33,
           "free_cash_flow": null,
           "total_debt": null
         },
         "2020": {
-          "cash_balance": 2.23,
-          "free_cash_flow": null,
-          "total_debt": null
+          "cash_balance": 84.22,
+          "free_cash_flow": 10.08,
+          "total_debt": 20.85
         },
         "2019": {
-          "cash_balance": 1.61,
+          "cash_balance": 56.69,
           "free_cash_flow": null,
-          "total_debt": null
+          "total_debt": 32.28
         },
         "2018": {
-          "cash_balance": 1.7,
-          "free_cash_flow": null,
-          "total_debt": null
+          "cash_balance": 45.78,
+          "free_cash_flow": -12.65,
+          "total_debt": 22.48
         },
         "2017": {
-          "cash_balance": 2.86,
-          "free_cash_flow": null,
-          "total_debt": null
+          "cash_balance": 43.47,
+          "free_cash_flow": 2.68,
+          "total_debt": 14.57
         },
         "2016": {
-          "cash_balance": 1.46,
+          "cash_balance": 25.74,
           "free_cash_flow": null,
-          "total_debt": null
+          "total_debt": 43.17
         }
       },
       "shares_vs_buybacks": {
         "2025": {
-          "shares_outstanding_m": 90.9,
-          "buybacks_m": null,
+          "shares_outstanding_m": 12.08,
+          "buybacks_m": 16.04,
           "split_adjusted": true
         },
         "2024": {
-          "shares_outstanding_m": 81.0,
-          "buybacks_m": null,
+          "shares_outstanding_m": 11.7,
+          "buybacks_m": 0.01,
           "split_adjusted": true
         },
         "2023": {
-          "shares_outstanding_m": 79.59,
+          "shares_outstanding_m": 0.01,
           "buybacks_m": null,
           "split_adjusted": true
         },
         "2022": {
-          "shares_outstanding_m": 64.8,
+          "shares_outstanding_m": 11.41,
           "buybacks_m": null,
           "split_adjusted": true
         },
         "2021": {
-          "shares_outstanding_m": 62.04,
+          "shares_outstanding_m": 11.29,
           "buybacks_m": null,
           "split_adjusted": true
         },
         "2020": {
-          "shares_outstanding_m": 58.11,
-          "buybacks_m": 0.01,
+          "shares_outstanding_m": 10.67,
+          "buybacks_m": null,
           "split_adjusted": true
         },
         "2019": {
-          "shares_outstanding_m": 58.13,
-          "buybacks_m": 0.01,
+          "shares_outstanding_m": 9.76,
+          "buybacks_m": null,
           "split_adjusted": true
         },
         "2018": {
-          "shares_outstanding_m": 58.17,
-          "buybacks_m": 0.1,
+          "shares_outstanding_m": 8.37,
+          "buybacks_m": null,
           "split_adjusted": true
         },
         "2017": {
-          "shares_outstanding_m": 58.43,
-          "buybacks_m": 0.03,
+          "shares_outstanding_m": 7.62,
+          "buybacks_m": null,
           "split_adjusted": true
         },
         "2016": {
-          "shares_outstanding_m": 77.38,
-          "buybacks_m": 0.25,
+          "shares_outstanding_m": 6.02,
+          "buybacks_m": null,
           "split_adjusted": true
         }
       },
       "returns_trajectory": {
         "2025": {
-          "roe_pct": -15.54,
-          "roic_pct": null
+          "roe_pct": 37.78,
+          "roic_pct": 7.31
         },
         "2024": {
-          "roe_pct": -23.84,
+          "roe_pct": -22.33,
           "roic_pct": null
         },
         "2023": {
-          "roe_pct": -14.47,
+          "roe_pct": -46.02,
           "roic_pct": null
         },
         "2022": {
-          "roe_pct": -18.15,
+          "roe_pct": -13.79,
           "roic_pct": null
         },
         "2021": {
-          "roe_pct": -10.21,
-          "roic_pct": null
+          "roe_pct": 11.14,
+          "roic_pct": 28.57
         },
         "2020": {
-          "roe_pct": -4.0,
-          "roic_pct": null
+          "roe_pct": 15.39,
+          "roic_pct": 33.45
         },
         "2019": {
-          "roe_pct": -13.63,
+          "roe_pct": -4.51,
           "roic_pct": null
         },
         "2018": {
-          "roe_pct": -13.28,
+          "roe_pct": -71.03,
           "roic_pct": null
         },
         "2017": {
-          "roe_pct": 3.13,
-          "roic_pct": null
-        },
-        "2016": {
-          "roe_pct": -9.78,
+          "roe_pct": 252.26,
           "roic_pct": null
         }
       },
       "revenue_vs_ar": {
-        "2020": {
-          "revenue": 0.0,
-          "accounts_receivable": 0.0,
-          "rev_growth_pct": -100.0,
-          "ar_growth_pct": -100.0,
-          "ar_outpacing": false
-        },
-        "2019": {
-          "revenue": 0.41,
-          "accounts_receivable": 0.27,
-          "rev_growth_pct": -18.0,
+        "2025": {
+          "revenue": 10.35,
+          "accounts_receivable": null,
+          "rev_growth_pct": 55.6,
           "ar_growth_pct": null,
           "ar_outpacing": null
         },
-        "2018": {
-          "revenue": 0.5,
+        "2024": {
+          "revenue": 6.65,
+          "accounts_receivable": null,
+          "rev_growth_pct": 150.9,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
+        },
+        "2023": {
+          "revenue": 2.65,
+          "accounts_receivable": null,
+          "rev_growth_pct": -36.1,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
+        },
+        "2022": {
+          "revenue": 4.15,
           "accounts_receivable": 0.0,
+          "rev_growth_pct": -88.6,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
+        },
+        "2021": {
+          "revenue": 36.52,
+          "accounts_receivable": null,
+          "rev_growth_pct": 30.7,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
+        },
+        "2020": {
+          "revenue": 27.94,
+          "accounts_receivable": null,
+          "rev_growth_pct": 61.7,
+          "ar_growth_pct": null,
+          "ar_outpacing": null
+        },
+        "2019": {
+          "revenue": 17.28,
+          "accounts_receivable": 2.93,
+          "rev_growth_pct": 240.8,
+          "ar_growth_pct": 99.3,
+          "ar_outpacing": false
+        },
+        "2018": {
+          "revenue": 5.07,
+          "accounts_receivable": 1.47,
+          "rev_growth_pct": -90.3,
+          "ar_growth_pct": 267.5,
+          "ar_outpacing": true
+        },
+        "2017": {
+          "revenue": 52.43,
+          "accounts_receivable": 0.4,
+          "rev_growth_pct": 843.0,
+          "ar_growth_pct": -29.8,
+          "ar_outpacing": false
+        },
+        "2016": {
+          "revenue": 5.56,
+          "accounts_receivable": 0.57,
           "rev_growth_pct": null,
           "ar_growth_pct": null,
           "ar_outpacing": null
@@ -971,181 +1097,181 @@
     },
     "valuation_chart": {
       "2016": {
-        "market_price": 0.62,
-        "intrinsic_value": 0.54,
-        "bull_case": 0.59,
-        "bear_case": 0.51
+        "market_price": 4.22,
+        "intrinsic_value": 18.05,
+        "bull_case": 19.9,
+        "bear_case": 16.92
       },
       "2017": {
-        "market_price": 0.6,
-        "intrinsic_value": 0.55,
-        "bull_case": 0.6,
-        "bear_case": 0.52
+        "market_price": 35.6,
+        "intrinsic_value": 18.41,
+        "bull_case": 20.11,
+        "bear_case": 17.36
       },
       "2018": {
-        "market_price": 0.23,
-        "intrinsic_value": 0.56,
-        "bull_case": 0.61,
-        "bear_case": 0.53
+        "market_price": 12.65,
+        "intrinsic_value": 18.78,
+        "bull_case": 20.34,
+        "bear_case": 17.81
       },
       "2019": {
-        "market_price": 0.3,
-        "intrinsic_value": 0.57,
-        "bull_case": 0.61,
-        "bear_case": 0.55
+        "market_price": 27.3,
+        "intrinsic_value": 19.15,
+        "bull_case": 20.56,
+        "bear_case": 18.27
       },
       "2020": {
-        "market_price": 0.56,
-        "intrinsic_value": 0.58,
-        "bull_case": 0.62,
-        "bear_case": 0.56
+        "market_price": 44.13,
+        "intrinsic_value": 19.54,
+        "bull_case": 20.79,
+        "bear_case": 18.75
       },
       "2021": {
-        "market_price": 0.5,
-        "intrinsic_value": 0.59,
-        "bull_case": 0.63,
-        "bear_case": 0.57
+        "market_price": 20.85,
+        "intrinsic_value": 19.93,
+        "bull_case": 21.01,
+        "bear_case": 19.24
       },
       "2022": {
-        "market_price": 0.62,
-        "intrinsic_value": 0.61,
-        "bull_case": 0.63,
-        "bear_case": 0.59
+        "market_price": 18.4,
+        "intrinsic_value": 20.32,
+        "bull_case": 21.25,
+        "bear_case": 19.74
       },
       "2023": {
-        "market_price": 0.56,
-        "intrinsic_value": 0.62,
-        "bull_case": 0.64,
-        "bear_case": 0.6
+        "market_price": 18.5,
+        "intrinsic_value": 20.73,
+        "bull_case": 21.48,
+        "bear_case": 20.25
       },
       "2024": {
-        "market_price": 0.59,
-        "intrinsic_value": 0.63,
-        "bull_case": 0.65,
-        "bear_case": 0.62
+        "market_price": 26.28,
+        "intrinsic_value": 21.15,
+        "bull_case": 21.72,
+        "bear_case": 20.78
       },
       "2025": {
-        "market_price": 0.7,
-        "intrinsic_value": 0.64,
-        "bull_case": 0.66,
-        "bear_case": 0.64
+        "market_price": 26.59,
+        "intrinsic_value": 21.57,
+        "bull_case": 21.95,
+        "bear_case": 21.32
       },
       "2026": {
-        "market_price": 0.84,
-        "intrinsic_value": 0.67,
-        "bull_case": 0.67,
-        "bear_case": 0.66
+        "market_price": 41.67,
+        "intrinsic_value": 22.44,
+        "bull_case": 22.57,
+        "bear_case": 22.24
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 0.68,
-        "bull_case": 0.69,
-        "bear_case": 0.68
+        "intrinsic_value": 22.89,
+        "bull_case": 23.02,
+        "bear_case": 22.69
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 0.7,
-        "bull_case": 0.71,
-        "bear_case": 0.68
+        "intrinsic_value": 23.35,
+        "bull_case": 23.62,
+        "bear_case": 22.94
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 0.71,
-        "bull_case": 0.72,
-        "bear_case": 0.69
+        "intrinsic_value": 23.81,
+        "bull_case": 24.24,
+        "bear_case": 23.19
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 0.73,
-        "bull_case": 0.74,
-        "bear_case": 0.7
+        "intrinsic_value": 24.29,
+        "bull_case": 24.87,
+        "bear_case": 23.44
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 0.74,
-        "bull_case": 0.76,
-        "bear_case": 0.71
+        "intrinsic_value": 24.78,
+        "bull_case": 25.51,
+        "bear_case": 23.7
       }
     },
     "forecast_meta": {
       "eps_next_5y_raw": 0.0,
-      "fs_score": 4,
-      "fs_multiplier": 0.75,
+      "fs_score": 3,
+      "fs_multiplier": 0.55,
       "base_growth_rate": 0.02,
       "bull_growth_rate": 0.026,
       "bear_growth_rate": 0.011,
       "growth_constrained": true,
-      "constraint_note": "EPS growth moderated from 0.0% to 2.0% due to financial strength score of 4/10",
-      "growth_explanation": "Base (2.0%/yr): growth in line with analyst expectations. Bull (2.6%/yr): everything goes to plan. Bear (1.1%/yr): growth disappoints. Growth capped at 2.0% (from 0.0%) \u2014 the balance sheet (financial strength 4/10) limits how fast this company can realistically grow."
+      "constraint_note": "EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10",
+      "growth_explanation": "Base (2.0%/yr): growth in line with analyst expectations. Bull (2.6%/yr): everything goes to plan. Bear (1.1%/yr): growth disappoints. Growth capped at 2.0% (from 0.0%) \u2014 the balance sheet (financial strength 3/10) limits how fast this company can realistically grow."
     },
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Consensus expectations are broadly supportive for Solitario Resources Corp. in the near term",
-          "Current market positioning in the Basic Materials sector may attract tactical buyers",
+          "Consensus expectations are broadly supportive for XOMA Royalty Corporation in the near term",
+          "Current market positioning in the Healthcare sector may attract tactical buyers",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
         "bear_points": [
-          "Trading at a 26% premium to intrinsic value \u2014 elevated risk of near-term multiple compression",
-          "Low consensus EPS growth forecast of 0.0% p.a. limits re-rating potential in the near term",
-          "Short-term earnings visibility is limited without additional guidance"
+          "Trading at a 86% premium to intrinsic value \u2014 elevated risk of near-term multiple compression",
+          "Declining revenue of -22.6% may weigh on near-term earnings and investor sentiment",
+          "Low consensus EPS growth forecast of 0.0% p.a. limits re-rating potential in the near term"
         ]
       },
       "long_term": {
         "bull_points": [
-          "Solitario Resources Corp. operates in a sector with long-term structural tailwinds",
+          "XOMA Royalty Corporation operates in a sector with long-term structural tailwinds",
           "Management has demonstrated consistent capital allocation discipline",
           "The business has the scale to compound earnings over a multi-year horizon"
         ],
         "bear_points": [
-          "Low profitability score (0/10) suggests thin or negative margins that structurally limit long-term earnings power",
-          "Unpredictable earnings (1/10) make long-term forecasting unreliable and compress the valuation multiple the market is willing to pay",
-          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 0.0% to 2.0% due to financial strength score of 4/10"
+          "Weak balance sheet (3/10) constrains long-term capital allocation and increases vulnerability in a downturn",
+          "Unpredictable earnings (2/10) make long-term forecasting unreliable and compress the valuation multiple the market is willing to pay",
+          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10"
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 23:02"
+      "generated_at": "2026-06-01 16:43"
     },
     "price_alert": {
       "triggered": false,
       "signal": null,
-      "drop_from_ath_pct": 13.8,
-      "ath": 0.98,
-      "current_price": 0.84,
+      "drop_from_ath_pct": 2.7,
+      "ath": 42.81,
+      "current_price": 41.67,
       "message": null
     },
     "watchlist_signal": {
       "signal": "Avoid",
       "reason": "Weak fundamentals or significantly overvalued \u2014 better opportunities elsewhere.",
-      "score": 0,
+      "score": 15,
       "inputs": {
-        "quality_base": 12,
+        "quality_base": 35,
         "val_adj": -20,
         "alert_adj": 0,
         "classification": "Dangerous",
-        "mos_pct": -26.0
+        "mos_pct": -85.7
       }
     },
     "10_Year_History": {
-      "2016": 0.62,
-      "2017": 0.6,
-      "2018": 0.23,
-      "2019": 0.3,
-      "2020": 0.56,
-      "2021": 0.5,
-      "2022": 0.62,
-      "2023": 0.56,
-      "2024": 0.59,
-      "2025": 0.7,
-      "2026": 0.84
+      "2016": 4.22,
+      "2017": 35.6,
+      "2018": 12.65,
+      "2019": 27.3,
+      "2020": 44.13,
+      "2021": 20.85,
+      "2022": 18.4,
+      "2023": 18.5,
+      "2024": 26.28,
+      "2025": 26.59,
+      "2026": 41.67
     },
     "5_Year_Forecast": {
-      "2027": 0.68,
-      "2028": 0.7,
-      "2029": 0.71,
-      "2030": 0.73,
-      "2031": 0.74
+      "2027": 22.89,
+      "2028": 23.35,
+      "2029": 23.81,
+      "2030": 24.29,
+      "2031": 24.78
     },
-    "Last_Updated": "2026-05-31 23:02"
+    "Last_Updated": "2026-06-01 16:43"
   }
 }

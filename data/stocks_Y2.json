@@ -16,18 +16,18 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 886681344,
+      "market_cap": 882885568,
       "52w_high": 9.29,
-      "52w_low": 5.77,
+      "52w_low": 5.7501,
       "avg_volume": 320606,
-      "pe_trailing": 7.392405,
-      "pe_forward": 6.674286,
+      "pe_trailing": 7.3607593,
+      "pe_forward": 6.6457143,
       "dividend_yield": null,
       "beta": 0.515
     },
-    "current_price": 5.84,
+    "current_price": 5.82,
     "intrinsic_value": 6.82,
-    "margin_of_safety_pct": 14.4,
+    "margin_of_safety_pct": 14.7,
     "mos_label": "Slight Discount",
     "data_availability": {
       "status": "ok",
@@ -128,7 +128,7 @@
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
@@ -140,7 +140,7 @@
       "risk_profile": "Key risks to watch: balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.).",
       "investment_summary": "The stock trades near estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 0.1798,
@@ -400,7 +400,7 @@
         "bear_case": 6.48
       },
       "2026": {
-        "market_price": 5.84,
+        "market_price": 5.82,
         "intrinsic_value": 6.82,
         "bull_case": 6.86,
         "bear_case": 6.76
@@ -473,14 +473,14 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 37.1,
+      "drop_from_ath_pct": 37.4,
       "ath": 9.29,
-      "current_price": 5.84,
+      "current_price": 5.82,
       "message": "Down 37% from 52-week high of $9.29"
     },
     "watchlist_signal": {
@@ -492,7 +492,7 @@
         "val_adj": 0,
         "alert_adj": 0,
         "classification": "Speculative",
-        "mos_pct": 14.4
+        "mos_pct": 14.7
       }
     },
     "10_Year_History": {
@@ -502,7 +502,7 @@
       "2023": 6.13,
       "2024": 4.06,
       "2025": 6.94,
-      "2026": 5.84
+      "2026": 5.82
     },
     "5_Year_Forecast": {
       "2027": 6.96,
@@ -511,7 +511,7 @@
       "2030": 7.38,
       "2031": 7.53
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YELP": {
     "company_profile": {
@@ -530,18 +530,18 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 1253788032,
+      "market_cap": 1266710912,
       "52w_high": 38.1,
       "52w_low": 19.6,
       "avg_volume": 1247471,
-      "pe_trailing": 10.4587145,
-      "pe_forward": 5.3975353,
+      "pe_trailing": 10.566513,
+      "pe_forward": 5.453168,
       "dividend_yield": null,
       "beta": 0.538
     },
-    "current_price": 22.8,
+    "current_price": 23.04,
     "intrinsic_value": 44.32,
-    "margin_of_safety_pct": 48.6,
+    "margin_of_safety_pct": 48.0,
     "mos_label": "Strong Discount (Margin of Safety)",
     "data_availability": {
       "status": "ok",
@@ -644,19 +644,19 @@
         "eps_next_5y": 0.1164
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Yelp Inc. earns a Safe rating because it scores consistently well across all four fundamental measures \u2014 profitability, financial strength, growth, and predictability. A strong ROIC of 21.96% means the business is highly efficient at turning invested capital into profit. Companies at this quality level have proven they can grow steadily and manage their finances well, making them lower-risk long-term investments.",
-      "investment_narrative": "Yelp Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 21.96% ROIC. The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency. With 11.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 49% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
+      "investment_narrative": "Yelp Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 21.96% ROIC. The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency. With 11.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 48% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
       "quality_conclusion": "Yelp Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 21.96% ROIC.",
       "risk_profile": "The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency.",
-      "investment_summary": "With 11.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 49% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
+      "investment_summary": "With 11.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 48% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 0.2045,
@@ -999,7 +999,7 @@
         "bear_case": 33.44
       },
       "2026": {
-        "market_price": 22.8,
+        "market_price": 23.04,
         "intrinsic_value": 44.32,
         "bull_case": 45.87,
         "bear_case": 42.0
@@ -1049,7 +1049,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 48.6% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $44.32",
+          "Trading at a 48.0% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $44.32",
           "Analyst consensus of 11.6% EPS growth over five years provides a near-term catalyst if the company delivers on guidance",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -1072,26 +1072,26 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 40.2,
+      "drop_from_ath_pct": 39.5,
       "ath": 38.1,
-      "current_price": 22.8,
+      "current_price": 23.04,
       "message": "Down 40% from 52-week high of $38.10"
     },
     "watchlist_signal": {
       "signal": "Strong Buy",
-      "reason": "A Safe-rated business trading at a 49% discount to intrinsic value \u2014 quality at a genuine bargain.",
+      "reason": "A Safe-rated business trading at a 48% discount to intrinsic value \u2014 quality at a genuine bargain.",
       "score": 100,
       "inputs": {
         "quality_base": 80,
         "val_adj": 20,
         "alert_adj": 10,
         "classification": "Safe",
-        "mos_pct": 48.6
+        "mos_pct": 48.0
       }
     },
     "10_Year_History": {
@@ -1105,7 +1105,7 @@
       "2023": 47.34,
       "2024": 38.7,
       "2025": 30.39,
-      "2026": 22.8
+      "2026": 23.03
     },
     "5_Year_Forecast": {
       "2027": 49.48,
@@ -1114,7 +1114,7 @@
       "2030": 68.85,
       "2031": 76.86
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YEXT": {
     "company_profile": {
@@ -1133,26 +1133,26 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 418469152,
+      "market_cap": 437490464,
       "52w_high": 9.2,
       "52w_low": 3.29,
       "avg_volume": 2952980,
-      "pe_trailing": 59.714283,
-      "pe_forward": 5.9714284,
+      "pe_trailing": 62.42857,
+      "pe_forward": 6.242857,
       "dividend_yield": null,
       "beta": 1.142
     },
-    "current_price": 4.18,
-    "intrinsic_value": 4.53,
-    "margin_of_safety_pct": 7.7,
-    "mos_label": "Slight Discount",
+    "current_price": 4.37,
+    "intrinsic_value": 6.01,
+    "margin_of_safety_pct": 27.3,
+    "mos_label": "Moderate Discount",
     "data_availability": {
       "status": "ok",
       "message": null,
       "has_price": true,
       "has_iv": true,
       "has_financials": true,
-      "active_methods": 8,
+      "active_methods": 9,
       "exclude_from_search": false
     },
     "valuations": {
@@ -1160,15 +1160,15 @@
       "2_DCF_FCF": 3.39,
       "3_DCF_Net_Income": 4.53,
       "4_DCF_Terminal_Value": 5.96,
-      "5_Mean_PS": 6.58,
-      "6_Mean_PE": 0.77,
-      "7_Mean_PB": 5.46,
+      "5_Mean_PS": 6.63,
+      "6_Mean_PE": 0.81,
+      "7_Mean_PB": 5.49,
       "8_PSG": 21.41,
       "9_PEG": 0.34,
-      "10_EV_EBITDA": 3.01,
-      "intrinsic_value": 4.53,
-      "methods_used": 8,
-      "confidence": "High",
+      "10_EV_EBITDA": 3.03,
+      "intrinsic_value": 6.01,
+      "methods_used": 9,
+      "confidence": "Medium",
       "active_methods": [
         "1_DCF_Operating_CF",
         "2_DCF_FCF",
@@ -1177,6 +1177,7 @@
         "5_Mean_PS",
         "6_Mean_PE",
         "7_Mean_PB",
+        "8_PSG",
         "10_EV_EBITDA"
       ],
       "_meta": {
@@ -1216,6 +1217,7 @@
           "5_Mean_PS",
           "6_Mean_PE",
           "7_Mean_PB",
+          "8_PSG",
           "10_EV_EBITDA"
         ]
       }
@@ -1226,7 +1228,7 @@
         "financial_strength": 5,
         "growth": 5,
         "predictability": 6,
-        "valuation": 5,
+        "valuation": 6,
         "moat": null
       },
       "score_labels": {
@@ -1234,7 +1236,7 @@
         "financial_strength": "Adequate",
         "growth": "Adequate",
         "predictability": "Good",
-        "valuation": "Adequate",
+        "valuation": "Good",
         "moat": "Not scored"
       },
       "company_type": "STANDARD",
@@ -1251,19 +1253,19 @@
         "eps_next_5y": 0.048
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Yext, Inc. is rated Speculative because its fundamentals are mixed \u2014 decent in some areas but not consistently strong enough to qualify as Safe. The growth outlook adds uncertainty to the longer-term picture. This rating means the investment could work out well, but there is more uncertainty involved compared to a Safe-rated company.",
-      "investment_narrative": "Yext, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability, supported by a 23.38% ROIC. Key risks to watch: elevated leverage (Debt/EBITDA 7.3x); balance sheet constraints on growth. With 4.8% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades near estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
+      "investment_narrative": "Yext, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability, supported by a 23.38% ROIC. Key risks to watch: elevated leverage (Debt/EBITDA 7.3x); balance sheet constraints on growth. With 4.8% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades at a 27% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
       "quality_conclusion": "Yext, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability, supported by a 23.38% ROIC.",
       "risk_profile": "Key risks to watch: elevated leverage (Debt/EBITDA 7.3x); balance sheet constraints on growth.",
-      "investment_summary": "With 4.8% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades near estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
+      "investment_summary": "With 4.8% consensus EPS growth forecast, the growth outlook adds some uncertainty to the investment case. The stock trades at a 27% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 0.2423,
@@ -1543,93 +1545,93 @@
     "valuation_chart": {
       "2017": {
         "market_price": 12.03,
-        "intrinsic_value": 3.18,
-        "bull_case": 3.72,
-        "bear_case": 2.87
+        "intrinsic_value": 4.22,
+        "bull_case": 4.94,
+        "bear_case": 3.8
       },
       "2018": {
         "market_price": 14.85,
-        "intrinsic_value": 3.3,
-        "bull_case": 3.8,
-        "bear_case": 3.0
+        "intrinsic_value": 4.37,
+        "bull_case": 5.04,
+        "bear_case": 3.98
       },
       "2019": {
         "market_price": 14.42,
-        "intrinsic_value": 3.41,
-        "bull_case": 3.87,
-        "bear_case": 3.14
+        "intrinsic_value": 4.53,
+        "bull_case": 5.14,
+        "bear_case": 4.17
       },
       "2020": {
         "market_price": 15.72,
-        "intrinsic_value": 3.54,
-        "bull_case": 3.95,
-        "bear_case": 3.29
+        "intrinsic_value": 4.69,
+        "bull_case": 5.24,
+        "bear_case": 4.36
       },
       "2021": {
         "market_price": 9.92,
-        "intrinsic_value": 3.66,
-        "bull_case": 4.03,
-        "bear_case": 3.44
+        "intrinsic_value": 4.86,
+        "bull_case": 5.34,
+        "bear_case": 4.57
       },
       "2022": {
         "market_price": 6.53,
-        "intrinsic_value": 3.8,
-        "bull_case": 4.11,
-        "bear_case": 3.6
+        "intrinsic_value": 5.04,
+        "bull_case": 5.45,
+        "bear_case": 4.78
       },
       "2023": {
         "market_price": 5.89,
-        "intrinsic_value": 3.93,
-        "bull_case": 4.19,
-        "bear_case": 3.77
+        "intrinsic_value": 5.22,
+        "bull_case": 5.56,
+        "bear_case": 5.01
       },
       "2024": {
         "market_price": 6.36,
-        "intrinsic_value": 4.07,
-        "bull_case": 4.27,
-        "bear_case": 3.95
+        "intrinsic_value": 5.4,
+        "bull_case": 5.67,
+        "bear_case": 5.24
       },
       "2025": {
         "market_price": 8.06,
-        "intrinsic_value": 4.22,
-        "bull_case": 4.36,
-        "bear_case": 4.13
+        "intrinsic_value": 5.6,
+        "bull_case": 5.78,
+        "bear_case": 5.48
       },
       "2026": {
-        "market_price": 4.18,
-        "intrinsic_value": 4.53,
-        "bull_case": 4.58,
-        "bear_case": 4.46
+        "market_price": 4.37,
+        "intrinsic_value": 6.01,
+        "bull_case": 6.07,
+        "bear_case": 5.91
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 4.69,
-        "bull_case": 4.74,
-        "bear_case": 4.62
+        "intrinsic_value": 6.23,
+        "bull_case": 6.29,
+        "bear_case": 6.13
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 4.86,
-        "bull_case": 4.96,
-        "bear_case": 4.71
+        "intrinsic_value": 6.45,
+        "bull_case": 6.59,
+        "bear_case": 6.25
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 5.04,
-        "bull_case": 5.2,
-        "bear_case": 4.8
+        "intrinsic_value": 6.68,
+        "bull_case": 6.89,
+        "bear_case": 6.37
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 5.22,
-        "bull_case": 5.44,
-        "bear_case": 4.9
+        "intrinsic_value": 6.92,
+        "bull_case": 7.22,
+        "bear_case": 6.5
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 5.41,
-        "bull_case": 5.69,
-        "bear_case": 5.0
+        "intrinsic_value": 7.17,
+        "bull_case": 7.55,
+        "bear_case": 6.63
       }
     },
     "forecast_meta": {
@@ -1646,7 +1648,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Consensus expectations are broadly supportive for Yext, Inc. in the near term",
+          "Trading at a 27.3% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $6.01",
           "Current market positioning in the Technology sector may attract tactical buyers",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -1669,26 +1671,26 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 54.6,
+      "drop_from_ath_pct": 52.5,
       "ath": 9.2,
-      "current_price": 4.18,
-      "message": "Down 55% from 52-week high of $9.20"
+      "current_price": 4.37,
+      "message": "Down 52% from 52-week high of $9.20"
     },
     "watchlist_signal": {
-      "signal": "Watch",
-      "reason": "Worth monitoring but needs a better entry point or more consistency.",
-      "score": 55,
+      "signal": "Buy",
+      "reason": "Good fundamentals with a 27% margin of safety \u2014 worth adding at current prices.",
+      "score": 65,
       "inputs": {
         "quality_base": 55,
-        "val_adj": 0,
+        "val_adj": 10,
         "alert_adj": 0,
         "classification": "Speculative",
-        "mos_pct": 7.7
+        "mos_pct": 27.3
       }
     },
     "10_Year_History": {
@@ -1701,16 +1703,16 @@
       "2023": 5.89,
       "2024": 6.36,
       "2025": 8.06,
-      "2026": 4.18
+      "2026": 4.37
     },
     "5_Year_Forecast": {
-      "2027": 4.75,
-      "2028": 4.98,
-      "2029": 5.21,
-      "2030": 5.46,
-      "2031": 5.73
+      "2027": 6.3,
+      "2028": 6.6,
+      "2029": 6.92,
+      "2030": 7.25,
+      "2031": 7.6
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YOU": {
     "company_profile": {
@@ -1729,19 +1731,19 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 7411518464,
+      "market_cap": 7577257984,
       "52w_high": 62.73,
       "52w_low": 24.06,
       "avg_volume": 1661157,
-      "pe_trailing": 44.36,
-      "pe_forward": 20.806755,
+      "pe_trailing": 45.351997,
+      "pe_forward": 21.272045,
       "dividend_yield": 1.08,
       "beta": 1.067
     },
-    "current_price": 55.45,
+    "current_price": 56.69,
     "intrinsic_value": 93.91,
-    "margin_of_safety_pct": 41.0,
-    "mos_label": "Strong Discount (Margin of Safety)",
+    "margin_of_safety_pct": 39.6,
+    "mos_label": "Moderate Discount",
     "data_availability": {
       "status": "ok",
       "message": null,
@@ -1824,7 +1826,7 @@
         "financial_strength": 8,
         "growth": 9,
         "predictability": 6,
-        "valuation": 6,
+        "valuation": 5,
         "moat": null
       },
       "score_labels": {
@@ -1832,7 +1834,7 @@
         "financial_strength": "Strong",
         "growth": "Strong",
         "predictability": "Good",
-        "valuation": "Good",
+        "valuation": "Adequate",
         "moat": "Not scored"
       },
       "company_type": "FCF_COMPOUNDER",
@@ -1849,19 +1851,19 @@
         "eps_next_5y": 0.3518
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Clear Secure, Inc. earns a Safe rating because it scores consistently well across all four fundamental measures \u2014 profitability, financial strength, growth, and predictability. A strong ROIC of 31.93% means the business is highly efficient at turning invested capital into profit. Companies at this quality level have proven they can grow steadily and manage their finances well, making them lower-risk long-term investments.",
-      "investment_narrative": "Clear Secure, Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 31.93% ROIC. The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency. With 35.2% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 41% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
+      "investment_narrative": "Clear Secure, Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 31.93% ROIC. The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency. With 35.2% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 40% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
       "quality_conclusion": "Clear Secure, Inc. demonstrates strong fundamental quality and scores highly across profitability, financial strength, and predictability, supported by a 31.93% ROIC.",
       "risk_profile": "The risk profile is relatively contained with no major red flags across leverage, liquidity, or earnings consistency.",
-      "investment_summary": "With 35.2% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 41% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
+      "investment_summary": "With 35.2% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 40% discount to estimated intrinsic value and is suitable for quality-focused long-term investors.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 1.095,
@@ -2084,7 +2086,7 @@
         "bear_case": 55.57
       },
       "2026": {
-        "market_price": 55.45,
+        "market_price": 56.69,
         "intrinsic_value": 93.91,
         "bull_case": 98.61,
         "bear_case": 83.35
@@ -2134,7 +2136,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 41.0% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $93.91",
+          "Trading at a 39.6% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $93.91",
           "Revenue growing at 19.7% year-over-year, indicating sustained demand momentum heading into the next quarter",
           "Analyst consensus of 35.2% EPS growth over five years provides a near-term catalyst if the company delivers on guidance"
         ],
@@ -2157,26 +2159,26 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": false,
       "signal": null,
-      "drop_from_ath_pct": 11.6,
+      "drop_from_ath_pct": 9.6,
       "ath": 62.73,
-      "current_price": 55.45,
+      "current_price": 56.69,
       "message": null
     },
     "watchlist_signal": {
       "signal": "Strong Buy",
-      "reason": "A Safe-rated business trading at a 41% discount to intrinsic value \u2014 quality at a genuine bargain.",
+      "reason": "A Safe-rated business trading at a 40% discount to intrinsic value \u2014 quality at a genuine bargain.",
       "score": 100,
       "inputs": {
         "quality_base": 80,
         "val_adj": 20,
         "alert_adj": 0,
         "classification": "Safe",
-        "mos_pct": 41.0
+        "mos_pct": 39.6
       }
     },
     "10_Year_History": {
@@ -2185,7 +2187,7 @@
       "2023": 19.28,
       "2024": 25.73,
       "2025": 34.81,
-      "2026": 55.45
+      "2026": 56.69
     },
     "5_Year_Forecast": {
       "2027": 122.08,
@@ -2194,277 +2196,7 @@
       "2030": 268.22,
       "2031": 348.68
     },
-    "Last_Updated": "2026-05-31 22:29"
-  },
-  "YSS": {
-    "company_profile": {
-      "name": "York Space Systems, Inc.",
-      "ticker": "YSS",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "company_type": "STANDARD",
-      "type_rationale": "Standard company \u2014 balanced weighting across all methods",
-      "description": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States. It provides space and defense primes with proprietary hardware and software capabilities designed to address customers' requirements across the elements of the space ecosystem throughout the mission lifecycle. The company also engages in the design, production, integration, and operation of spacecraft to manage spacecraft and constellations. It offers S-CLASS, LX-CLASS, and M-CLASS spacecraft, which are satellite platforms to a range of space market needs. In addition, the company provides software that enables versatile integration of a variety of payloads for customers and supply chain commonalities across platforms, as well as software-enabled services. The company was formerly known as Yellowstone Midco Holdings II, LLC and changed its name to York Space Systems, Inc. in January 2026. York Space Systems, Inc. was founded in 2012 and is based in Greenwood Village, Colorado.",
-      "description_summary": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States.",
-      "website": "https://www.yorkspacesystems.com",
-      "employees": 710,
-      "country": "United States",
-      "city": "Greenwood Village",
-      "exchange": "NYQ",
-      "currency": "USD",
-      "quote_type": "EQUITY",
-      "market_cap": 4233227008,
-      "52w_high": 44.54,
-      "52w_low": 16.93,
-      "avg_volume": 2244950,
-      "pe_trailing": null,
-      "pe_forward": 61.151077,
-      "dividend_yield": null,
-      "beta": null
-    },
-    "current_price": 32.64,
-    "intrinsic_value": 32.64,
-    "margin_of_safety_pct": 0.0,
-    "mos_label": "Fairly Valued (Marginal Premium)",
-    "data_availability": {
-      "status": "ok",
-      "message": null,
-      "has_price": true,
-      "has_iv": true,
-      "has_financials": false,
-      "active_methods": 2,
-      "exclude_from_search": false
-    },
-    "valuations": {
-      "1_DCF_Operating_CF": null,
-      "2_DCF_FCF": null,
-      "3_DCF_Net_Income": null,
-      "4_DCF_Terminal_Value": null,
-      "5_Mean_PS": 32.64,
-      "6_Mean_PE": null,
-      "7_Mean_PB": 32.64,
-      "8_PSG": null,
-      "9_PEG": null,
-      "10_EV_EBITDA": null,
-      "intrinsic_value": 32.64,
-      "methods_used": 2,
-      "confidence": "Low",
-      "active_methods": [
-        "5_Mean_PS",
-        "7_Mean_PB"
-      ],
-      "_meta": {
-        "pe_source": "current_trailing",
-        "ps_source": "current_trailing",
-        "pb_source": "current_trailing",
-        "ev_ebitda_source": "trailing_or_unavailable",
-        "growth_source": "finviz_no_growth",
-        "growth_raw": 0.0,
-        "growth_peg_rate": 0.0,
-        "discount_rate": 0.12,
-        "growth_stage1": 0.02,
-        "growth_stage2": 0.02,
-        "terminal_growth": 0.02,
-        "tier": "Weak",
-        "company_type": "STANDARD",
-        "type_rationale": "Standard company \u2014 balanced weighting across all methods",
-        "method_explanation": "This company does not fit neatly into a specialist category, so we apply a balanced mix of all ten valuation methods. These include Discounted Cash Flow (which estimates the present value of future cash flows), earnings multiples (P/E and PEG), revenue multiples (P/S and PSG), book value (P/B), and EV/EBITDA. Each method approaches value from a different angle \u2014 using all of them together gives a more rounded estimate than relying on any single number.",
-        "weights_applied": {
-          "1_DCF_Operating_CF": 0.08,
-          "2_DCF_FCF": 0.08,
-          "3_DCF_Net_Income": 0.08,
-          "4_DCF_Terminal_Value": 0.08,
-          "5_Mean_PS": 0.12,
-          "6_Mean_PE": 0.08,
-          "7_Mean_PB": 0.15,
-          "8_PSG": 0.08,
-          "9_PEG": 0.08,
-          "10_EV_EBITDA": 0.17
-        },
-        "excluded_methods": [],
-        "active_methods": [
-          "5_Mean_PS",
-          "7_Mean_PB"
-        ]
-      }
-    },
-    "quality": {
-      "scores": {
-        "profitability": 0,
-        "financial_strength": 3,
-        "growth": 2,
-        "predictability": 5,
-        "valuation": 3,
-        "moat": null
-      },
-      "score_labels": {
-        "profitability": "Poor",
-        "financial_strength": "Weak",
-        "growth": "Weak",
-        "predictability": "Adequate",
-        "valuation": "Weak",
-        "moat": "Not scored"
-      },
-      "company_type": "STANDARD",
-      "company_type_note": null,
-      "python_subtotal": 10,
-      "python_subtotal_pct": 25.0,
-      "classification": "Dangerous",
-      "penalty_pct": 8,
-      "final_score_pct": 17.0,
-      "tiebreaker_used": false,
-      "tiebreaker_inputs": {
-        "roe": null,
-        "roic": null,
-        "eps_next_5y": 0.0
-      },
-      "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
-    },
-    "quality_narrative": {
-      "moat_score": null,
-      "moat_rationale": "",
-      "metric_assessments": {},
-      "classification_reason": "York Space Systems, Inc. carries a Dangerous rating because it shows significant weaknesses in profitability and financial strength. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "York Space Systems, Inc. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
-      "quality_conclusion": "York Space Systems, Inc. demonstrates weak fundamental quality and is constrained by profitability.",
-      "risk_profile": "Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.).",
-      "investment_summary": "The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
-      "source": "rules",
-      "generated_at": "2026-05-31 22:29"
-    },
-    "fundamentals": {
-      "roe": null,
-      "roic": null,
-      "roe_pct": null,
-      "roic_pct": null,
-      "roic_source": "unavailable",
-      "current_ratio": 1.61,
-      "debt_to_ebitda": null,
-      "debt_service_ratio": null
-    },
-    "financials_charts": {
-      "revenue_vs_net_income": {},
-      "fcf_vs_debt": {},
-      "shares_vs_buybacks": {},
-      "returns_trajectory": {},
-      "revenue_vs_ar": {},
-      "_notes": {
-        "revenue_vs_net_income": "This chart shows how much money the company brings in (revenue) versus how much it actually keeps as profit (net income) each year. A healthy company should show both lines growing over time. If revenue grows but net income shrinks, the company is spending more than it is earning \u2014 a warning sign worth investigating.",
-        "fcf_vs_debt": "Free cash flow is the cash left over after the company has paid for everything it needs to run and grow the business. This chart compares that cash to the company's total debt. A company with rising free cash flow and falling debt is in a strong financial position. If debt is rising faster than cash, the company may be taking on more risk than it can comfortably manage.",
-        "shares_vs_buybacks": "When a company buys back its own shares, it reduces the total number of shares in circulation \u2014 which means each remaining share represents a larger slice of the business. This chart shows how the share count has changed over time. Consistent buybacks are generally a sign that management believes the stock is undervalued and wants to return cash to shareholders.",
-        "returns_trajectory": "Return on Equity (ROE) measures how much profit a company generates for every dollar of shareholder money invested. Return on Invested Capital (ROIC) is similar but also includes debt. Both are expressed as a percentage \u2014 higher is better. A company consistently earning above 15% ROIC is generally considered to have a genuine competitive advantage over its peers.",
-        "revenue_vs_ar": "Accounts receivable is money the company is owed by customers who have not yet paid their bills. This chart compares revenue growth to accounts receivable growth each year. If accounts receivable is growing much faster than revenue, it may mean the company is struggling to collect payments \u2014 sometimes a sign of aggressive or fictitious revenue reporting. A healthy company should see both lines move at a similar pace."
-      }
-    },
-    "valuation_chart": {
-      "2026": {
-        "market_price": 32.64,
-        "intrinsic_value": 32.64,
-        "bull_case": 32.84,
-        "bear_case": 32.35
-      },
-      "2027": {
-        "market_price": null,
-        "intrinsic_value": 33.29,
-        "bull_case": 33.49,
-        "bear_case": 33.0
-      },
-      "2028": {
-        "market_price": null,
-        "intrinsic_value": 33.96,
-        "bull_case": 34.36,
-        "bear_case": 33.36
-      },
-      "2029": {
-        "market_price": null,
-        "intrinsic_value": 34.64,
-        "bull_case": 35.25,
-        "bear_case": 33.73
-      },
-      "2030": {
-        "market_price": null,
-        "intrinsic_value": 35.33,
-        "bull_case": 36.17,
-        "bear_case": 34.1
-      },
-      "2031": {
-        "market_price": null,
-        "intrinsic_value": 36.04,
-        "bull_case": 37.11,
-        "bear_case": 34.48
-      }
-    },
-    "forecast_meta": {
-      "eps_next_5y_raw": 0.0,
-      "fs_score": 3,
-      "fs_multiplier": 0.55,
-      "base_growth_rate": 0.02,
-      "bull_growth_rate": 0.026,
-      "bear_growth_rate": 0.011,
-      "growth_constrained": true,
-      "constraint_note": "EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10",
-      "growth_explanation": "Base (2.0%/yr): growth in line with analyst expectations. Bull (2.6%/yr): everything goes to plan. Bear (1.1%/yr): growth disappoints. Growth capped at 2.0% (from 0.0%) \u2014 the balance sheet (financial strength 3/10) limits how fast this company can realistically grow."
-    },
-    "bull_bear": {
-      "short_term": {
-        "bull_points": [
-          "Consensus expectations are broadly supportive for York Space Systems, Inc. in the near term",
-          "Current market positioning in the Industrials sector may attract tactical buyers",
-          "Any positive earnings surprise could act as a near-term re-rating catalyst"
-        ],
-        "bear_points": [
-          "Low consensus EPS growth forecast of 0.0% p.a. limits re-rating potential in the near term",
-          "Macro uncertainty and rate expectations may suppress multiple expansion",
-          "Short-term earnings visibility is limited without additional guidance"
-        ]
-      },
-      "long_term": {
-        "bull_points": [
-          "York Space Systems, Inc. operates in a sector with long-term structural tailwinds",
-          "Management has demonstrated consistent capital allocation discipline",
-          "The business has the scale to compound earnings over a multi-year horizon"
-        ],
-        "bear_points": [
-          "Low profitability score (0/10) suggests thin or negative margins that structurally limit long-term earnings power",
-          "Weak balance sheet (3/10) constrains long-term capital allocation and increases vulnerability in a downturn",
-          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10"
-        ]
-      },
-      "source": "rules",
-      "generated_at": "2026-05-31 22:29"
-    },
-    "price_alert": {
-      "triggered": true,
-      "signal": "ath_drop",
-      "drop_from_ath_pct": 26.7,
-      "ath": 44.54,
-      "current_price": 32.64,
-      "message": "Down 27% from 52-week high of $44.54"
-    },
-    "watchlist_signal": {
-      "signal": "Avoid",
-      "reason": "Weak fundamentals or significantly overvalued \u2014 better opportunities elsewhere.",
-      "score": 15,
-      "inputs": {
-        "quality_base": 25,
-        "val_adj": 0,
-        "alert_adj": -10,
-        "classification": "Dangerous",
-        "mos_pct": 0.0
-      }
-    },
-    "10_Year_History": {
-      "2026": 32.64
-    },
-    "5_Year_Forecast": {
-      "2027": 33.29,
-      "2028": 33.96,
-      "2029": 34.64,
-      "2030": 35.33,
-      "2031": 36.04
-    },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YRD": {
     "company_profile": {
@@ -2483,18 +2215,18 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 118984312,
+      "market_cap": 121329008,
       "52w_high": 7.68,
       "52w_low": 1.315,
       "avg_volume": 121292,
-      "pe_trailing": 15.111111,
-      "pe_forward": null,
+      "pe_trailing": 15.408889,
+      "pe_forward": 3.301905,
       "dividend_yield": 27.16,
       "beta": 1.234
     },
-    "current_price": 1.36,
+    "current_price": 1.39,
     "intrinsic_value": 3.08,
-    "margin_of_safety_pct": 55.8,
+    "margin_of_safety_pct": 55.0,
     "mos_label": "Strong Discount (Margin of Safety)",
     "data_availability": {
       "status": "ok",
@@ -2599,19 +2331,19 @@
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Yiren Digital Ltd. carries a Dangerous rating because it shows significant weaknesses in growth. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "Yiren Digital Ltd. demonstrates weak fundamental quality and is constrained by growth. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades at a 56% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_narrative": "Yiren Digital Ltd. demonstrates weak fundamental quality and is constrained by growth. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades at a 55% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "quality_conclusion": "Yiren Digital Ltd. demonstrates weak fundamental quality and is constrained by growth.",
       "risk_profile": "Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.).",
-      "investment_summary": "The stock trades at a 56% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_summary": "The stock trades at a 55% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 0.0058,
@@ -2954,7 +2686,7 @@
         "bear_case": 2.93
       },
       "2026": {
-        "market_price": 1.36,
+        "market_price": 1.39,
         "intrinsic_value": 3.08,
         "bull_case": 3.1,
         "bear_case": 3.05
@@ -3004,7 +2736,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 55.8% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $3.08",
+          "Trading at a 55.0% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $3.08",
           "Current market positioning in the Financial Services sector may attract tactical buyers",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -3016,7 +2748,7 @@
       },
       "long_term": {
         "bull_points": [
-          "YRD operates in a sector with long-term structural tailwinds",
+          "Yiren Digital Ltd. operates in a sector with long-term structural tailwinds",
           "Management has demonstrated consistent capital allocation discipline",
           "The business has the scale to compound earnings over a multi-year horizon"
         ],
@@ -3027,14 +2759,14 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 82.3,
+      "drop_from_ath_pct": 81.9,
       "ath": 7.68,
-      "current_price": 1.36,
+      "current_price": 1.39,
       "message": "Down 82% from 52-week high of $7.68"
     },
     "watchlist_signal": {
@@ -3046,7 +2778,7 @@
         "val_adj": 20,
         "alert_adj": -10,
         "classification": "Dangerous",
-        "mos_pct": 55.8
+        "mos_pct": 55.0
       }
     },
     "10_Year_History": {
@@ -3060,7 +2792,7 @@
       "2023": 2.9,
       "2024": 4.64,
       "2025": 3.7,
-      "2026": 1.36
+      "2026": 1.39
     },
     "5_Year_Forecast": {
       "2027": 3.14,
@@ -3069,7 +2801,277 @@
       "2030": 3.33,
       "2031": 3.4
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
+  },
+  "YSS": {
+    "company_profile": {
+      "name": "York Space Systems, Inc.",
+      "ticker": "YSS",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "company_type": "STANDARD",
+      "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+      "description": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States. It provides space and defense primes with proprietary hardware and software capabilities designed to address customers' requirements across the elements of the space ecosystem throughout the mission lifecycle. The company also engages in the design, production, integration, and operation of spacecraft to manage spacecraft and constellations. It offers S-CLASS, LX-CLASS, and M-CLASS spacecraft, which are satellite platforms to a range of space market needs. In addition, the company provides software that enables versatile integration of a variety of payloads for customers and supply chain commonalities across platforms, as well as software-enabled services. The company was formerly known as Yellowstone Midco Holdings II, LLC and changed its name to York Space Systems, Inc. in January 2026. York Space Systems, Inc. was founded in 2012 and is based in Greenwood Village, Colorado.",
+      "description_summary": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States.",
+      "website": "https://www.yorkspacesystems.com",
+      "employees": 710,
+      "country": "United States",
+      "city": "Greenwood Village",
+      "exchange": "NYQ",
+      "currency": "USD",
+      "quote_type": "EQUITY",
+      "market_cap": 3846737664,
+      "52w_high": 44.54,
+      "52w_low": 16.93,
+      "avg_volume": 2244950,
+      "pe_trailing": null,
+      "pe_forward": 55.568043,
+      "dividend_yield": null,
+      "beta": null
+    },
+    "current_price": 29.66,
+    "intrinsic_value": 29.66,
+    "margin_of_safety_pct": 0.0,
+    "mos_label": "Fairly Valued (Marginal Premium)",
+    "data_availability": {
+      "status": "ok",
+      "message": null,
+      "has_price": true,
+      "has_iv": true,
+      "has_financials": false,
+      "active_methods": 2,
+      "exclude_from_search": false
+    },
+    "valuations": {
+      "1_DCF_Operating_CF": null,
+      "2_DCF_FCF": null,
+      "3_DCF_Net_Income": null,
+      "4_DCF_Terminal_Value": null,
+      "5_Mean_PS": 29.66,
+      "6_Mean_PE": null,
+      "7_Mean_PB": 29.66,
+      "8_PSG": null,
+      "9_PEG": null,
+      "10_EV_EBITDA": null,
+      "intrinsic_value": 29.66,
+      "methods_used": 2,
+      "confidence": "Low",
+      "active_methods": [
+        "5_Mean_PS",
+        "7_Mean_PB"
+      ],
+      "_meta": {
+        "pe_source": "current_trailing",
+        "ps_source": "current_trailing",
+        "pb_source": "current_trailing",
+        "ev_ebitda_source": "trailing_or_unavailable",
+        "growth_source": "finviz_no_growth",
+        "growth_raw": 0.0,
+        "growth_peg_rate": 0.0,
+        "discount_rate": 0.12,
+        "growth_stage1": 0.02,
+        "growth_stage2": 0.02,
+        "terminal_growth": 0.02,
+        "tier": "Weak",
+        "company_type": "STANDARD",
+        "type_rationale": "Standard company \u2014 balanced weighting across all methods",
+        "method_explanation": "This company does not fit neatly into a specialist category, so we apply a balanced mix of all ten valuation methods. These include Discounted Cash Flow (which estimates the present value of future cash flows), earnings multiples (P/E and PEG), revenue multiples (P/S and PSG), book value (P/B), and EV/EBITDA. Each method approaches value from a different angle \u2014 using all of them together gives a more rounded estimate than relying on any single number.",
+        "weights_applied": {
+          "1_DCF_Operating_CF": 0.08,
+          "2_DCF_FCF": 0.08,
+          "3_DCF_Net_Income": 0.08,
+          "4_DCF_Terminal_Value": 0.08,
+          "5_Mean_PS": 0.12,
+          "6_Mean_PE": 0.08,
+          "7_Mean_PB": 0.15,
+          "8_PSG": 0.08,
+          "9_PEG": 0.08,
+          "10_EV_EBITDA": 0.17
+        },
+        "excluded_methods": [],
+        "active_methods": [
+          "5_Mean_PS",
+          "7_Mean_PB"
+        ]
+      }
+    },
+    "quality": {
+      "scores": {
+        "profitability": 0,
+        "financial_strength": 3,
+        "growth": 2,
+        "predictability": 5,
+        "valuation": 3,
+        "moat": null
+      },
+      "score_labels": {
+        "profitability": "Poor",
+        "financial_strength": "Weak",
+        "growth": "Weak",
+        "predictability": "Adequate",
+        "valuation": "Weak",
+        "moat": "Not scored"
+      },
+      "company_type": "STANDARD",
+      "company_type_note": null,
+      "python_subtotal": 10,
+      "python_subtotal_pct": 25.0,
+      "classification": "Dangerous",
+      "penalty_pct": 8,
+      "final_score_pct": 17.0,
+      "tiebreaker_used": false,
+      "tiebreaker_inputs": {
+        "roe": null,
+        "roic": null,
+        "eps_next_5y": 0.0
+      },
+      "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
+      "last_calculated": "2026-06-01 16:25"
+    },
+    "quality_narrative": {
+      "moat_score": null,
+      "moat_rationale": "",
+      "metric_assessments": {},
+      "classification_reason": "York Space Systems, Inc. carries a Dangerous rating because it shows significant weaknesses in profitability and financial strength. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
+      "investment_narrative": "York Space Systems, Inc. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.). The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "quality_conclusion": "York Space Systems, Inc. demonstrates weak fundamental quality and is constrained by profitability.",
+      "risk_profile": "Key risks to watch: a weak near-term growth outlook; balance sheet constraints on growth; low consensus EPS growth (0.0% p.a.).",
+      "investment_summary": "The stock trades near estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "source": "rules",
+      "generated_at": "2026-06-01 16:25"
+    },
+    "fundamentals": {
+      "roe": null,
+      "roic": null,
+      "roe_pct": null,
+      "roic_pct": null,
+      "roic_source": "unavailable",
+      "current_ratio": 1.61,
+      "debt_to_ebitda": null,
+      "debt_service_ratio": null
+    },
+    "financials_charts": {
+      "revenue_vs_net_income": {},
+      "fcf_vs_debt": {},
+      "shares_vs_buybacks": {},
+      "returns_trajectory": {},
+      "revenue_vs_ar": {},
+      "_notes": {
+        "revenue_vs_net_income": "This chart shows how much money the company brings in (revenue) versus how much it actually keeps as profit (net income) each year. A healthy company should show both lines growing over time. If revenue grows but net income shrinks, the company is spending more than it is earning \u2014 a warning sign worth investigating.",
+        "fcf_vs_debt": "Free cash flow is the cash left over after the company has paid for everything it needs to run and grow the business. This chart compares that cash to the company's total debt. A company with rising free cash flow and falling debt is in a strong financial position. If debt is rising faster than cash, the company may be taking on more risk than it can comfortably manage.",
+        "shares_vs_buybacks": "When a company buys back its own shares, it reduces the total number of shares in circulation \u2014 which means each remaining share represents a larger slice of the business. This chart shows how the share count has changed over time. Consistent buybacks are generally a sign that management believes the stock is undervalued and wants to return cash to shareholders.",
+        "returns_trajectory": "Return on Equity (ROE) measures how much profit a company generates for every dollar of shareholder money invested. Return on Invested Capital (ROIC) is similar but also includes debt. Both are expressed as a percentage \u2014 higher is better. A company consistently earning above 15% ROIC is generally considered to have a genuine competitive advantage over its peers.",
+        "revenue_vs_ar": "Accounts receivable is money the company is owed by customers who have not yet paid their bills. This chart compares revenue growth to accounts receivable growth each year. If accounts receivable is growing much faster than revenue, it may mean the company is struggling to collect payments \u2014 sometimes a sign of aggressive or fictitious revenue reporting. A healthy company should see both lines move at a similar pace."
+      }
+    },
+    "valuation_chart": {
+      "2026": {
+        "market_price": 29.66,
+        "intrinsic_value": 29.66,
+        "bull_case": 29.84,
+        "bear_case": 29.39
+      },
+      "2027": {
+        "market_price": null,
+        "intrinsic_value": 30.25,
+        "bull_case": 30.43,
+        "bear_case": 29.99
+      },
+      "2028": {
+        "market_price": null,
+        "intrinsic_value": 30.86,
+        "bull_case": 31.22,
+        "bear_case": 30.32
+      },
+      "2029": {
+        "market_price": null,
+        "intrinsic_value": 31.48,
+        "bull_case": 32.03,
+        "bear_case": 30.65
+      },
+      "2030": {
+        "market_price": null,
+        "intrinsic_value": 32.1,
+        "bull_case": 32.87,
+        "bear_case": 30.99
+      },
+      "2031": {
+        "market_price": null,
+        "intrinsic_value": 32.75,
+        "bull_case": 33.72,
+        "bear_case": 31.33
+      }
+    },
+    "forecast_meta": {
+      "eps_next_5y_raw": 0.0,
+      "fs_score": 3,
+      "fs_multiplier": 0.55,
+      "base_growth_rate": 0.02,
+      "bull_growth_rate": 0.026,
+      "bear_growth_rate": 0.011,
+      "growth_constrained": true,
+      "constraint_note": "EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10",
+      "growth_explanation": "Base (2.0%/yr): growth in line with analyst expectations. Bull (2.6%/yr): everything goes to plan. Bear (1.1%/yr): growth disappoints. Growth capped at 2.0% (from 0.0%) \u2014 the balance sheet (financial strength 3/10) limits how fast this company can realistically grow."
+    },
+    "bull_bear": {
+      "short_term": {
+        "bull_points": [
+          "Consensus expectations are broadly supportive for York Space Systems, Inc. in the near term",
+          "Current market positioning in the Industrials sector may attract tactical buyers",
+          "Any positive earnings surprise could act as a near-term re-rating catalyst"
+        ],
+        "bear_points": [
+          "Low consensus EPS growth forecast of 0.0% p.a. limits re-rating potential in the near term",
+          "Macro uncertainty and rate expectations may suppress multiple expansion",
+          "Short-term earnings visibility is limited without additional guidance"
+        ]
+      },
+      "long_term": {
+        "bull_points": [
+          "York Space Systems, Inc. operates in a sector with long-term structural tailwinds",
+          "Management has demonstrated consistent capital allocation discipline",
+          "The business has the scale to compound earnings over a multi-year horizon"
+        ],
+        "bear_points": [
+          "Low profitability score (0/10) suggests thin or negative margins that structurally limit long-term earnings power",
+          "Weak balance sheet (3/10) constrains long-term capital allocation and increases vulnerability in a downturn",
+          "Financial strength is constraining the assumed growth rate in the valuation model \u2014 EPS growth moderated from 0.0% to 2.0% due to financial strength score of 3/10"
+        ]
+      },
+      "source": "rules",
+      "generated_at": "2026-06-01 16:25"
+    },
+    "price_alert": {
+      "triggered": true,
+      "signal": "ath_drop",
+      "drop_from_ath_pct": 33.4,
+      "ath": 44.54,
+      "current_price": 29.66,
+      "message": "Down 33% from 52-week high of $44.54"
+    },
+    "watchlist_signal": {
+      "signal": "Avoid",
+      "reason": "Weak fundamentals or significantly overvalued \u2014 better opportunities elsewhere.",
+      "score": 15,
+      "inputs": {
+        "quality_base": 25,
+        "val_adj": 0,
+        "alert_adj": -10,
+        "classification": "Dangerous",
+        "mos_pct": 0.0
+      }
+    },
+    "10_Year_History": {
+      "2026": 29.66
+    },
+    "5_Year_Forecast": {
+      "2027": 30.25,
+      "2028": 30.86,
+      "2029": 31.48,
+      "2030": 32.1,
+      "2031": 32.75
+    },
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YUMC": {
     "company_profile": {
@@ -3088,18 +3090,18 @@
       "exchange": "NYQ",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 14894405632,
+      "market_cap": 15090985984,
       "52w_high": 58.39,
       "52w_low": 41.69,
       "avg_volume": 1589565,
-      "pe_trailing": 16.904383,
-      "pe_forward": 13.044308,
+      "pe_trailing": 17.127491,
+      "pe_forward": 13.216469,
       "dividend_yield": 2.73,
       "beta": 0.124
     },
-    "current_price": 42.43,
+    "current_price": 42.99,
     "intrinsic_value": 62.25,
-    "margin_of_safety_pct": 31.8,
+    "margin_of_safety_pct": 30.9,
     "mos_label": "Moderate Discount",
     "data_availability": {
       "status": "ok",
@@ -3208,19 +3210,19 @@
         "eps_next_5y": 0.1258
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:29"
+      "last_calculated": "2026-06-01 16:25"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "Yum China Holdings, Inc. is rated Speculative because its fundamentals are mixed \u2014 decent in some areas but not consistently strong enough to qualify as Safe. The growth outlook adds uncertainty to the longer-term picture. This rating means the investment could work out well, but there is more uncertainty involved compared to a Safe-rated company.",
-      "investment_narrative": "Yum China Holdings, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability. Key risks to watch: balance sheet constraints on growth. With 12.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 32% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
+      "investment_narrative": "Yum China Holdings, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability. Key risks to watch: balance sheet constraints on growth. With 12.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 31% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
       "quality_conclusion": "Yum China Holdings, Inc. demonstrates mixed fundamental quality and shows particular strength in profitability.",
       "risk_profile": "Key risks to watch: balance sheet constraints on growth.",
-      "investment_summary": "With 12.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 32% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
+      "investment_summary": "With 12.6% consensus EPS growth forecast, the growth outlook supports the investment case. The stock trades at a 31% discount to estimated intrinsic value and is appropriate for investors with higher risk tolerance and conviction in the growth thesis.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "fundamentals": {
       "roe": 0.1629,
@@ -3563,7 +3565,7 @@
         "bear_case": 47.3
       },
       "2026": {
-        "market_price": 42.43,
+        "market_price": 42.99,
         "intrinsic_value": 62.25,
         "bull_case": 64.36,
         "bear_case": 59.08
@@ -3613,7 +3615,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 31.8% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $62.25",
+          "Trading at a 30.9% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $62.25",
           "Analyst consensus of 12.6% EPS growth over five years provides a near-term catalyst if the company delivers on guidance",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -3636,26 +3638,26 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:29"
+      "generated_at": "2026-06-01 16:25"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 27.3,
+      "drop_from_ath_pct": 26.4,
       "ath": 58.39,
-      "current_price": 42.43,
-      "message": "Down 27% from 52-week high of $58.39"
+      "current_price": 42.99,
+      "message": "Down 26% from 52-week high of $58.39"
     },
     "watchlist_signal": {
       "signal": "Buy",
-      "reason": "Good fundamentals with a 32% margin of safety \u2014 worth adding at current prices.",
+      "reason": "Good fundamentals with a 31% margin of safety \u2014 worth adding at current prices.",
       "score": 82,
       "inputs": {
         "quality_base": 62,
         "val_adj": 20,
         "alert_adj": 0,
         "classification": "Speculative",
-        "mos_pct": 31.8
+        "mos_pct": 30.9
       }
     },
     "10_Year_History": {
@@ -3669,7 +3671,7 @@
       "2023": 40.81,
       "2024": 47.1,
       "2025": 47.16,
-      "2026": 42.43
+      "2026": 42.99
     },
     "5_Year_Forecast": {
       "2027": 70.08,
@@ -3678,7 +3680,7 @@
       "2030": 100.0,
       "2031": 112.58
     },
-    "Last_Updated": "2026-05-31 22:29"
+    "Last_Updated": "2026-06-01 16:25"
   },
   "YCBD": {
     "company_profile": {
@@ -3697,18 +3699,18 @@
       "exchange": "ASE",
       "currency": "USD",
       "quote_type": "EQUITY",
-      "market_cap": 8314352,
+      "market_cap": 8156883,
       "52w_high": 2.56,
       "52w_low": 0.47,
       "avg_volume": 1462312,
-      "pe_trailing": 0.3219512,
-      "pe_forward": -0.88988763,
+      "pe_trailing": 0.31585366,
+      "pe_forward": -0.87303376,
       "dividend_yield": null,
       "beta": null
     },
-    "current_price": 0.79,
+    "current_price": 0.78,
     "intrinsic_value": 2.59,
-    "margin_of_safety_pct": 69.4,
+    "margin_of_safety_pct": 70.0,
     "mos_label": "Strong Discount (Margin of Safety)",
     "data_availability": {
       "status": "ok",
@@ -3725,7 +3727,7 @@
       "3_DCF_Net_Income": null,
       "4_DCF_Terminal_Value": null,
       "5_Mean_PS": 3.79,
-      "6_Mean_PE": 0.79,
+      "6_Mean_PE": 0.78,
       "7_Mean_PB": 8.15,
       "8_PSG": null,
       "9_PEG": null,
@@ -3803,19 +3805,19 @@
         "eps_next_5y": 0.0
       },
       "note": "Moat score is null \u2014 AI Studio adds moat (0-10) and recalculates.\nWith moat: final_pct = (profitability + financial_strength + growth + predictability + moat) / 50 \u00d7 100.\nThen re-classify using tiebreaker_inputs:\n  \u226570%      \u2192 Safe (no penalty)\n  65\u201369%    \u2192 Safe if 2+ of (roe\u22650.13, roic\u22650.13, eps_next_5y\u22650.10) else Speculative (\u22123pts)\n  55\u201364%    \u2192 Speculative (\u22123pts)\n  50\u201354%    \u2192 Speculative if 2+ of (roe\u22650.08, roic\u22650.08, eps_next_5y\u22650.08) else Dangerous (\u22128pts)\n  <50%      \u2192 Dangerous (\u22128pts)\nMoat override: if moat\u22657 AND (profitability\u22657 OR fs\u22657) AND pct\u226555 \u2192 Safe.\nfinal_score_pct = max(0, final_pct \u2212 penalty)",
-      "last_calculated": "2026-05-31 22:31"
+      "last_calculated": "2026-06-01 16:28"
     },
     "quality_narrative": {
       "moat_score": null,
       "moat_rationale": "",
       "metric_assessments": {},
       "classification_reason": "cbdMD, Inc. carries a Dangerous rating because it shows significant weaknesses in profitability and growth. Revenue and earnings have been inconsistent, making it hard to predict where this business will be in a few years. Dangerous-rated stocks can still recover, but they carry a higher risk of permanent capital loss and should only be held with a clear thesis and strict position sizing.",
-      "investment_narrative": "cbdMD, Inc. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth. The stock trades at a 69% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_narrative": "cbdMD, Inc. demonstrates weak fundamental quality and is constrained by profitability. Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth. The stock trades at a 70% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "quality_conclusion": "cbdMD, Inc. demonstrates weak fundamental quality and is constrained by profitability.",
       "risk_profile": "Key risks to watch: a weak near-term growth outlook; inconsistent earnings; balance sheet constraints on growth.",
-      "investment_summary": "The stock trades at a 69% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
+      "investment_summary": "The stock trades at a 70% discount to estimated intrinsic value and is warrants caution \u2014 careful position sizing and ongoing monitoring are essential.",
       "source": "rules",
-      "generated_at": "2026-05-31 22:31"
+      "generated_at": "2026-06-01 16:28"
     },
     "fundamentals": {
       "roe": -0.5339,
@@ -4152,7 +4154,7 @@
         "bear_case": 2.46
       },
       "2026": {
-        "market_price": 0.79,
+        "market_price": 0.78,
         "intrinsic_value": 2.59,
         "bull_case": 2.61,
         "bear_case": 2.57
@@ -4202,7 +4204,7 @@
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Trading at a 69.4% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $2.59",
+          "Trading at a 70.0% discount to estimated intrinsic value \u2014 technical setup favours near-term mean reversion toward $2.59",
           "Revenue growing at 18.8% year-over-year, indicating sustained demand momentum heading into the next quarter",
           "Any positive earnings surprise could act as a near-term re-rating catalyst"
         ],
@@ -4225,15 +4227,15 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-05-31 22:31"
+      "generated_at": "2026-06-01 16:28"
     },
     "price_alert": {
       "triggered": true,
       "signal": "ath_drop",
-      "drop_from_ath_pct": 69.1,
+      "drop_from_ath_pct": 69.6,
       "ath": 2.56,
-      "current_price": 0.79,
-      "message": "Down 69% from 52-week high of $2.56"
+      "current_price": 0.78,
+      "message": "Down 70% from 52-week high of $2.56"
     },
     "watchlist_signal": {
       "signal": "Avoid",
@@ -4244,7 +4246,7 @@
         "val_adj": 20,
         "alert_adj": -10,
         "classification": "Dangerous",
-        "mos_pct": 69.4
+        "mos_pct": 70.0
       }
     },
     "10_Year_History": {
@@ -4257,7 +4259,7 @@
       "2023": 8.32,
       "2024": 3.0,
       "2025": 1.35,
-      "2026": 0.79
+      "2026": 0.78
     },
     "5_Year_Forecast": {
       "2027": 2.64,
@@ -4266,6 +4268,6 @@
       "2030": 2.8,
       "2031": 2.86
     },
-    "Last_Updated": "2026-05-31 22:31"
+    "Last_Updated": "2026-06-01 16:28"
   }
 }
