@@ -9,21 +9,21 @@
       "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
       "description": "NEAR Protocol is a developer-friendly Layer 1 blockchain with a focus on usability and scalability. It uses a sharding technique called Nightshade to achieve high throughput. NEAR is notable for its human-readable account names and low transaction costs.",
       "image_url": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367",
-      "market_cap_rank": 39,
-      "market_cap_usd": 2167704121.0,
-      "fully_diluted_valuation": 2162006614.18,
-      "current_price": 1.66,
+      "market_cap_rank": 21,
+      "market_cap_usd": 5669830548.0,
+      "fully_diluted_valuation": 5674682907.25,
+      "current_price": 4.33,
       "ath": 20.44,
       "ath_date": "2022-01-16",
-      "ath_change_pct": -91.9,
+      "ath_change_pct": -78.8,
       "atl": 0.526762,
       "atl_date": "2020-11-04",
-      "price_change_7d_pct": -6.9,
-      "price_change_30d_pct": -14.2,
-      "circulating_supply": 1302413615.0,
-      "total_supply": 1302413623.0,
+      "price_change_7d_pct": -1.3132,
+      "price_change_30d_pct": -10.6483,
+      "circulating_supply": 1310550300.0,
+      "total_supply": 1310550325.0,
       "max_supply": null,
-      "total_volume_24h": 163954579.0,
+      "total_volume_24h": 446178338.0,
       "defillama_slug": "near",
       "has_curated_description": true
     },
@@ -31,19 +31,19 @@
     "coin_id": "near",
     "bucket": "A",
     "bucket_label": "Cash-Flow Protocol",
-    "current_price": 1.66,
-    "market_cap": 2167704121.0,
-    "fully_diluted_valuation": 2162006614.18,
-    "market_cap_rank": 39,
-    "price_change_7d_pct": -6.9,
-    "price_change_30d_pct": -14.2,
+    "current_price": 4.33,
+    "market_cap": 5669830548.0,
+    "fully_diluted_valuation": 5674682907.25,
+    "market_cap_rank": 21,
+    "price_change_7d_pct": -1.3132,
+    "price_change_30d_pct": -10.6483,
     "dilution": {
       "circulating_pct": 100.0,
       "supply_overhang": 0.0,
-      "fully_diluted_valuation": 2162006614.18,
+      "fully_diluted_valuation": 5674682907.25,
       "fdv_to_mc_ratio": 1.0
     },
-    "metcalfe_ratio": 13.22,
+    "metcalfe_ratio": 12.71,
     "quality": {
       "scores": {
         "fee_growth": {
@@ -60,7 +60,7 @@
           "label": "Capital Efficiency",
           "score": 5,
           "max": 10,
-          "value": 593.89,
+          "value": 1549.13,
           "unit": "MC/fees ratio",
           "chart_source": "Protocol Metrics (MC/Fees)",
           "chart_ref": "Network Economics \u2192 Capital Efficiency",
@@ -70,7 +70,7 @@
           "label": "Holder Value Accrual",
           "score": 10,
           "max": 10,
-          "value": 69.6,
+          "value": 70.0,
           "unit": "% of fees to holders",
           "chart_source": "Network Economics chart",
           "chart_ref": "Network Economics \u2192 Protocol Revenue & Fees",
@@ -80,7 +80,7 @@
           "label": "Network Demand",
           "score": 6,
           "max": 10,
-          "value": 7.56,
+          "value": 7.87,
           "unit": "volume/MC %",
           "chart_source": "raw calculation (CoinGecko volume)",
           "chart_ref": null,
@@ -97,30 +97,30 @@
         },
         "protocol_maturity": {
           "label": "Protocol Maturity",
-          "score": 6,
+          "score": 8,
           "max": 10,
-          "value": 39,
+          "value": 21,
           "unit": "MC rank",
           "chart_source": "raw calculation (CoinGecko rank)",
           "chart_ref": null
         }
       },
       "moat": null,
-      "final_score": 7.2,
-      "final_score_pct": 71.7,
-      "quantitative_pct": 71.7,
+      "final_score": 7.5,
+      "final_score_pct": 75.0,
+      "quantitative_pct": 75.0,
       "classification": "Safe",
       "tiebreaker_used": false
     },
     "fear_greed": {
-      "score": 30,
+      "score": 31,
       "label": "Fear",
       "market_cycle_phase": "UNKNOWN",
       "market_cycle_anchor": 30,
       "components": {
         "price_momentum": 5,
         "volume_momentum": 6,
-        "volatility": 7,
+        "volatility": 8,
         "momentum_trend": 3,
         "dilution_pressure": 10,
         "cycle_anchor": 30
@@ -153,70 +153,40 @@
           "is_estimated": false
         },
         "2021": {
-          "fees_usd": 0.68,
-          "revenue_usd": 0.68,
+          "fees_usd": 0.69,
+          "revenue_usd": 0.48,
           "is_estimated": false
         },
         "2022": {
-          "fees_usd": 3.27,
-          "revenue_usd": 3.27,
+          "fees_usd": 3.25,
+          "revenue_usd": 2.27,
           "is_estimated": false
         },
         "2023": {
-          "fees_usd": 1.38,
-          "revenue_usd": 1.38,
+          "fees_usd": 1.39,
+          "revenue_usd": 0.97,
           "is_estimated": false
         },
         "2024": {
-          "fees_usd": 8.5,
-          "revenue_usd": 8.5,
+          "fees_usd": 8.51,
+          "revenue_usd": 5.96,
           "is_estimated": false
         },
         "2025": {
-          "fees_usd": 3.65,
-          "revenue_usd": 3.65,
+          "fees_usd": 3.66,
+          "revenue_usd": 2.56,
           "is_estimated": false
         },
         "2026": {
-          "fees_usd": 0.56,
-          "revenue_usd": 0.39,
-          "holders_revenue_usd": 0.39,
+          "fees_usd": 2.23,
+          "revenue_usd": 1.56,
+          "holders_revenue_usd": 1.56,
           "is_estimated": true
         }
       },
       "treasury_vs_emissions": {
-        "2021": {
-          "treasury_usd_m": 88.65,
-          "emissions_usd_m": null,
-          "is_estimated": true,
-          "note": "Treasury proxied from protocol TVL"
-        },
-        "2022": {
-          "treasury_usd_m": 66.34,
-          "emissions_usd_m": null,
-          "is_estimated": true,
-          "note": "Treasury proxied from protocol TVL"
-        },
-        "2023": {
-          "treasury_usd_m": 88.14,
-          "emissions_usd_m": null,
-          "is_estimated": true,
-          "note": "Treasury proxied from protocol TVL"
-        },
-        "2024": {
-          "treasury_usd_m": 246.38,
-          "emissions_usd_m": null,
-          "is_estimated": true,
-          "note": "Treasury proxied from protocol TVL"
-        },
-        "2025": {
-          "treasury_usd_m": 118.43,
-          "emissions_usd_m": null,
-          "is_estimated": true,
-          "note": "Treasury proxied from protocol TVL"
-        },
         "2026": {
-          "treasury_usd_m": 98.01,
+          "treasury_usd_m": 121.88,
           "emissions_usd_m": null,
           "is_estimated": true,
           "note": "Treasury proxied from protocol TVL"
@@ -224,7 +194,7 @@
       },
       "issuance_vs_burns": {
         "2026": {
-          "circulating_supply_m": 1305.85,
+          "circulating_supply_m": 1309.43,
           "supply_overhang_pct": 0,
           "fdv_to_mc": 1.0,
           "burn_rate": null,
@@ -240,40 +210,40 @@
           "fees_usd_m": 0.0
         },
         "2021": {
-          "fee_tvl_ratio_pct": 0.7668,
+          "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
-          "tvl_usd_m": 88.65,
-          "fees_usd_m": 0.68
+          "tvl_usd_m": null,
+          "fees_usd_m": 0.69
         },
         "2022": {
-          "fee_tvl_ratio_pct": 4.9262,
+          "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
-          "tvl_usd_m": 66.34,
-          "fees_usd_m": 3.27
+          "tvl_usd_m": null,
+          "fees_usd_m": 3.25
         },
         "2023": {
-          "fee_tvl_ratio_pct": 1.561,
+          "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
-          "tvl_usd_m": 88.14,
-          "fees_usd_m": 1.38
+          "tvl_usd_m": null,
+          "fees_usd_m": 1.39
         },
         "2024": {
-          "fee_tvl_ratio_pct": 3.4519,
+          "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
-          "tvl_usd_m": 246.38,
-          "fees_usd_m": 8.5
+          "tvl_usd_m": null,
+          "fees_usd_m": 8.51
         },
         "2025": {
-          "fee_tvl_ratio_pct": 3.0844,
+          "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
-          "tvl_usd_m": 118.43,
-          "fees_usd_m": 3.65
+          "tvl_usd_m": null,
+          "fees_usd_m": 3.66
         },
         "2026": {
           "fee_tvl_ratio_pct": null,
           "real_yield_pct": null,
           "tvl_usd_m": null,
-          "fees_usd_m": 0.56,
+          "fees_usd_m": 2.23,
           "is_estimated": true
         }
       },
@@ -281,70 +251,70 @@
         "data_coverage": "full",
         "years_available": 6,
         "data_note": null,
-        "last_fetched": "2026-08-01 12:16"
+        "last_fetched": "2026-11-01 15:53"
       }
     },
     "valuation_chart": {
       "2026": {
-        "market_price": 1.66,
-        "intrinsic_value": 2.9188,
-        "bull_case": 2.9188,
-        "bear_case": 2.9188,
+        "market_price": 4.33,
+        "intrinsic_value": 7.7345,
+        "bull_case": 7.7345,
+        "bear_case": 7.7345,
         "is_historical": false
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 3.2107,
-        "bull_case": 3.415,
-        "bear_case": 2.5685,
+        "intrinsic_value": 8.508,
+        "bull_case": 9.0494,
+        "bear_case": 6.8064,
         "is_historical": false
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 3.5317,
-        "bull_case": 3.9955,
-        "bear_case": 2.2603,
+        "intrinsic_value": 9.3587,
+        "bull_case": 10.5878,
+        "bear_case": 5.9896,
         "is_historical": false
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 3.8849,
-        "bull_case": 4.6748,
-        "bear_case": 1.9891,
+        "intrinsic_value": 10.2946,
+        "bull_case": 12.3877,
+        "bear_case": 5.2708,
         "is_historical": false
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 4.2734,
-        "bull_case": 5.4695,
-        "bear_case": 1.7504,
+        "intrinsic_value": 11.3241,
+        "bull_case": 14.4936,
+        "bear_case": 4.6383,
         "is_historical": false
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 4.7008,
-        "bull_case": 6.3993,
-        "bear_case": 1.5403,
+        "intrinsic_value": 12.4565,
+        "bull_case": 16.9575,
+        "bear_case": 4.0817,
         "is_historical": false
       }
     },
     "forecast_meta": {
-      "base_iv": 2.9188,
-      "bull_iv": 2.9188,
-      "bear_iv": 2.9188,
-      "yr5_base_target": 4.7008,
-      "yr5_bull_target": 6.3993,
-      "yr5_bear_target": 1.5403,
+      "base_iv": 7.7345,
+      "bull_iv": 7.7345,
+      "bear_iv": 7.7345,
+      "yr5_base_target": 12.4565,
+      "yr5_bull_target": 16.9575,
+      "yr5_bear_target": 4.0817,
       "base_annual_growth_pct": 10.0,
       "bull_annual_growth_pct": 17.0,
       "bear_annual_growth_pct": -12.0,
       "bull_5y_upside_pct": 119.2,
       "bear_5y_change_pct": -47.2,
       "growth_basis": "Quality-adjusted network adoption",
-      "growth_basis_note": "Annual growth rates derived from quality score 7.2/10 and survivability 86.7%. Base: 10.0% p.a., Bull: 17.0% p.a., Bear: -12.0% p.a.",
-      "quality_score": 7.2,
+      "growth_basis_note": "Annual growth rates derived from quality score 7.5/10 and survivability 93.3%. Base: 10.0% p.a., Bull: 17.0% p.a., Bear: -12.0% p.a.",
+      "quality_score": 7.5,
       "quality_multiplier": 0.9,
-      "survivability_pct": 86.7,
+      "survivability_pct": 93.3,
       "survivability_mult": 1.0,
       "growth_constrained": true,
       "bucket": "A",
@@ -354,24 +324,24 @@
         "Rank Benchmark"
       ],
       "iv_breakdown": {
-        "Network Activity (NVT)": 2.5177,
-        "Rank Benchmark": 5.0675
+        "Network Activity (NVT)": 6.809,
+        "Rank Benchmark": 12.5901
       },
       "method_explanation": "How we valued this token: We treat this like a small business. It earns fees every time someone uses it, so we look at how much it earns versus what investors are paying for it. We combine up to three simple checks: (1) How busy is the network? More activity usually means more value. (2) Is the market cap cheap or expensive compared to the fees it earns? (3) What price would make sense given its size rank? The Speculative Fair Value is the average of whichever checks produced a sensible result.",
-      "growth_explanation": "Base (10.0%/yr): projected growth based on this token's quality score (7.2/10). Bull (17.0%/yr): adoption accelerates and network usage grows strongly. Bear (-12.0%/yr): adoption slows or competition erodes the token's position. Unlike stocks, crypto has no analyst EPS forecasts. These rates are based purely on quality and network strength \u2014 treat them as a rough guide, not a precise prediction.",
+      "growth_explanation": "Base (10.0%/yr): projected growth based on this token's quality score (7.5/10). Bull (17.0%/yr): adoption accelerates and network usage grows strongly. Bear (-12.0%/yr): adoption slows or competition erodes the token's position. Unlike stocks, crypto has no analyst EPS forecasts. These rates are based purely on quality and network strength \u2014 treat them as a rough guide, not a precise prediction.",
       "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Fee-based methods (Fee/MC Multiple) used DeFiLlama protocol fee data to anchor the valuation. Fee/MC Multiple produced a value below 10% of current price (fees are low relative to market cap) \u2014 shown in the breakdown chart but excluded from the median pool. Network Activity (NVT) treats 24h trading volume as a proxy for on-chain utility \u2014 it fires when volume is available and the resulting IV falls within 0.1x\u201310x of current price. Metcalfe Network Value is shown in the breakdown chart without contributing to the median: the implied IV is below 10% of current price, indicating the token is trading at a significant premium to its network activity level. Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 2 methods contributed to the median. More data sources (DeFiLlama fee history) would improve confidence in this estimate. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
       "price_history_years": 0,
       "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
     },
-    "intrinsic_value": 2.9188,
+    "intrinsic_value": 7.7345,
     "iv_method": "Network Activity (NVT), Rank Benchmark",
     "iv_methods_count": 2,
     "watchlist_signal": {
       "signal": "Strong Buy",
       "reason": "A Safe-rated Cash-Flow Protocol trading near or below its speculative fair value \u2014 strong quality at a favourable entry point.",
-      "score": 87,
+      "score": 90,
       "inputs": {
-        "quality_base": 72,
+        "quality_base": 75,
         "val_adj": 10,
         "dilution_adj": 5,
         "rank_adj": 0,
@@ -397,53 +367,53 @@
         "bull_points": [
           "Multi-year on-chain fee data confirms the protocol has generated real revenue across both bull and bear market cycles",
           "Over 100% of the maximum supply is already in circulation \u2014 future dilution risk is minimal for long-term holders",
-          "Quality score of 7.2/10 (Safe) places NEAR Protocol among the better-quality protocols in the crypto universe"
+          "Quality score of 7.5/10 (Safe) places NEAR Protocol among the better-quality protocols in the crypto universe"
         ],
         "bear_points": [
-          "MC/Fees of 594x prices in substantial fee growth that has not yet materialised \u2014 long-term holders need adoption to accelerate",
-          "FDV/Holders Revenue of 5564x means almost none of the protocol's fees flow to token holders \u2014 the token lacks direct cash-flow backing",
+          "MC/Fees of 1549x prices in substantial fee growth that has not yet materialised \u2014 long-term holders need adoption to accelerate",
+          "FDV/Holders Revenue of 3635x means almost none of the protocol's fees flow to token holders \u2014 the token lacks direct cash-flow backing",
           "Long-term execution risk remains a key variable for any crypto investment"
         ]
       },
       "source": "rules",
-      "generated_at": "2026-08-01 12:16"
+      "generated_at": "2026-11-01 15:53"
     },
     "quality_narrative": {
       "metric_assessments": {
         "fee_growth": "Fee Growth is solid, meeting the expectations you would expect for a protocol at this stage.",
-        "capital_efficiency": "Capital Efficiency is middling (593.89 MC/fees ratio). The numbers are acceptable but leave room for improvement.",
-        "holder_value_accrual": "Holder Value Accrual is a clear strength (69.6 % of fees to holders), placing this token well above most peers on this dimension.",
-        "network_demand": "Network Demand is solid (7.56 volume/MC %), meeting the expectations you would expect for a protocol at this stage.",
+        "capital_efficiency": "Capital Efficiency is middling (1549.13 MC/fees ratio). The numbers are acceptable but leave room for improvement.",
+        "holder_value_accrual": "Holder Value Accrual is a clear strength (70.0 % of fees to holders), placing this token well above most peers on this dimension.",
+        "network_demand": "Network Demand is solid (7.87 volume/MC %), meeting the expectations you would expect for a protocol at this stage.",
         "dilution_control": "Dilution Control is a clear strength (100.0 circulating %), placing this token well above most peers on this dimension.",
-        "protocol_maturity": "Protocol Maturity is solid (39 MC rank), meeting the expectations you would expect for a protocol at this stage."
+        "protocol_maturity": "Protocol Maturity is a clear strength (21 MC rank), placing this token well above most peers on this dimension."
       },
-      "classification_reason": "NEAR Protocol earns a Safe rating because its fundamentals score 7.2/10 as a Cash-Flow Protocol, above the threshold that distinguishes established protocols from speculative ones. Its standout strength is holder value accrual. The relatively controlled token supply reduces dilution risk. ",
-      "investment_narrative": "NEAR Protocol is a Cash-Flow Protocol with strong fundamentals, scoring 7.2/10 overall. Its clearest strength is holder value accrual, while capital efficiency remains the main area to watch. No major structural red flags in the current data. NEAR Protocol is suitable for investors seeking more established crypto exposure with lower protocol-level risk.",
-      "quality_conclusion": "NEAR Protocol scores 7.2/10 (Safe) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
+      "classification_reason": "NEAR Protocol earns a Safe rating because its fundamentals score 7.5/10 as a Cash-Flow Protocol, above the threshold that distinguishes established protocols from speculative ones. Its standout strength is holder value accrual. The relatively controlled token supply reduces dilution risk. ",
+      "investment_narrative": "NEAR Protocol is a Cash-Flow Protocol with strong fundamentals, scoring 7.5/10 overall. Its clearest strength is holder value accrual, while capital efficiency remains the main area to watch. No major structural red flags in the current data. NEAR Protocol is suitable for investors seeking more established crypto exposure with lower protocol-level risk.",
+      "quality_conclusion": "NEAR Protocol scores 7.5/10 (Safe) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
       "source": "rules",
-      "generated_at": "2026-08-01 12:16"
+      "generated_at": "2026-11-01 15:53"
     },
     "protocol_metrics": {
-      "annual_protocol_fees_usd": 3650000.0,
-      "annual_fees_current_usd": 555116.33,
+      "annual_protocol_fees_usd": 3660000.0,
+      "annual_fees_current_usd": 2230028.33,
       "annual_fees_normalised": true,
-      "annual_revenue_usd": 388603.33,
-      "annual_holders_revenue_usd": 388603.33,
+      "annual_revenue_usd": 1560995.5,
+      "annual_holders_revenue_usd": 1560995.5,
       "tvl_usd": null,
-      "dcf_protocol_value_usd": 21128807.95,
+      "dcf_protocol_value_usd": 21186695.09,
       "dcf_fair_value_per_token": 0.0162,
-      "ps_ratio": 593.89,
-      "pe_ratio_fdv_to_holders_rev": 5563.53,
+      "ps_ratio": 1549.13,
+      "pe_ratio_fdv_to_holders_rev": 3635.3,
       "data_source": "defillama"
     },
-    "last_updated": "2026-08-01 12:16",
+    "last_updated": "2026-11-01 15:53",
     "price_history": {
-      "2026": 1.66
+      "2026": 4.33
     },
     "market_fear_greed": {
-      "value": 27,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": "1785542400"
+      "timestamp": "1793491200"
     }
   },
   "NEXO": {
@@ -454,23 +424,23 @@
       "bucket": "A",
       "bucket_label": "Cash-Flow Protocol",
       "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
-      "description": "NEXO (NEXO) \u2014 a Cash-Flow Protocol ranked #81 by market cap.",
+      "description": "NEXO (NEXO) \u2014 a Cash-Flow Protocol ranked #84 by market cap.",
       "image_url": "https://coin-images.coingecko.com/coins/images/3695/large/CG-nexo-token-200x200_2x.png?1730414360",
-      "market_cap_rank": 81,
-      "market_cap_usd": 714722697.0,
-      "fully_diluted_valuation": 714476000.0,
-      "current_price": 0.714476,
+      "market_cap_rank": 84,
+      "market_cap_usd": 770408200.0,
+      "fully_diluted_valuation": 770408000.0,
+      "current_price": 0.770408,
       "ath": 4.07,
       "ath_date": "2021-05-12",
-      "ath_change_pct": -82.4,
+      "ath_change_pct": -81.1,
       "atl": 0.04515276,
       "atl_date": "2018-09-12",
-      "price_change_7d_pct": -3.3,
-      "price_change_30d_pct": -5.6,
+      "price_change_7d_pct": -4.9746,
+      "price_change_30d_pct": -10.6862,
       "circulating_supply": 1000000000.0,
       "total_supply": 1000000000.0,
       "max_supply": 1000000000.0,
-      "total_volume_24h": 2808819.0,
+      "total_volume_24h": 1775727.0,
       "defillama_slug": null,
       "has_curated_description": false
     },
@@ -478,19 +448,19 @@
     "coin_id": "nexo",
     "bucket": "A",
     "bucket_label": "Cash-Flow Protocol",
-    "current_price": 0.714476,
-    "market_cap": 714722697.0,
-    "fully_diluted_valuation": 714476000.0,
-    "market_cap_rank": 81,
-    "price_change_7d_pct": -3.3,
-    "price_change_30d_pct": -5.6,
+    "current_price": 0.770408,
+    "market_cap": 770408200.0,
+    "fully_diluted_valuation": 770408000.0,
+    "market_cap_rank": 84,
+    "price_change_7d_pct": -4.9746,
+    "price_change_30d_pct": -10.6862,
     "dilution": {
       "circulating_pct": 100.0,
       "supply_overhang": 0.0,
-      "fully_diluted_valuation": 714476000.0,
+      "fully_diluted_valuation": 770408000.0,
       "fdv_to_mc_ratio": 1.0
     },
-    "metcalfe_ratio": 254.46,
+    "metcalfe_ratio": 433.86,
     "quality": {
       "scores": {
         "fee_growth": {
@@ -527,7 +497,7 @@
           "label": "Network Demand",
           "score": 1,
           "max": 10,
-          "value": 0.39,
+          "value": 0.23,
           "unit": "volume/MC %",
           "chart_source": "raw calculation (CoinGecko volume)",
           "chart_ref": null,
@@ -546,7 +516,7 @@
           "label": "Protocol Maturity",
           "score": 4,
           "max": 10,
-          "value": 81,
+          "value": 84,
           "unit": "MC rank",
           "chart_source": "raw calculation (CoinGecko rank)",
           "chart_ref": null
@@ -560,7 +530,7 @@
       "tiebreaker_used": true
     },
     "fear_greed": {
-      "score": 29,
+      "score": 30,
       "label": "Fear",
       "market_cycle_phase": "UNKNOWN",
       "market_cycle_anchor": 30,
@@ -597,7 +567,7 @@
       "treasury_vs_emissions": {},
       "issuance_vs_burns": {
         "2026": {
-          "circulating_supply_m": 1000.35,
+          "circulating_supply_m": 1000.0,
           "supply_overhang_pct": 0,
           "fdv_to_mc": 1.0,
           "burn_rate": null,
@@ -610,12 +580,12 @@
         "data_coverage": "unavailable",
         "years_available": 0,
         "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
-        "last_fetched": "2026-08-01 12:16"
+        "last_fetched": "2026-11-01 15:53"
       }
     },
     "valuation_chart": {
       "2026": {
-        "market_price": 0.7145,
+        "market_price": 0.7704,
         "intrinsic_value": 1.08,
         "bull_case": 1.08,
         "bear_case": 1.08,
@@ -695,7 +665,7 @@
     "iv_methods_count": 1,
     "watchlist_signal": {
       "signal": "Buy",
-      "reason": "Good fundamentals for a Cash-Flow Protocol at rank #81. Consider accumulating at current levels.",
+      "reason": "Good fundamentals for a Cash-Flow Protocol at rank #84. Consider accumulating at current levels.",
       "score": 65,
       "inputs": {
         "quality_base": 50,
@@ -733,22 +703,22 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-08-01 12:16"
+      "generated_at": "2026-11-01 15:53"
     },
     "quality_narrative": {
       "metric_assessments": {
         "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
         "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
         "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
-        "network_demand": "Network Demand is a concern (0.39 volume/MC %). This dimension is below par and worth monitoring closely.",
+        "network_demand": "Network Demand is a concern (0.23 volume/MC %). This dimension is below par and worth monitoring closely.",
         "dilution_control": "Dilution Control is a clear strength (100.0 circulating %), placing this token well above most peers on this dimension.",
-        "protocol_maturity": "Protocol Maturity is middling (81 MC rank). The numbers are acceptable but leave room for improvement."
+        "protocol_maturity": "Protocol Maturity is middling (84 MC rank). The numbers are acceptable but leave room for improvement."
       },
       "classification_reason": "NEXO is rated Speculative because while it has genuine strengths in dilution control, it also has a notable weakness in network demand that introduces meaningful uncertainty. Speculative means real potential but less predictable outcomes than a Safe-rated asset.",
       "investment_narrative": "NEXO is a Cash-Flow Protocol with mixed fundamentals, scoring 5.0/10 overall. Its clearest strength is dilution control, while network demand remains the main area to watch. Key risks: low network demand score (1/10). NEXO is appropriate for investors with higher risk tolerance and conviction in its long-term growth thesis.",
       "quality_conclusion": "NEXO scores 5.0/10 (Speculative) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
       "source": "rules",
-      "generated_at": "2026-08-01 12:16"
+      "generated_at": "2026-11-01 15:53"
     },
     "protocol_metrics": {
       "annual_protocol_fees_usd": null,
@@ -763,14 +733,14 @@
       "pe_ratio_fdv_to_holders_rev": null,
       "data_source": "unavailable"
     },
-    "last_updated": "2026-08-01 12:16",
+    "last_updated": "2026-11-01 15:53",
     "price_history": {
-      "2026": 0.7145
+      "2026": 0.7704
     },
     "market_fear_greed": {
-      "value": 27,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": "1785542400"
+      "timestamp": "1793491200"
     }
   },
   "NIGHT": {
@@ -781,23 +751,23 @@
       "bucket": "A",
       "bucket_label": "Cash-Flow Protocol",
       "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
-      "description": "Midnight (NIGHT) \u2014 a Cash-Flow Protocol ranked #123 by market cap.",
+      "description": "Midnight (NIGHT) \u2014 a Cash-Flow Protocol ranked #88 by market cap.",
       "image_url": "https://coin-images.coingecko.com/coins/images/71015/large/midnight.png?1765193080",
-      "market_cap_rank": 123,
-      "market_cap_usd": 300200435.0,
-      "fully_diluted_valuation": 433140480.0,
-      "current_price": 0.01804752,
+      "market_cap_rank": 88,
+      "market_cap_usd": 700791995.0,
+      "fully_diluted_valuation": 1012741920.0,
+      "current_price": 0.04219758,
       "ath": 0.118529,
       "ath_date": "2025-12-09",
-      "ath_change_pct": -84.8,
+      "ath_change_pct": -64.4,
       "atl": 0.0152398,
       "atl_date": "2026-07-20",
-      "price_change_7d_pct": -8.8,
-      "price_change_30d_pct": -41.4,
+      "price_change_7d_pct": 12.8461,
+      "price_change_30d_pct": -14.8375,
       "circulating_supply": 16607399400.634954,
       "total_supply": 24000000000.0,
       "max_supply": 24000000000.0,
-      "total_volume_24h": 8806115.0,
+      "total_volume_24h": 10727023.0,
       "defillama_slug": null,
       "has_curated_description": false
     },
@@ -805,24 +775,24 @@
     "coin_id": "midnight-3",
     "bucket": "A",
     "bucket_label": "Cash-Flow Protocol",
-    "current_price": 0.01804752,
-    "market_cap": 300200435.0,
-    "fully_diluted_valuation": 433140480.0,
-    "market_cap_rank": 123,
-    "price_change_7d_pct": -8.8,
-    "price_change_30d_pct": -41.4,
+    "current_price": 0.04219758,
+    "market_cap": 700791995.0,
+    "fully_diluted_valuation": 1012741920.0,
+    "market_cap_rank": 88,
+    "price_change_7d_pct": 12.8461,
+    "price_change_30d_pct": -14.8375,
     "dilution": {
       "circulating_pct": 69.2,
       "supply_overhang": 30.8,
-      "fully_diluted_valuation": 433140480.0,
-      "fdv_to_mc_ratio": 1.44
+      "fully_diluted_valuation": 1012741920.0,
+      "fdv_to_mc_ratio": 1.45
     },
-    "metcalfe_ratio": 34.09,
+    "metcalfe_ratio": 65.33,
     "quality": {
       "scores": {
         "fee_growth": {
           "label": "Fee Growth",
-          "score": 4,
+          "score": 5,
           "max": 10,
           "value": null,
           "unit": "vol/MC proxy",
@@ -852,9 +822,9 @@
         },
         "network_demand": {
           "label": "Network Demand",
-          "score": 4,
+          "score": 2,
           "max": 10,
-          "value": 2.93,
+          "value": 1.53,
           "unit": "volume/MC %",
           "chart_source": "raw calculation (CoinGecko volume)",
           "chart_ref": null,
@@ -871,31 +841,31 @@
         },
         "protocol_maturity": {
           "label": "Protocol Maturity",
-          "score": 2,
+          "score": 4,
           "max": 10,
-          "value": 123,
+          "value": 88,
           "unit": "MC rank",
           "chart_source": "raw calculation (CoinGecko rank)",
           "chart_ref": null
         }
       },
       "moat": null,
-      "final_score": 4.0,
-      "final_score_pct": 40.0,
-      "quantitative_pct": 40.0,
+      "final_score": 4.2,
+      "final_score_pct": 41.7,
+      "quantitative_pct": 41.7,
       "classification": "Dangerous",
       "tiebreaker_used": false
     },
     "fear_greed": {
-      "score": 25,
+      "score": 36,
       "label": "Fear",
       "market_cycle_phase": "UNKNOWN",
       "market_cycle_anchor": 30,
       "components": {
-        "price_momentum": 1,
-        "volume_momentum": 6,
-        "volatility": 7,
-        "momentum_trend": 3,
+        "price_momentum": 5,
+        "volume_momentum": 8,
+        "volatility": 10,
+        "momentum_trend": 15,
         "dilution_pressure": 3,
         "cycle_anchor": 30
       }
@@ -911,12 +881,12 @@
       "data_years": 1
     },
     "chart_zones": {
-      "current_zone": "OVEREXTENDED_ZONE",
-      "current_zone_label": "Overextended Zone",
+      "current_zone": "ACCUMULATION_ZONE",
+      "current_zone_label": "Accumulation Zone",
       "margin_of_safety": false,
-      "mos_note": "Price above speculative fair value \u2014 no margin of safety.",
+      "mos_note": "Cycle phase (Insufficient Data) not favourable for entry \u2014 wait for accumulation or early uptrend.",
       "zones_by_year": {
-        "2026": "OVEREXTENDED_ZONE"
+        "2026": "ACCUMULATION_ZONE"
       }
     },
     "network_economics": {
@@ -924,9 +894,9 @@
       "treasury_vs_emissions": {},
       "issuance_vs_burns": {
         "2026": {
-          "circulating_supply_m": 16633.89,
+          "circulating_supply_m": 16607.4,
           "supply_overhang_pct": 30.8,
-          "fdv_to_mc": 1.44,
+          "fdv_to_mc": 1.45,
           "burn_rate": null,
           "net_issuance_note": "Current snapshot only. Historical supply data requires on-chain indexing not available via free APIs.",
           "is_estimated": true
@@ -937,110 +907,108 @@
         "data_coverage": "unavailable",
         "years_available": 0,
         "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
-        "last_fetched": "2026-08-01 12:17"
+        "last_fetched": "2026-11-01 15:53"
       }
     },
     "valuation_chart": {
       "2026": {
-        "market_price": 0.018,
-        "intrinsic_value": 0.0137,
-        "bull_case": 0.0137,
-        "bear_case": 0.0137,
+        "market_price": 0.0422,
+        "intrinsic_value": 0.0578,
+        "bull_case": 0.0578,
+        "bear_case": 0.0578,
         "is_historical": false
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 0.0141,
-        "bull_case": 0.0149,
-        "bear_case": 0.00863648,
+        "intrinsic_value": 0.0595,
+        "bull_case": 0.063,
+        "bear_case": 0.0364,
         "is_historical": false
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 0.0145,
-        "bull_case": 0.0163,
-        "bear_case": 0.00544444,
+        "intrinsic_value": 0.0613,
+        "bull_case": 0.0687,
+        "bear_case": 0.023,
         "is_historical": false
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 0.015,
-        "bull_case": 0.0177,
-        "bear_case": 0.00343217,
+        "intrinsic_value": 0.0632,
+        "bull_case": 0.0749,
+        "bear_case": 0.0145,
         "is_historical": false
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 0.0154,
-        "bull_case": 0.0193,
-        "bear_case": 0.00216364,
+        "intrinsic_value": 0.0651,
+        "bull_case": 0.0816,
+        "bear_case": 0.00912836,
         "is_historical": false
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 0.0159,
-        "bull_case": 0.0211,
-        "bear_case": 0.00136396,
+        "intrinsic_value": 0.067,
+        "bull_case": 0.0889,
+        "bear_case": 0.00575452,
         "is_historical": false
       }
     },
     "forecast_meta": {
-      "base_iv": 0.0137,
-      "bull_iv": 0.0137,
-      "bear_iv": 0.0137,
-      "yr5_base_target": 0.0159,
-      "yr5_bull_target": 0.0211,
-      "yr5_bear_target": 0.00136396,
+      "base_iv": 0.0578,
+      "bull_iv": 0.0578,
+      "bear_iv": 0.0578,
+      "yr5_base_target": 0.067,
+      "yr5_bull_target": 0.0889,
+      "yr5_bear_target": 0.00575452,
       "base_annual_growth_pct": 3.0,
       "bull_annual_growth_pct": 9.0,
       "bear_annual_growth_pct": -37.0,
-      "bull_5y_upside_pct": 54.0,
+      "bull_5y_upside_pct": 53.8,
       "bear_5y_change_pct": -90.0,
       "growth_basis": "Quality-adjusted network adoption",
-      "growth_basis_note": "Annual growth rates derived from quality score 4.0/10 and survivability 36.7%. Base: 3.0% p.a., Bull: 9.0% p.a., Bear: -37.0% p.a.",
-      "quality_score": 4.0,
+      "growth_basis_note": "Annual growth rates derived from quality score 4.2/10 and survivability 43.3%. Base: 3.0% p.a., Bull: 9.0% p.a., Bear: -37.0% p.a.",
+      "quality_score": 4.2,
       "quality_multiplier": 0.75,
-      "survivability_pct": 36.7,
+      "survivability_pct": 43.3,
       "survivability_mult": 0.6,
       "growth_constrained": true,
       "bucket": "A",
-      "iv_sources": 2,
+      "iv_sources": 1,
       "methods_used": [
-        "Network Activity (NVT)",
         "Rank Benchmark"
       ],
       "iv_breakdown": {
-        "Network Activity (NVT)": 0.0032,
-        "Rank Benchmark": 0.0241
+        "Rank Benchmark": 0.0578
       },
       "method_explanation": "How we valued this token: We treat this like a small business. It earns fees every time someone uses it, so we look at how much it earns versus what investors are paying for it. We combine up to three simple checks: (1) How busy is the network? More activity usually means more value. (2) Is the market cap cheap or expensive compared to the fees it earns? (3) What price would make sense given its size rank? The Speculative Fair Value is the average of whichever checks produced a sensible result.",
-      "growth_explanation": "Base (3.0%/yr): projected growth based on this token's quality score (4.0/10). Bull (9.0%/yr): adoption accelerates and network usage grows strongly. Bear (-37.0%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 36.7% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
-      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Network Activity (NVT) treats 24h trading volume as a proxy for on-chain utility \u2014 it fires when volume is available and the resulting IV falls within 0.1x\u201310x of current price. Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 2 methods contributed to the median. More data sources (DeFiLlama fee history) would improve confidence in this estimate. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
+      "growth_explanation": "Base (3.0%/yr): projected growth based on this token's quality score (4.2/10). Bull (9.0%/yr): adoption accelerates and network usage grows strongly. Bear (-37.0%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 43.3% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
+      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Network Activity (NVT) did not contribute to the median: the implied fair value fell outside the 0.1x\u201310x price bounds (volume is very low or very high relative to circulating supply). Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 1 method contributed to the median \u2014 the valuation should be treated as a rough anchor, not a precise fair value. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
       "price_history_years": 0,
       "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
     },
-    "intrinsic_value": 0.0137,
-    "iv_method": "Network Activity (NVT), Rank Benchmark",
-    "iv_methods_count": 2,
+    "intrinsic_value": 0.0578,
+    "iv_method": "Rank Benchmark",
+    "iv_methods_count": 1,
     "watchlist_signal": {
       "signal": "Avoid",
       "reason": "Weak fundamentals or heavily overextended price relative to value \u2014 higher-quality opportunities available elsewhere.",
-      "score": 20,
+      "score": 52,
       "inputs": {
-        "quality_base": 40,
-        "val_adj": -20,
+        "quality_base": 42,
+        "val_adj": 10,
         "dilution_adj": 0,
         "rank_adj": 0,
         "classification": "Dangerous",
-        "zone": "OVEREXTENDED_ZONE",
+        "zone": "ACCUMULATION_ZONE",
         "mos_active": false
       }
     },
     "bull_bear": {
       "short_term": {
         "bull_points": [
-          "Fear & Greed score of 25 (Fear) signals extreme pessimism \u2014 historically a contrarian entry signal for Midnight over the next 1-3 months",
-          "Down 41% over 30 days \u2014 significant drawdown may represent an attractive near-term entry for a recovery trade",
+          "Current market fear environment may create a near-term mean reversion opportunity in Midnight",
+          "Any positive news catalyst \u2014 exchange listing, partnership, or protocol upgrade \u2014 could trigger a sharp near-term rally from current levels",
           "Crypto market sentiment is cyclical \u2014 Midnight's short-term setup may improve as macro uncertainty fades"
         ],
         "bear_points": [
@@ -1062,22 +1030,22 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-08-01 12:17"
+      "generated_at": "2026-11-01 15:53"
     },
     "quality_narrative": {
       "metric_assessments": {
         "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
         "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
         "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
-        "network_demand": "Network Demand is middling (2.93 volume/MC %). The numbers are acceptable but leave room for improvement.",
+        "network_demand": "Network Demand is a concern (1.53 volume/MC %). This dimension is below par and worth monitoring closely.",
         "dilution_control": "Dilution Control is middling (69.2 circulating %). The numbers are acceptable but leave room for improvement.",
-        "protocol_maturity": "Protocol Maturity is a concern (123 MC rank). This dimension is below par and worth monitoring closely."
+        "protocol_maturity": "Protocol Maturity is middling (88 MC rank). The numbers are acceptable but leave room for improvement."
       },
-      "classification_reason": "Midnight carries a Dangerous rating because its fundamentals score only 4.0/10 as a Cash-Flow Protocol, with notable weaknesses in protocol maturity. Dangerous-rated tokens carry a higher risk of permanent capital loss and should only be held with strict position sizing and a clear exit plan.",
-      "investment_narrative": "Midnight is a Cash-Flow Protocol with weak fundamentals, scoring 4.0/10 overall. Its clearest strength is capital efficiency, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (2/10); recent price weakness (-41% over 30 days). Midnight warrants caution and should only be held as a small position with a clear thesis and defined risk limits.",
-      "quality_conclusion": "Midnight scores 4.0/10 (Dangerous) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
+      "classification_reason": "Midnight carries a Dangerous rating because its fundamentals score only 4.2/10 as a Cash-Flow Protocol, with notable weaknesses in network demand. Dangerous-rated tokens carry a higher risk of permanent capital loss and should only be held with strict position sizing and a clear exit plan.",
+      "investment_narrative": "Midnight is a Cash-Flow Protocol with weak fundamentals, scoring 4.2/10 overall. Its clearest strength is fee growth, while network demand remains the main area to watch. Key risks: low network demand score (2/10). Midnight warrants caution and should only be held as a small position with a clear thesis and defined risk limits.",
+      "quality_conclusion": "Midnight scores 4.2/10 (Dangerous) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
       "source": "rules",
-      "generated_at": "2026-08-01 12:17"
+      "generated_at": "2026-11-01 15:53"
     },
     "protocol_metrics": {
       "annual_protocol_fees_usd": null,
@@ -1092,14 +1060,14 @@
       "pe_ratio_fdv_to_holders_rev": null,
       "data_source": "unavailable"
     },
-    "last_updated": "2026-08-01 12:17",
+    "last_updated": "2026-11-01 15:53",
     "price_history": {
-      "2026": 0.018
+      "2026": 0.0422
     },
     "market_fear_greed": {
-      "value": 27,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": "1785542400"
+      "timestamp": "1793491200"
     }
   },
   "NFT": {
@@ -1110,23 +1078,23 @@
       "bucket": "A",
       "bucket_label": "Cash-Flow Protocol",
       "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
-      "description": "AINFT (NFT) \u2014 a Cash-Flow Protocol ranked #133 by market cap.",
+      "description": "AINFT (NFT) \u2014 a Cash-Flow Protocol ranked #152 by market cap.",
       "image_url": "https://coin-images.coingecko.com/coins/images/15687/large/AINFT.png?1761099340",
-      "market_cap_rank": 133,
-      "market_cap_usd": 265301853.0,
-      "fully_diluted_valuation": 267950320.47,
-      "current_price": 2.67953e-07,
+      "market_cap_rank": 152,
+      "market_cap_usd": 233926543.0,
+      "fully_diluted_valuation": 236261637.36,
+      "current_price": 2.36264e-07,
       "ath": 7.53e-06,
       "ath_date": "2021-09-04",
-      "ath_change_pct": -96.4,
-      "atl": 2.59093e-07,
-      "atl_date": "2026-06-25",
-      "price_change_7d_pct": -0.3,
-      "price_change_30d_pct": 1.9,
+      "ath_change_pct": -96.9,
+      "atl": 2.30455e-07,
+      "atl_date": "2026-09-13",
+      "price_change_7d_pct": 0.5189,
+      "price_change_30d_pct": -2.3461,
       "circulating_supply": 990105592982874.8,
       "total_supply": 990105592982874.8,
       "max_supply": 999990000000000.0,
-      "total_volume_24h": 5472462.0,
+      "total_volume_24h": 11460339.0,
       "defillama_slug": null,
       "has_curated_description": false
     },
@@ -1134,19 +1102,19 @@
     "coin_id": "apenft",
     "bucket": "A",
     "bucket_label": "Cash-Flow Protocol",
-    "current_price": 2.67953e-07,
-    "market_cap": 265301853.0,
-    "fully_diluted_valuation": 267950320.47,
-    "market_cap_rank": 133,
-    "price_change_7d_pct": -0.3,
-    "price_change_30d_pct": 1.9,
+    "current_price": 2.36264e-07,
+    "market_cap": 233926543.0,
+    "fully_diluted_valuation": 236261637.36,
+    "market_cap_rank": 152,
+    "price_change_7d_pct": 0.5189,
+    "price_change_30d_pct": -2.3461,
     "dilution": {
       "circulating_pct": 99.01,
       "supply_overhang": 0.99,
-      "fully_diluted_valuation": 267950320.47,
+      "fully_diluted_valuation": 236261637.36,
       "fdv_to_mc_ratio": 1.01
     },
-    "metcalfe_ratio": 48.48,
+    "metcalfe_ratio": 20.41,
     "quality": {
       "scores": {
         "fee_growth": {
@@ -1183,7 +1151,7 @@
           "label": "Network Demand",
           "score": 4,
           "max": 10,
-          "value": 2.06,
+          "value": 4.9,
           "unit": "volume/MC %",
           "chart_source": "raw calculation (CoinGecko volume)",
           "chart_ref": null,
@@ -1202,7 +1170,7 @@
           "label": "Protocol Maturity",
           "score": 2,
           "max": 10,
-          "value": 133,
+          "value": 152,
           "unit": "MC rank",
           "chart_source": "raw calculation (CoinGecko rank)",
           "chart_ref": null
@@ -1221,10 +1189,10 @@
       "market_cycle_phase": "UNKNOWN",
       "market_cycle_anchor": 30,
       "components": {
-        "price_momentum": 10,
+        "price_momentum": 7,
         "volume_momentum": 12,
         "volatility": 8,
-        "momentum_trend": 6,
+        "momentum_trend": 9,
         "dilution_pressure": 10,
         "cycle_anchor": 30
       }
@@ -1253,7 +1221,7 @@
       "treasury_vs_emissions": {},
       "issuance_vs_burns": {
         "2026": {
-          "circulating_supply_m": 990105925.29,
+          "circulating_supply_m": 990106588.39,
           "supply_overhang_pct": 0.99,
           "fdv_to_mc": 1.01,
           "burn_rate": null,
@@ -1266,60 +1234,60 @@
         "data_coverage": "unavailable",
         "years_available": 0,
         "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
-        "last_fetched": "2026-08-01 12:17"
+        "last_fetched": "2026-11-01 15:54"
       }
     },
     "valuation_chart": {
       "2026": {
-        "market_price": 2.67953e-07,
-        "intrinsic_value": 2.67953e-07,
-        "bull_case": 2.67953e-07,
-        "bear_case": 2.67953e-07,
+        "market_price": 2.36264e-07,
+        "intrinsic_value": 2.36264e-07,
+        "bull_case": 2.36264e-07,
+        "bear_case": 2.36264e-07,
         "is_historical": false
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 2.8671e-07,
-        "bull_case": 3.02787e-07,
-        "bear_case": 2.11361e-07,
+        "intrinsic_value": 2.52802e-07,
+        "bull_case": 2.66978e-07,
+        "bear_case": 1.86365e-07,
         "is_historical": false
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 3.06779e-07,
-        "bull_case": 3.42149e-07,
-        "bear_case": 1.66722e-07,
+        "intrinsic_value": 2.70499e-07,
+        "bull_case": 3.01686e-07,
+        "bear_case": 1.47005e-07,
         "is_historical": false
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 3.28254e-07,
-        "bull_case": 3.86629e-07,
-        "bear_case": 1.3151e-07,
+        "intrinsic_value": 2.89434e-07,
+        "bull_case": 3.40905e-07,
+        "bear_case": 1.15957e-07,
         "is_historical": false
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 3.51232e-07,
-        "bull_case": 4.3689e-07,
-        "bear_case": 1.03735e-07,
+        "intrinsic_value": 3.09694e-07,
+        "bull_case": 3.85222e-07,
+        "bear_case": 9.14672e-08,
         "is_historical": false
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 3.75818e-07,
-        "bull_case": 4.93686e-07,
-        "bear_case": 8.18263e-08,
+        "intrinsic_value": 3.31372e-07,
+        "bull_case": 4.35301e-07,
+        "bear_case": 7.21493e-08,
         "is_historical": false
       }
     },
     "forecast_meta": {
-      "base_iv": 2.67953e-07,
-      "bull_iv": 2.67953e-07,
-      "bear_iv": 2.67953e-07,
-      "yr5_base_target": 3.75818e-07,
-      "yr5_bull_target": 4.93686e-07,
-      "yr5_bear_target": 8.18263e-08,
+      "base_iv": 2.36264e-07,
+      "bull_iv": 2.36264e-07,
+      "bear_iv": 2.36264e-07,
+      "yr5_base_target": 3.31372e-07,
+      "yr5_bull_target": 4.35301e-07,
+      "yr5_bear_target": 7.21493e-08,
       "base_annual_growth_pct": 7.0,
       "bull_annual_growth_pct": 13.0,
       "bear_annual_growth_pct": -21.1,
@@ -1342,7 +1310,7 @@
       "price_history_years": 0,
       "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
     },
-    "intrinsic_value": 2.67953e-07,
+    "intrinsic_value": 2.36264e-07,
     "iv_method": "Market price (insufficient data)",
     "iv_methods_count": 0,
     "watchlist_signal": {
@@ -1385,22 +1353,22 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-08-01 12:17"
+      "generated_at": "2026-11-01 15:54"
     },
     "quality_narrative": {
       "metric_assessments": {
         "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
         "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
         "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
-        "network_demand": "Network Demand is middling (2.06 volume/MC %). The numbers are acceptable but leave room for improvement.",
+        "network_demand": "Network Demand is middling (4.9 volume/MC %). The numbers are acceptable but leave room for improvement.",
         "dilution_control": "Dilution Control is a clear strength (99.01 circulating %), placing this token well above most peers on this dimension.",
-        "protocol_maturity": "Protocol Maturity is a concern (133 MC rank). This dimension is below par and worth monitoring closely."
+        "protocol_maturity": "Protocol Maturity is a concern (152 MC rank). This dimension is below par and worth monitoring closely."
       },
       "classification_reason": "AINFT is rated Speculative because while it has genuine strengths in dilution control, it also has a notable weakness in protocol maturity that introduces meaningful uncertainty. Speculative means real potential but less predictable outcomes than a Safe-rated asset.",
       "investment_narrative": "AINFT is a Cash-Flow Protocol with mixed fundamentals, scoring 5.0/10 overall. Its clearest strength is dilution control, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (2/10). AINFT is appropriate for investors with higher risk tolerance and conviction in its long-term growth thesis.",
       "quality_conclusion": "AINFT scores 5.0/10 (Speculative) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
       "source": "rules",
-      "generated_at": "2026-08-01 12:17"
+      "generated_at": "2026-11-01 15:54"
     },
     "protocol_metrics": {
       "annual_protocol_fees_usd": null,
@@ -1415,14 +1383,14 @@
       "pe_ratio_fdv_to_holders_rev": null,
       "data_source": "unavailable"
     },
-    "last_updated": "2026-08-01 12:17",
+    "last_updated": "2026-11-01 15:54",
     "price_history": {
-      "2026": 2.67953e-07
+      "2026": 2.36264e-07
     },
     "market_fear_greed": {
-      "value": 27,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": "1785542400"
+      "timestamp": "1793491200"
     }
   },
   "NEO": {
@@ -1433,23 +1401,23 @@
       "bucket": "A",
       "bucket_label": "Cash-Flow Protocol",
       "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
-      "description": "NEO (NEO) \u2014 a Cash-Flow Protocol ranked #214 by market cap.",
+      "description": "NEO (NEO) \u2014 a Cash-Flow Protocol ranked #216 by market cap.",
       "image_url": "https://coin-images.coingecko.com/coins/images/480/large/NEO_512_512.png?1696501735",
-      "market_cap_rank": 214,
-      "market_cap_usd": 129726180.0,
-      "fully_diluted_valuation": 184000000.0,
-      "current_price": 1.84,
+      "market_cap_rank": 216,
+      "market_cap_usd": 140185576.0,
+      "fully_diluted_valuation": 199000000.0,
+      "current_price": 1.99,
       "ath": 198.38,
       "ath_date": "2018-01-14",
-      "ath_change_pct": -99.1,
+      "ath_change_pct": -99.0,
       "atl": 0.078349,
       "atl_date": "2016-10-20",
-      "price_change_7d_pct": -6.1,
-      "price_change_30d_pct": -5.4,
+      "price_change_7d_pct": -4.5504,
+      "price_change_30d_pct": -24.5641,
       "circulating_supply": 70530000.0,
       "total_supply": 100000000.0,
       "max_supply": null,
-      "total_volume_24h": 2776055.0,
+      "total_volume_24h": 2302332.0,
       "defillama_slug": null,
       "has_curated_description": false
     },
@@ -1457,24 +1425,24 @@
     "coin_id": "neo",
     "bucket": "A",
     "bucket_label": "Cash-Flow Protocol",
-    "current_price": 1.84,
-    "market_cap": 129726180.0,
-    "fully_diluted_valuation": 184000000.0,
-    "market_cap_rank": 214,
-    "price_change_7d_pct": -6.1,
-    "price_change_30d_pct": -5.4,
+    "current_price": 1.99,
+    "market_cap": 140185576.0,
+    "fully_diluted_valuation": 199000000.0,
+    "market_cap_rank": 216,
+    "price_change_7d_pct": -4.5504,
+    "price_change_30d_pct": -24.5641,
     "dilution": {
       "circulating_pct": 70.53,
       "supply_overhang": 29.47,
-      "fully_diluted_valuation": 184000000.0,
+      "fully_diluted_valuation": 199000000.0,
       "fdv_to_mc_ratio": 1.42
     },
-    "metcalfe_ratio": 46.73,
+    "metcalfe_ratio": 60.89,
     "quality": {
       "scores": {
         "fee_growth": {
           "label": "Fee Growth",
-          "score": 4,
+          "score": 5,
           "max": 10,
           "value": null,
           "unit": "vol/MC proxy",
@@ -1504,9 +1472,9 @@
         },
         "network_demand": {
           "label": "Network Demand",
-          "score": 4,
+          "score": 2,
           "max": 10,
-          "value": 2.14,
+          "value": 1.64,
           "unit": "volume/MC %",
           "chart_source": "raw calculation (CoinGecko volume)",
           "chart_ref": null,
@@ -1525,28 +1493,28 @@
           "label": "Protocol Maturity",
           "score": 1,
           "max": 10,
-          "value": 214,
+          "value": 216,
           "unit": "MC rank",
           "chart_source": "raw calculation (CoinGecko rank)",
           "chart_ref": null
         }
       },
       "moat": null,
-      "final_score": 4.2,
-      "final_score_pct": 41.7,
-      "quantitative_pct": 41.7,
+      "final_score": 4.0,
+      "final_score_pct": 40.0,
+      "quantitative_pct": 40.0,
       "classification": "Dangerous",
       "tiebreaker_used": false
     },
     "fear_greed": {
-      "score": 31,
+      "score": 29,
       "label": "Fear",
       "market_cycle_phase": "UNKNOWN",
       "market_cycle_anchor": 30,
       "components": {
-        "price_momentum": 5,
-        "volume_momentum": 12,
-        "volatility": 7,
+        "price_momentum": 3,
+        "volume_momentum": 8,
+        "volatility": 8,
         "momentum_trend": 3,
         "dilution_pressure": 6,
         "cycle_anchor": 30
@@ -1576,7 +1544,7 @@
       "treasury_vs_emissions": {},
       "issuance_vs_burns": {
         "2026": {
-          "circulating_supply_m": 70.5,
+          "circulating_supply_m": 70.45,
           "supply_overhang_pct": 29.47,
           "fdv_to_mc": 1.42,
           "burn_rate": null,
@@ -1589,97 +1557,95 @@
         "data_coverage": "unavailable",
         "years_available": 0,
         "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
-        "last_fetched": "2026-08-01 12:18"
+        "last_fetched": "2026-11-01 15:54"
       }
     },
     "valuation_chart": {
       "2026": {
-        "market_price": 1.84,
-        "intrinsic_value": 0.7986,
-        "bull_case": 0.7986,
-        "bear_case": 0.7986,
+        "market_price": 1.99,
+        "intrinsic_value": 1.3611,
+        "bull_case": 1.3611,
+        "bear_case": 1.3611,
         "is_historical": false
       },
       "2027": {
         "market_price": null,
-        "intrinsic_value": 0.8226,
-        "bull_case": 0.8705,
-        "bear_case": 0.5034,
+        "intrinsic_value": 1.4019,
+        "bull_case": 1.4836,
+        "bear_case": 0.858,
         "is_historical": false
       },
       "2028": {
         "market_price": null,
-        "intrinsic_value": 0.8472,
-        "bull_case": 0.9488,
-        "bear_case": 0.3174,
+        "intrinsic_value": 1.444,
+        "bull_case": 1.6171,
+        "bear_case": 0.5409,
         "is_historical": false
       },
       "2029": {
         "market_price": null,
-        "intrinsic_value": 0.8727,
-        "bull_case": 1.0342,
-        "bear_case": 0.2001,
+        "intrinsic_value": 1.4873,
+        "bull_case": 1.7627,
+        "bear_case": 0.341,
         "is_historical": false
       },
       "2030": {
         "market_price": null,
-        "intrinsic_value": 0.8988,
-        "bull_case": 1.1273,
-        "bear_case": 0.1261,
+        "intrinsic_value": 1.5319,
+        "bull_case": 1.9213,
+        "bear_case": 0.215,
         "is_historical": false
       },
       "2031": {
         "market_price": null,
-        "intrinsic_value": 0.9258,
-        "bull_case": 1.2287,
-        "bear_case": 0.0795,
+        "intrinsic_value": 1.5779,
+        "bull_case": 2.0942,
+        "bear_case": 0.1355,
         "is_historical": false
       }
     },
     "forecast_meta": {
-      "base_iv": 0.7986,
-      "bull_iv": 0.7986,
-      "bear_iv": 0.7986,
-      "yr5_base_target": 0.9258,
-      "yr5_bull_target": 1.2287,
-      "yr5_bear_target": 0.0795,
+      "base_iv": 1.3611,
+      "bull_iv": 1.3611,
+      "bear_iv": 1.3611,
+      "yr5_base_target": 1.5779,
+      "yr5_bull_target": 2.0942,
+      "yr5_bear_target": 0.1355,
       "base_annual_growth_pct": 3.0,
       "bull_annual_growth_pct": 9.0,
       "bear_annual_growth_pct": -37.0,
       "bull_5y_upside_pct": 53.9,
       "bear_5y_change_pct": -90.0,
       "growth_basis": "Quality-adjusted network adoption",
-      "growth_basis_note": "Annual growth rates derived from quality score 4.2/10 and survivability 40.0%. Base: 3.0% p.a., Bull: 9.0% p.a., Bear: -37.0% p.a.",
-      "quality_score": 4.2,
+      "growth_basis_note": "Annual growth rates derived from quality score 4.0/10 and survivability 40.0%. Base: 3.0% p.a., Bull: 9.0% p.a., Bear: -37.0% p.a.",
+      "quality_score": 4.0,
       "quality_multiplier": 0.75,
       "survivability_pct": 40.0,
       "survivability_mult": 0.6,
       "growth_constrained": true,
       "bucket": "A",
-      "iv_sources": 2,
+      "iv_sources": 1,
       "methods_used": [
-        "Network Activity (NVT)",
         "Rank Benchmark"
       ],
       "iv_breakdown": {
-        "Network Activity (NVT)": 0.2362,
         "Rank Benchmark": 1.3611
       },
       "method_explanation": "How we valued this token: We treat this like a small business. It earns fees every time someone uses it, so we look at how much it earns versus what investors are paying for it. We combine up to three simple checks: (1) How busy is the network? More activity usually means more value. (2) Is the market cap cheap or expensive compared to the fees it earns? (3) What price would make sense given its size rank? The Speculative Fair Value is the average of whichever checks produced a sensible result.",
-      "growth_explanation": "Base (3.0%/yr): projected growth based on this token's quality score (4.2/10). Bull (9.0%/yr): adoption accelerates and network usage grows strongly. Bear (-37.0%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 40.0% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
-      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Network Activity (NVT) treats 24h trading volume as a proxy for on-chain utility \u2014 it fires when volume is available and the resulting IV falls within 0.1x\u201310x of current price. Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 2 methods contributed to the median. More data sources (DeFiLlama fee history) would improve confidence in this estimate. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
+      "growth_explanation": "Base (3.0%/yr): projected growth based on this token's quality score (4.0/10). Bull (9.0%/yr): adoption accelerates and network usage grows strongly. Bear (-37.0%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 40.0% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
+      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Network Activity (NVT) did not contribute to the median: the implied fair value fell outside the 0.1x\u201310x price bounds (volume is very low or very high relative to circulating supply). Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 1 method contributed to the median \u2014 the valuation should be treated as a rough anchor, not a precise fair value. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
       "price_history_years": 0,
       "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
     },
-    "intrinsic_value": 0.7986,
-    "iv_method": "Network Activity (NVT), Rank Benchmark",
-    "iv_methods_count": 2,
+    "intrinsic_value": 1.3611,
+    "iv_method": "Rank Benchmark",
+    "iv_methods_count": 1,
     "watchlist_signal": {
       "signal": "Avoid",
       "reason": "Weak fundamentals or heavily overextended price relative to value \u2014 higher-quality opportunities available elsewhere.",
-      "score": 22,
+      "score": 20,
       "inputs": {
-        "quality_base": 42,
+        "quality_base": 40,
         "val_adj": -20,
         "dilution_adj": 0,
         "rank_adj": 0,
@@ -1714,22 +1680,22 @@
         ]
       },
       "source": "rules",
-      "generated_at": "2026-08-01 12:18"
+      "generated_at": "2026-11-01 15:54"
     },
     "quality_narrative": {
       "metric_assessments": {
         "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
         "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
         "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
-        "network_demand": "Network Demand is middling (2.14 volume/MC %). The numbers are acceptable but leave room for improvement.",
+        "network_demand": "Network Demand is a concern (1.64 volume/MC %). This dimension is below par and worth monitoring closely.",
         "dilution_control": "Dilution Control is solid (70.53 circulating %), meeting the expectations you would expect for a protocol at this stage.",
-        "protocol_maturity": "Protocol Maturity is a concern (214 MC rank). This dimension is below par and worth monitoring closely."
+        "protocol_maturity": "Protocol Maturity is a concern (216 MC rank). This dimension is below par and worth monitoring closely."
       },
-      "classification_reason": "NEO carries a Dangerous rating because its fundamentals score only 4.2/10 as a Cash-Flow Protocol, with notable weaknesses in protocol maturity. Dangerous-rated tokens carry a higher risk of permanent capital loss and should only be held with strict position sizing and a clear exit plan.",
-      "investment_narrative": "NEO is a Cash-Flow Protocol with weak fundamentals, scoring 4.2/10 overall. Its clearest strength is dilution control, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (1/10). NEO warrants caution and should only be held as a small position with a clear thesis and defined risk limits.",
-      "quality_conclusion": "NEO scores 4.2/10 (Dangerous) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
+      "classification_reason": "NEO carries a Dangerous rating because its fundamentals score only 4.0/10 as a Cash-Flow Protocol, with notable weaknesses in protocol maturity. Dangerous-rated tokens carry a higher risk of permanent capital loss and should only be held with strict position sizing and a clear exit plan.",
+      "investment_narrative": "NEO is a Cash-Flow Protocol with weak fundamentals, scoring 4.0/10 overall. Its clearest strength is dilution control, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (1/10); recent price weakness (-25% over 30 days). NEO warrants caution and should only be held as a small position with a clear thesis and defined risk limits.",
+      "quality_conclusion": "NEO scores 4.0/10 (Dangerous) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
       "source": "rules",
-      "generated_at": "2026-08-01 12:18"
+      "generated_at": "2026-11-01 15:54"
     },
     "protocol_metrics": {
       "annual_protocol_fees_usd": null,
@@ -1744,14 +1710,670 @@
       "pe_ratio_fdv_to_holders_rev": null,
       "data_source": "unavailable"
     },
-    "last_updated": "2026-08-01 12:18",
+    "last_updated": "2026-11-01 15:54",
     "price_history": {
-      "2026": 1.84
+      "2026": 1.99
     },
     "market_fear_greed": {
-      "value": 27,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": "1785542400"
+      "timestamp": "1793491200"
+    }
+  },
+  "NPC": {
+    "coin_profile": {
+      "symbol": "NPC",
+      "name": "Non-Playable Coin",
+      "coin_id": "non-playable-coin",
+      "bucket": "A",
+      "bucket_label": "Cash-Flow Protocol",
+      "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
+      "description": "Non-Playable Coin (NPC) \u2014 a Cash-Flow Protocol ranked #221 by market cap.",
+      "image_url": "https://coin-images.coingecko.com/coins/images/31193/large/NPC_200x200.png?1696530021",
+      "market_cap_rank": 221,
+      "market_cap_usd": 134984779.0,
+      "fully_diluted_valuation": 134984762.99,
+      "current_price": 0.01676803,
+      "ath": 0.066169,
+      "ath_date": "2024-11-18",
+      "ath_change_pct": -74.7,
+      "atl": 4.561e-05,
+      "atl_date": "2023-08-13",
+      "price_change_7d_pct": -2.4614,
+      "price_change_30d_pct": -27.3656,
+      "circulating_supply": 8050126520.0,
+      "total_supply": 8050126520.0,
+      "max_supply": 8050126520.0,
+      "total_volume_24h": 1854006.0,
+      "defillama_slug": null,
+      "has_curated_description": false
+    },
+    "name": "Non-Playable Coin",
+    "coin_id": "non-playable-coin",
+    "bucket": "A",
+    "bucket_label": "Cash-Flow Protocol",
+    "current_price": 0.01676803,
+    "market_cap": 134984779.0,
+    "fully_diluted_valuation": 134984762.99,
+    "market_cap_rank": 221,
+    "price_change_7d_pct": -2.4614,
+    "price_change_30d_pct": -27.3656,
+    "dilution": {
+      "circulating_pct": 100.0,
+      "supply_overhang": 0.0,
+      "fully_diluted_valuation": 134984762.99,
+      "fdv_to_mc_ratio": 1.0
+    },
+    "metcalfe_ratio": 72.81,
+    "quality": {
+      "scores": {
+        "fee_growth": {
+          "label": "Fee Growth",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "vol/MC proxy",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Capital Efficiency",
+          "data_available": false
+        },
+        "capital_efficiency": {
+          "label": "Capital Efficiency",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "rank proxy",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Capital Efficiency",
+          "data_available": false
+        },
+        "holder_value_accrual": {
+          "label": "Holder Value Accrual",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "estimated",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Protocol Revenue & Fees",
+          "data_available": false
+        },
+        "network_demand": {
+          "label": "Network Demand",
+          "score": 2,
+          "max": 10,
+          "value": 1.37,
+          "unit": "volume/MC %",
+          "chart_source": "raw calculation (CoinGecko volume)",
+          "chart_ref": null,
+          "data_available": true
+        },
+        "dilution_control": {
+          "label": "Dilution Control",
+          "score": 10,
+          "max": 10,
+          "value": 100.0,
+          "unit": "circulating %",
+          "chart_source": "Network Economics chart",
+          "chart_ref": "Network Economics \u2192 Token Supply: Issuance vs Burns"
+        },
+        "protocol_maturity": {
+          "label": "Protocol Maturity",
+          "score": 1,
+          "max": 10,
+          "value": 221,
+          "unit": "MC rank",
+          "chart_source": "raw calculation (CoinGecko rank)",
+          "chart_ref": null
+        }
+      },
+      "moat": null,
+      "final_score": 4.7,
+      "final_score_pct": 46.7,
+      "quantitative_pct": 46.7,
+      "classification": "Dangerous",
+      "tiebreaker_used": false
+    },
+    "fear_greed": {
+      "score": 31,
+      "label": "Fear",
+      "market_cycle_phase": "UNKNOWN",
+      "market_cycle_anchor": 30,
+      "components": {
+        "price_momentum": 3,
+        "volume_momentum": 8,
+        "volatility": 8,
+        "momentum_trend": 3,
+        "dilution_pressure": 10,
+        "cycle_anchor": 30
+      }
+    },
+    "market_cycle": {
+      "phase": "UNKNOWN",
+      "phase_label": "Insufficient Data",
+      "drawdown_from_ath_pct": null,
+      "yoy_change_pct": null,
+      "above_3y_sma": null,
+      "ath_price": null,
+      "sma_3y": null,
+      "data_years": 1
+    },
+    "chart_zones": {
+      "current_zone": "OVEREXTENDED_ZONE",
+      "current_zone_label": "Overextended Zone",
+      "margin_of_safety": false,
+      "mos_note": "Price above speculative fair value \u2014 no margin of safety.",
+      "zones_by_year": {
+        "2026": "OVEREXTENDED_ZONE"
+      }
+    },
+    "network_economics": {
+      "protocol_revenue_and_fees": {},
+      "treasury_vs_emissions": {},
+      "issuance_vs_burns": {
+        "2026": {
+          "circulating_supply_m": 8050.13,
+          "supply_overhang_pct": 0,
+          "fdv_to_mc": 1.0,
+          "burn_rate": null,
+          "net_issuance_note": "Current snapshot only. Historical supply data requires on-chain indexing not available via free APIs.",
+          "is_estimated": true
+        }
+      },
+      "capital_efficiency": {},
+      "meta": {
+        "data_coverage": "unavailable",
+        "years_available": 0,
+        "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
+        "last_fetched": "2026-11-01 15:54"
+      }
+    },
+    "valuation_chart": {
+      "2026": {
+        "market_price": 0.0168,
+        "intrinsic_value": 0.0078,
+        "bull_case": 0.0078,
+        "bear_case": 0.0078,
+        "is_historical": false
+      },
+      "2027": {
+        "market_price": null,
+        "intrinsic_value": 0.008034,
+        "bull_case": 0.008502,
+        "bear_case": 0.00553488,
+        "is_historical": false
+      },
+      "2028": {
+        "market_price": null,
+        "intrinsic_value": 0.00827502,
+        "bull_case": 0.00926718,
+        "bear_case": 0.00392755,
+        "is_historical": false
+      },
+      "2029": {
+        "market_price": null,
+        "intrinsic_value": 0.00852327,
+        "bull_case": 0.0101,
+        "bear_case": 0.00278699,
+        "is_historical": false
+      },
+      "2030": {
+        "market_price": null,
+        "intrinsic_value": 0.00877897,
+        "bull_case": 0.011,
+        "bear_case": 0.00197765,
+        "is_historical": false
+      },
+      "2031": {
+        "market_price": null,
+        "intrinsic_value": 0.00904234,
+        "bull_case": 0.012,
+        "bear_case": 0.00140334,
+        "is_historical": false
+      }
+    },
+    "forecast_meta": {
+      "base_iv": 0.0078,
+      "bull_iv": 0.0078,
+      "bear_iv": 0.0078,
+      "yr5_base_target": 0.00904234,
+      "yr5_bull_target": 0.012,
+      "yr5_bear_target": 0.00140334,
+      "base_annual_growth_pct": 3.0,
+      "bull_annual_growth_pct": 9.0,
+      "bear_annual_growth_pct": -29.0,
+      "bull_5y_upside_pct": 53.8,
+      "bear_5y_change_pct": -82.0,
+      "growth_basis": "Quality-adjusted network adoption",
+      "growth_basis_note": "Annual growth rates derived from quality score 4.7/10 and survivability 53.3%. Base: 3.0% p.a., Bull: 9.0% p.a., Bear: -29.0% p.a.",
+      "quality_score": 4.7,
+      "quality_multiplier": 0.75,
+      "survivability_pct": 53.3,
+      "survivability_mult": 0.8,
+      "growth_constrained": true,
+      "bucket": "A",
+      "iv_sources": 2,
+      "methods_used": [
+        "Network Activity (NVT)",
+        "Rank Benchmark"
+      ],
+      "iv_breakdown": {
+        "Network Activity (NVT)": 0.0023,
+        "Rank Benchmark": 0.0134
+      },
+      "method_explanation": "How we valued this token: We treat this like a small business. It earns fees every time someone uses it, so we look at how much it earns versus what investors are paying for it. We combine up to three simple checks: (1) How busy is the network? More activity usually means more value. (2) Is the market cap cheap or expensive compared to the fees it earns? (3) What price would make sense given its size rank? The Speculative Fair Value is the average of whichever checks produced a sensible result.",
+      "growth_explanation": "Base (3.0%/yr): projected growth based on this token's quality score (4.7/10). Bull (9.0%/yr): adoption accelerates and network usage grows strongly. Bear (-29.0%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 53.3% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
+      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Network Activity (NVT) treats 24h trading volume as a proxy for on-chain utility \u2014 it fires when volume is available and the resulting IV falls within 0.1x\u201310x of current price. Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 2 methods contributed to the median. More data sources (DeFiLlama fee history) would improve confidence in this estimate. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
+      "price_history_years": 0,
+      "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
+    },
+    "intrinsic_value": 0.0078,
+    "iv_method": "Network Activity (NVT), Rank Benchmark",
+    "iv_methods_count": 2,
+    "watchlist_signal": {
+      "signal": "Avoid",
+      "reason": "Weak fundamentals or heavily overextended price relative to value \u2014 higher-quality opportunities available elsewhere.",
+      "score": 32,
+      "inputs": {
+        "quality_base": 47,
+        "val_adj": -20,
+        "dilution_adj": 5,
+        "rank_adj": 0,
+        "classification": "Dangerous",
+        "zone": "OVEREXTENDED_ZONE",
+        "mos_active": false
+      }
+    },
+    "bull_bear": {
+      "short_term": {
+        "bull_points": [
+          "Current market fear environment may create a near-term mean reversion opportunity in Non-Playable Coin",
+          "Any positive news catalyst \u2014 exchange listing, partnership, or protocol upgrade \u2014 could trigger a sharp near-term rally from current levels",
+          "Crypto market sentiment is cyclical \u2014 Non-Playable Coin's short-term setup may improve as macro uncertainty fades"
+        ],
+        "bear_points": [
+          "Broader crypto market volatility and macro headwinds present near-term downside risk",
+          "Regulatory developments in major markets could create short-term selling pressure",
+          "Without a near-term catalyst, Non-Playable Coin may continue to consolidate or drift lower"
+        ]
+      },
+      "long_term": {
+        "bull_points": [
+          "Over 100% of the maximum supply is already in circulation \u2014 future dilution risk is minimal for long-term holders",
+          "As the crypto ecosystem matures, Non-Playable Coin's established position should compound in value",
+          "Continued development activity and ecosystem growth support a constructive long-term view"
+        ],
+        "bear_points": [
+          "No multi-year fee data exists for Non-Playable Coin \u2014 the protocol's long-term economic durability remains unproven",
+          "Technology or regulatory disruption risk cannot be ruled out over a 3-5 year horizon",
+          "Long-term execution risk remains a key variable for any crypto investment"
+        ]
+      },
+      "source": "rules",
+      "generated_at": "2026-11-01 15:54"
+    },
+    "quality_narrative": {
+      "metric_assessments": {
+        "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
+        "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
+        "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
+        "network_demand": "Network Demand is a concern (1.37 volume/MC %). This dimension is below par and worth monitoring closely.",
+        "dilution_control": "Dilution Control is a clear strength (100.0 circulating %), placing this token well above most peers on this dimension.",
+        "protocol_maturity": "Protocol Maturity is a concern (221 MC rank). This dimension is below par and worth monitoring closely."
+      },
+      "classification_reason": "Non-Playable Coin carries a Dangerous rating because its fundamentals score only 4.7/10 as a Cash-Flow Protocol, with notable weaknesses in protocol maturity. Dangerous-rated tokens carry a higher risk of permanent capital loss and should only be held with strict position sizing and a clear exit plan.",
+      "investment_narrative": "Non-Playable Coin is a Cash-Flow Protocol with weak fundamentals, scoring 4.7/10 overall. Its clearest strength is dilution control, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (1/10); recent price weakness (-27% over 30 days). Non-Playable Coin warrants caution and should only be held as a small position with a clear thesis and defined risk limits.",
+      "quality_conclusion": "Non-Playable Coin scores 4.7/10 (Dangerous) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
+      "source": "rules",
+      "generated_at": "2026-11-01 15:54"
+    },
+    "protocol_metrics": {
+      "annual_protocol_fees_usd": null,
+      "annual_fees_current_usd": null,
+      "annual_fees_normalised": false,
+      "annual_revenue_usd": null,
+      "annual_holders_revenue_usd": null,
+      "tvl_usd": null,
+      "dcf_protocol_value_usd": null,
+      "dcf_fair_value_per_token": null,
+      "ps_ratio": null,
+      "pe_ratio_fdv_to_holders_rev": null,
+      "data_source": "unavailable"
+    },
+    "last_updated": "2026-11-01 15:54",
+    "price_history": {
+      "2026": 0.0168
+    },
+    "market_fear_greed": {
+      "value": 34,
+      "classification": "Fear",
+      "timestamp": "1793491200"
+    }
+  },
+  "NOPAL": {
+    "coin_profile": {
+      "symbol": "NOPAL",
+      "name": "Nest BlackOpal LiquidStone II Vault",
+      "coin_id": "nest-blackopal-liquidstone-ii-vault",
+      "bucket": "A",
+      "bucket_label": "Cash-Flow Protocol",
+      "bucket_explanation": "A Cash-Flow Protocol is a blockchain or app that earns real money from its users \u2014 just like a business. Every time someone makes a trade, borrows money, or uses the network, it collects a small fee. The more people use it, the more fees it earns. We value these tokens similarly to how you would value a business \u2014 by looking at how much it earns versus what investors are paying for it.",
+      "description": "Nest BlackOpal LiquidStone II Vault (NOPAL) \u2014 a Cash-Flow Protocol ranked #240 by market cap.",
+      "image_url": "https://coin-images.coingecko.com/coins/images/70787/large/BlackOpal_Vault.png?1763752532",
+      "market_cap_rank": 240,
+      "market_cap_usd": 116384367.0,
+      "fully_diluted_valuation": 116275319.4,
+      "current_price": 1.11,
+      "ath": 1.25,
+      "ath_date": "2026-06-16",
+      "ath_change_pct": -10.8,
+      "atl": 0.958277,
+      "atl_date": "2026-06-15",
+      "price_change_7d_pct": 0.1742,
+      "price_change_30d_pct": 0.857,
+      "circulating_supply": 104752540.00417,
+      "total_supply": 104752540.00417,
+      "max_supply": null,
+      "total_volume_24h": 0.0,
+      "defillama_slug": null,
+      "has_curated_description": false
+    },
+    "name": "Nest BlackOpal LiquidStone II Vault",
+    "coin_id": "nest-blackopal-liquidstone-ii-vault",
+    "bucket": "A",
+    "bucket_label": "Cash-Flow Protocol",
+    "current_price": 1.11,
+    "market_cap": 116384367.0,
+    "fully_diluted_valuation": 116275319.4,
+    "market_cap_rank": 240,
+    "price_change_7d_pct": 0.1742,
+    "price_change_30d_pct": 0.857,
+    "dilution": {
+      "circulating_pct": 100.0,
+      "supply_overhang": 0.0,
+      "fully_diluted_valuation": 116275319.4,
+      "fdv_to_mc_ratio": 1.0
+    },
+    "metcalfe_ratio": null,
+    "quality": {
+      "scores": {
+        "fee_growth": {
+          "label": "Fee Growth",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "vol/MC proxy",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Capital Efficiency",
+          "data_available": false
+        },
+        "capital_efficiency": {
+          "label": "Capital Efficiency",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "rank proxy",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Capital Efficiency",
+          "data_available": false
+        },
+        "holder_value_accrual": {
+          "label": "Holder Value Accrual",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "estimated",
+          "chart_source": "raw calculation",
+          "chart_ref": "Network Economics \u2192 Protocol Revenue & Fees",
+          "data_available": false
+        },
+        "network_demand": {
+          "label": "Network Demand",
+          "score": 5,
+          "max": 10,
+          "value": null,
+          "unit": "volume/MC %",
+          "chart_source": "raw calculation (CoinGecko volume)",
+          "chart_ref": null,
+          "data_available": false
+        },
+        "dilution_control": {
+          "label": "Dilution Control",
+          "score": 10,
+          "max": 10,
+          "value": 100.0,
+          "unit": "circulating %",
+          "chart_source": "Network Economics chart",
+          "chart_ref": "Network Economics \u2192 Token Supply: Issuance vs Burns"
+        },
+        "protocol_maturity": {
+          "label": "Protocol Maturity",
+          "score": 1,
+          "max": 10,
+          "value": 240,
+          "unit": "MC rank",
+          "chart_source": "raw calculation (CoinGecko rank)",
+          "chart_ref": null
+        }
+      },
+      "moat": null,
+      "final_score": 5.2,
+      "final_score_pct": 51.7,
+      "quantitative_pct": 51.7,
+      "classification": "Speculative",
+      "tiebreaker_used": true
+    },
+    "fear_greed": {
+      "score": 37,
+      "label": "Fear",
+      "market_cycle_phase": "UNKNOWN",
+      "market_cycle_anchor": 30,
+      "components": {
+        "price_momentum": 10,
+        "volume_momentum": 3,
+        "volatility": 8,
+        "momentum_trend": 12,
+        "dilution_pressure": 10,
+        "cycle_anchor": 30
+      }
+    },
+    "market_cycle": {
+      "phase": "UNKNOWN",
+      "phase_label": "Insufficient Data",
+      "drawdown_from_ath_pct": null,
+      "yoy_change_pct": null,
+      "above_3y_sma": null,
+      "ath_price": null,
+      "sma_3y": null,
+      "data_years": 1
+    },
+    "chart_zones": {
+      "current_zone": "NEUTRAL_ZONE",
+      "current_zone_label": "Neutral Zone",
+      "margin_of_safety": false,
+      "mos_note": "Price above speculative fair value \u2014 no margin of safety.",
+      "zones_by_year": {
+        "2026": "NEUTRAL_ZONE"
+      }
+    },
+    "network_economics": {
+      "protocol_revenue_and_fees": {},
+      "treasury_vs_emissions": {},
+      "issuance_vs_burns": {
+        "2026": {
+          "circulating_supply_m": 104.85,
+          "supply_overhang_pct": 0,
+          "fdv_to_mc": 1.0,
+          "burn_rate": null,
+          "net_issuance_note": "Current snapshot only. Historical supply data requires on-chain indexing not available via free APIs.",
+          "is_estimated": true
+        }
+      },
+      "capital_efficiency": {},
+      "meta": {
+        "data_coverage": "unavailable",
+        "years_available": 0,
+        "data_note": "No protocol fee or TVL data found for this token on DeFiLlama. Charts 1 and 2 are unavailable. Charts 3 and 4 show current-year supply and dilution data from CoinGecko.",
+        "last_fetched": "2026-11-01 15:54"
+      }
+    },
+    "valuation_chart": {
+      "2026": {
+        "market_price": 1.11,
+        "intrinsic_value": 1.031,
+        "bull_case": 1.031,
+        "bear_case": 1.031,
+        "is_historical": false
+      },
+      "2027": {
+        "market_price": null,
+        "intrinsic_value": 1.1032,
+        "bull_case": 1.165,
+        "bear_case": 0.8133,
+        "is_historical": false
+      },
+      "2028": {
+        "market_price": null,
+        "intrinsic_value": 1.1804,
+        "bull_case": 1.3165,
+        "bear_case": 0.6415,
+        "is_historical": false
+      },
+      "2029": {
+        "market_price": null,
+        "intrinsic_value": 1.263,
+        "bull_case": 1.4876,
+        "bear_case": 0.506,
+        "is_historical": false
+      },
+      "2030": {
+        "market_price": null,
+        "intrinsic_value": 1.3514,
+        "bull_case": 1.681,
+        "bear_case": 0.3991,
+        "is_historical": false
+      },
+      "2031": {
+        "market_price": null,
+        "intrinsic_value": 1.446,
+        "bull_case": 1.8996,
+        "bear_case": 0.3148,
+        "is_historical": false
+      }
+    },
+    "forecast_meta": {
+      "base_iv": 1.031,
+      "bull_iv": 1.031,
+      "bear_iv": 1.031,
+      "yr5_base_target": 1.446,
+      "yr5_bull_target": 1.8996,
+      "yr5_bear_target": 0.3148,
+      "base_annual_growth_pct": 7.0,
+      "bull_annual_growth_pct": 13.0,
+      "bear_annual_growth_pct": -21.1,
+      "bull_5y_upside_pct": 84.2,
+      "bear_5y_change_pct": -69.5,
+      "growth_basis": "Quality-adjusted network adoption",
+      "growth_basis_note": "Annual growth rates derived from quality score 5.2/10 and survivability 53.3%. Base: 7.0% p.a., Bull: 13.0% p.a., Bear: -21.1% p.a.",
+      "quality_score": 5.2,
+      "quality_multiplier": 0.75,
+      "survivability_pct": 53.3,
+      "survivability_mult": 0.8,
+      "growth_constrained": true,
+      "bucket": "A",
+      "iv_sources": 1,
+      "methods_used": [
+        "Rank Benchmark"
+      ],
+      "iv_breakdown": {
+        "Rank Benchmark": 1.031
+      },
+      "method_explanation": "How we valued this token: We treat this like a small business. It earns fees every time someone uses it, so we look at how much it earns versus what investors are paying for it. We combine up to three simple checks: (1) How busy is the network? More activity usually means more value. (2) Is the market cap cheap or expensive compared to the fees it earns? (3) What price would make sense given its size rank? The Speculative Fair Value is the average of whichever checks produced a sensible result.",
+      "growth_explanation": "Base (7.0%/yr): projected growth based on this token's quality score (5.2/10). Bull (13.0%/yr): adoption accelerates and network usage grows strongly. Bear (-21.1%/yr): adoption slows or competition erodes the token's position. The bear scenario is steeper than usual because survivability is only 53.3% \u2014 this token has weaker dilution control or holder value accrual, making it more vulnerable in a downturn.",
+      "iv_selection_rationale": "Bucket A (Cash-Flow Protocol): Up to 7 methods are available \u2014 Protocol Fee DCF, Fee/MC Multiple, Holder Revenue, Metcalfe Network Value, Network Activity (NVT), Rank Benchmark, and Dilution Adjustment. Protocol Fee DCF, Fee/MC Multiple, and Holder Revenue are unavailable: this token has no DeFiLlama fee tracking. Valuation relies entirely on network activity and market positioning signals. Rank Benchmark anchors to the expected market cap for this token's rank tier, quality-adjusted and capped at 2\u00d7 current price to avoid distortion. Dilution Adjustment did not fire: FDV/MC is within the acceptable range for this quality tier, so no dilution penalty was applied. Only 1 method contributed to the median \u2014 the valuation should be treated as a rough anchor, not a precise fair value. Methods producing values outside 0.01x\u201315x of current price are excluded as outliers. The mean of all qualifying per-token estimates becomes the Speculative Fair Value.",
+      "price_history_years": 0,
+      "price_history_note": "Historical price data unavailable for this token. Forecast chart shows projected values only."
+    },
+    "intrinsic_value": 1.031,
+    "iv_method": "Rank Benchmark",
+    "iv_methods_count": 1,
+    "watchlist_signal": {
+      "signal": "Watch",
+      "reason": "Worth monitoring but no clear margin of safety at current prices. Add to watchlist and revisit on weakness.",
+      "score": 57,
+      "inputs": {
+        "quality_base": 52,
+        "val_adj": 0,
+        "dilution_adj": 5,
+        "rank_adj": 0,
+        "classification": "Speculative",
+        "zone": "NEUTRAL_ZONE",
+        "mos_active": false
+      }
+    },
+    "bull_bear": {
+      "short_term": {
+        "bull_points": [
+          "Current market fear environment may create a near-term mean reversion opportunity in Nest BlackOpal LiquidStone II Vault",
+          "Any positive news catalyst \u2014 exchange listing, partnership, or protocol upgrade \u2014 could trigger a sharp near-term rally from current levels",
+          "Crypto market sentiment is cyclical \u2014 Nest BlackOpal LiquidStone II Vault's short-term setup may improve as macro uncertainty fades"
+        ],
+        "bear_points": [
+          "Broader crypto market volatility and macro headwinds present near-term downside risk",
+          "Regulatory developments in major markets could create short-term selling pressure",
+          "Without a near-term catalyst, Nest BlackOpal LiquidStone II Vault may continue to consolidate or drift lower"
+        ]
+      },
+      "long_term": {
+        "bull_points": [
+          "Over 100% of the maximum supply is already in circulation \u2014 future dilution risk is minimal for long-term holders",
+          "As the crypto ecosystem matures, Nest BlackOpal LiquidStone II Vault's established position should compound in value",
+          "Continued development activity and ecosystem growth support a constructive long-term view"
+        ],
+        "bear_points": [
+          "No multi-year fee data exists for Nest BlackOpal LiquidStone II Vault \u2014 the protocol's long-term economic durability remains unproven",
+          "Technology or regulatory disruption risk cannot be ruled out over a 3-5 year horizon",
+          "Long-term execution risk remains a key variable for any crypto investment"
+        ]
+      },
+      "source": "rules",
+      "generated_at": "2026-11-01 15:54"
+    },
+    "quality_narrative": {
+      "metric_assessments": {
+        "fee_growth": "Fee Growth is middling. The numbers are acceptable but leave room for improvement.",
+        "capital_efficiency": "Capital Efficiency is middling. The numbers are acceptable but leave room for improvement.",
+        "holder_value_accrual": "Holder Value Accrual is middling. The numbers are acceptable but leave room for improvement.",
+        "network_demand": "Network Demand is middling. The numbers are acceptable but leave room for improvement.",
+        "dilution_control": "Dilution Control is a clear strength (100.0 circulating %), placing this token well above most peers on this dimension.",
+        "protocol_maturity": "Protocol Maturity is a concern (240 MC rank). This dimension is below par and worth monitoring closely."
+      },
+      "classification_reason": "Nest BlackOpal LiquidStone II Vault is rated Speculative because while it has genuine strengths in dilution control, it also has a notable weakness in protocol maturity that introduces meaningful uncertainty. Speculative means real potential but less predictable outcomes than a Safe-rated asset.",
+      "investment_narrative": "Nest BlackOpal LiquidStone II Vault is a Cash-Flow Protocol with mixed fundamentals, scoring 5.2/10 overall. Its clearest strength is dilution control, while protocol maturity remains the main area to watch. Key risks: low protocol maturity score (1/10). Nest BlackOpal LiquidStone II Vault is appropriate for investors with higher risk tolerance and conviction in its long-term growth thesis.",
+      "quality_conclusion": "Nest BlackOpal LiquidStone II Vault scores 5.2/10 (Speculative) as a Cash-Flow Protocol. The overall quality profile reflects the protocol's maturity, fee economics, and token supply dynamics relative to peers.",
+      "source": "rules",
+      "generated_at": "2026-11-01 15:54"
+    },
+    "protocol_metrics": {
+      "annual_protocol_fees_usd": null,
+      "annual_fees_current_usd": null,
+      "annual_fees_normalised": false,
+      "annual_revenue_usd": null,
+      "annual_holders_revenue_usd": null,
+      "tvl_usd": null,
+      "dcf_protocol_value_usd": null,
+      "dcf_fair_value_per_token": null,
+      "ps_ratio": null,
+      "pe_ratio_fdv_to_holders_rev": null,
+      "data_source": "unavailable"
+    },
+    "last_updated": "2026-11-01 15:54",
+    "price_history": {
+      "2026": 1.11
+    },
+    "market_fear_greed": {
+      "value": 34,
+      "classification": "Fear",
+      "timestamp": "1793491200"
     }
   }
 }
